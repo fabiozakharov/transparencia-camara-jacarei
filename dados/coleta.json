@@ -1,5 +1,5 @@
 {
- "executado_em": "2026-11-27T11:46:32+00:00",
+ "executado_em": "2026-11-27T16:02:01+00:00",
  "fonte": "https://www.jacarei.sp.leg.br",
  "trabalhos": {
   "itens_lidos": 7705,
@@ -18,6 +18,136 @@
   "sessoes_lidas": 78,
   "atas_sem_lista_de_presenca": [],
   "falhas": []
+ },
+ "projetos": {
+  "projetos": 353,
+  "titulos_fora_do_padrao": 2796
+ },
+ "boletins": {
+  "boletins": 245,
+  "com_votos_lidos": 150,
+  "falhas": []
+ },
+ "votacoes": {
+  "itens": 247,
+  "com_boletim": 228
+ },
+ "emendas": {
+  "arquivos": 14,
+  "conferencia": [
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "daniel-mariano",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-5-Impositiva-Daniel.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "gabriel-belem",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-6-Impositiva-com-submenda-Gabriel.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "hernani-barreto",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-18_Em09-LOA-2026-1-Hernani.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "jean-araujo",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-29_Em16-LOA-2026-Jean.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "juex-almeida",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+    "subemenda": false,
+    "itens": 35,
+    "soma_itens": 1899198.05
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "luis-flavio",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-16_Em07-LOA-2026-Flavinho.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "marcelo-dantas",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-21_Em12-LOA-2026-1-M.Dantas.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "maria-amelia",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-24_Em14-LOA-2026-1-M.Amélia.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "netho-alves",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+    "subemenda": false,
+    "itens": 14,
+    "soma_itens": 1494318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "netho-alves",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+    "subemenda": true,
+    "itens": 10,
+    "soma_itens": 161000.0
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "paulinho-do-esporte",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+    "subemenda": false,
+    "itens": 38,
+    "soma_itens": 1937758.44
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "paulinho-dos-condutores",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-25_Em15-LOA-2026-1-P.Condutores.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "siufarne",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+    "subemenda": false,
+    "itens": 23,
+    "soma_itens": 2047198.05
+   },
+   {
+    "exercicio": "LOA 2026",
+    "vereador": "valmir",
+    "arquivo": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-1-Impositiva-Valmir.pdf",
+    "subemenda": false,
+    "itens": 2,
+    "soma_itens": 1228318.83
+   }
+  ]
  },
  "erros": []
 }

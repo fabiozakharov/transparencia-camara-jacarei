@@ -1,0 +1,1467 @@
+{
+ "categorias": [
+  "Saúde",
+  "Educação",
+  "Esporte",
+  "Cultura",
+  "Assistência social",
+  "Obras e meio ambiente",
+  "Outros"
+ ],
+ "itens": [
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "daniel-mariano",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-5-Impositiva-Daniel.pdf",
+   "destino": "Justificativa O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Governo",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "daniel-mariano",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-5-Impositiva-Daniel.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Governo",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "gabriel-belem",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-6-Impositiva-com-submenda-Gabriel.pdf",
+   "destino": "Justificativa O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "SECRETARIA DE",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "gabriel-belem",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-6-Impositiva-com-submenda-Gabriel.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "SECRETARIA DE",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "hernani-barreto",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-18_Em09-LOA-2026-1-Hernani.pdf",
+   "destino": "Justificativa 0 somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Educação",
+   "valor": 818879.22,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "hernani-barreto",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-18_Em09-LOA-2026-1-Hernani.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Educação",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "jean-araujo",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-29_Em16-LOA-2026-Jean.pdf",
+   "destino": "presente Emenda. O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Fundação Cultural",
+   "valor": 818879.22,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "jean-araujo",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-29_Em16-LOA-2026-Jean.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Fundação Cultural",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Casa do curativo (custeio)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 30000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "(Custeio)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 30000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "para sala do curativo)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 10000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "condicionado para Sala do Curativo)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 10000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Diretoria de Vigilância Sanitária",
+   "orgao": "Secretaria de Saúde",
+   "valor": 40000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "mesas e maca)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 15000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Jacareí - Custeio",
+   "orgao": "Secretaria de Saúde",
+   "valor": 60000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Custeio",
+   "orgao": "Secretaria de Saúde",
+   "valor": 60000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Sindrome de Down, Paralisia Cerebral, Deficits motores.",
+   "orgao": "Secretaria de Saúde",
+   "valor": 19439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Castração de Animais",
+   "orgao": "Secretaria de Saúde",
+   "valor": 10000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "mat. pemanentes (computador, impressora e ar-condicionado, mesas e maca)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 25000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Academia Jacarehyense de Letras - melhorias e Fundação Cultual",
+   "orgao": "Secretaria de Governo",
+   "valor": 8000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "modemização da sede Camelitas Lar São José - Custeio de melhorias na Creche Sec. Educação",
+   "orgao": "Secretaria de Governo",
+   "valor": 8000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Custeio para incentivo de esporte de base e Sec. Esporte",
+   "orgao": "Secretaria de Governo",
+   "valor": 15000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Associação Comercial e lndustrial de Jacareí - Projetos de mobilidade PCD's para Estrutua Sec. Desenvolvimento",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "projetos e ações sociais no baino Sec. Esporte",
+   "orgao": "Secretaria de Governo",
+   "valor": 120000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "AMVI - Associação de Moradores Veraneio ljal Sec lnfraestrutura",
+   "orgao": "Secretaria de Governo",
+   "valor": 15000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "específico ao Ecotuismo em Jacareí Sec. Desenvolvimento",
+   "orgao": "Secretaria de Governo",
+   "valor": 12000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Instituto Educaçao, Arte Cultura - Custeio Fundação Cultual",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Instituto Educaçao, Arte Cultua - Custeio para Acordes, figurino e outros relacionados à evento de execução da Lei 6.764/2025 (Semana Geek) Fundação Cultual",
+   "orgao": "Secretaria de Governo",
+   "valor": 12000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Custeio para publicidade, manutenção, organização, administração relacionados à execução da Lei 6.764/2025 (Semana Geek) Fundação Cultual",
+   "orgao": "Secretaria de Governo",
+   "valor": 12000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "(Infância Conectada) Sec. Educação",
+   "orgao": "Secretaria de Governo",
+   "valor": 12000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Associação Esportiva Meninos do Morro Vila Santa Rita Sec. Esportes",
+   "orgao": "Secretaria de Governo",
+   "valor": 15000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "JAM Mantenedora Jacareí Ampara Menores - Custeio do Projeto Jovem Aprendiz Sec. Assistencia Social",
+   "orgao": "Secretaria de Governo",
+   "valor": 12000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Associação Social Pro Eficiência - Custeio Sec. Assistencia Social",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Cineclube Jacareí",
+   "orgao": "Fundação Cultural",
+   "valor": 5439.61,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Lar Frederico Ozanam Secr. Assist. Social",
+   "orgao": "Fundação Cultural",
+   "valor": 15000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Lar Fratemo das Acácias Secr. Assist. Social",
+   "orgao": "Fundação Cultural",
+   "valor": 15000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "ADOC - Associação Doutores Coloridos Secr. Assist. Social /",
+   "orgao": "Fundação Cultural",
+   "valor": 10000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Associação Esportiva Jacareí Rugby Sec. Esportes",
+   "orgao": "Fundação Cultural",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Custeio e incentivo específico ao esporte Luta de Braço Sec. Esportes",
+   "orgao": "Fundação Cultural",
+   "valor": 15000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Custeio e incentivo a Prática do Esporte Wheeling Sec. Esportes",
+   "orgao": "Fundação Cultural",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "de Areia) Sec. Esportes",
+   "orgao": "Fundação Cultural",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "Justjficativa 0 somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Fundação Cultural",
+   "valor": 818879.22,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "juex-almeida",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-19_Em10-LOA-2026-Juex..pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Fundação Cultural",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "luis-flavio",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-16_Em07-LOA-2026-Flavinho.pdf",
+   "destino": "Justificativa 0 somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Governo",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "luis-flavio",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-16_Em07-LOA-2026-Flavinho.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Governo",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "marcelo-dantas",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-21_Em12-LOA-2026-1-M.Dantas.pdf",
+   "destino": "Justificativa da O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Governo",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "marcelo-dantas",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-21_Em12-LOA-2026-1-M.Dantas.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Governo",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "maria-amelia",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-24_Em14-LOA-2026-1-M.Amélia.pdf",
+   "destino": "presente Emenda. O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Fundação Cultural",
+   "valor": 818879.22,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "maria-amelia",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-24_Em14-LOA-2026-1-M.Amélia.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Fundação Cultural",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "da Ação 2392 (Emendas Câmara), fica desmembrada, para este Vereador, da seguinte forma: (Mutirão de Consultas",
+   "orgao": "Secretaria de Saúde",
+   "valor": 50000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "tapetes cmao (Mutirão de exames",
+   "orgao": "Secretaria de Saúde",
+   "valor": 50000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "04, Subfunção 122 — Administração Geral), a descrição da Ação 2392 (Emendas Câmara), fica desmembrada, para este Vereador, da seguinte forma: AEC - Associação Esportiva e Cultura | Sec. de Esportes e ",
+   "orgao": "Secretaria de Governo",
+   "valor": 20000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "PE Associação de Proteção Animal - Projeto | Sec. Meio Ambiente e Planej.",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "umas TT APA - Associação Protetora dos | Sec. Meio Ambiente e Planej.",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "pr APIJAC - Associação de Proteção | Sec. Meio Ambiente e Planej.",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "Animal Protetores Independentes de E o e ma APAJAC -— Associação de Pais de",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "per e AMVI — Associação Moradores Veraneio",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "o - | Fundação Cultural de Jacarehy",
+   "orgao": "Fundação Cultural de Jacarehy",
+   "valor": 94000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "CAMARA MUNICIPAL DE JACAREI - sp” 'g ! fu t PALÁCIO DA LIBERDADE Grupo de Apoio a Adoção de Jacareí",
+   "orgao": "Secretaria de Governo",
+   "valor": 2000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "E Associação Auxílio Fraterno Cristão",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "“Cônego José Bento” - Creche Cantinho e o Lu Rotary Club de Jacareí (Banco de",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "Justificativa O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Governo",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-22_Em13-LOA-2026-Netho.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Governo",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "AEC - Associação Esportiva e Cultura | Sec. de Esportes e Recreação",
+   "orgao": "",
+   "valor": 20000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "Associação de Proteção Animal - Projeto | Sec. Meio Ambiente e Planej.",
+   "orgao": "",
+   "valor": 10000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "APA - Associação Protetora dos | Sec. Meio Ambiente e Plane).",
+   "orgao": "",
+   "valor": 5000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "APIJAC - Associação de Proteção | Sec. Meio Ambiente e Planej.",
+   "orgao": "",
+   "valor": 5000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "APAJAC - Associação de Pais de",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "MUNICIPAL DE JACAREÍ - SP! dA PALÁCIO DA LIBERDADE | des AMVI — Associação Moradores Veraneio",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "ps -| Fundação Cultural de Jacarehy",
+   "orgao": "Fundação Cultural de Jacarehy",
+   "valor": 89000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "E Grupo de Apoio a Adoção de Jacareí",
+   "orgao": "Secretaria de Governo",
+   "valor": 2000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "Ea Associação Auxílio Fraterno Cristão",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "netho-alves",
+   "subemenda": true,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-31_Subemenda-01-à-Em13-LOA-2026-Netho-Subemenda.pdf",
+   "destino": "“Cônego José Bento” - Creche Cantinho ei DO Rotary Club de Jacareí (Banco de",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Hospital São Francisco (Oncologia)",
+   "orgao": "Secretaria de Saúde",
+   "valor": 50000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Santa Casa de Jacareí",
+   "orgao": "Secretaria de Saúde",
+   "valor": 100000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Transporte Ambulatorial",
+   "orgao": "Secretaria de Saúde",
+   "valor": 60000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "UMSF Rio Comprido",
+   "orgao": "Secretaria de Saúde",
+   "valor": 20000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "UMSF Pagador Andrade",
+   "orgao": "Secretaria de Saúde",
+   "valor": 20000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "CEPAC",
+   "orgao": "Secretaria de Saúde",
+   "valor": 25000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Casa do Curativo",
+   "orgao": "Secretaria de Saúde",
+   "valor": 25000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Descrição da Atividade Secretaria ou Órgão de Valor em Reais Destino ILPI Lar Frederico Ozanam",
+   "orgao": "Secretaria de Assistência Social",
+   "valor": 10000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "ONG Doutores Coloridos",
+   "orgao": "Secretaria de Assistência Social",
+   "valor": 10000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "JAM – Jacareí Ampara Menores- Guarda Mirim",
+   "orgao": "Secretaria de Assistência Social",
+   "valor": 10000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Viva Boa Vista",
+   "orgao": "Secretaria de Assistência Social",
+   "valor": 5000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "AlegriAA Grupo Apoio Adoção Jacarei",
+   "orgao": "Secretaria de Assistência Social",
+   "valor": 9000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Cristã Educacional Social",
+   "orgao": "Secretaria de Assistência Social",
+   "valor": 15000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Esperança Brasileira Natação Master",
+   "orgao": "Secretaria de Esportes",
+   "valor": 25000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Taekwondo DU SOL Team",
+   "orgao": "Secretaria de Esportes",
+   "valor": 25000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Esporte Clube Meia Lua",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Esportiva Menino do Morro",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Santa Rita Associação Atlética Colônia",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Atlética Família Nova Jacareí",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Esportiva e Cultural do",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Jardim Paraíso. Clube Ferroviários de Malha",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "AMVI - Associação de Moradores Veraneio",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Ijal Escola de Samba Mocidade Independente",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Do São João Escola de Samba Estrela Cadente",
+   "orgao": "Secretaria de Governo",
+   "valor": 30000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Escola de Samba Unidos de Santa Helena",
+   "orgao": "Secretaria de Governo",
+   "valor": 30000.0,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "APEJAC",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Obra Religiosa e Social Missão Kairós",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Pais Autistas Jacarei APAJAC",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Esportiva Jacarei Rugby",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Amigos do Fusca Jacareí",
+   "orgao": "Secretaria de Governo",
+   "valor": 20000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Capoeira Mestre Narciso",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Tiro de Guerra 02-051",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "APA Bicho Feliz Secretaria Meio Ambiente",
+   "orgao": "Secretaria de Governo",
+   "valor": 10000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Associação Proteção Animal Projeto Secretaria Meio Ambiente",
+   "orgao": "Secretaria de Governo",
+   "valor": 5000.0,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Vira Lata Vira Vida Jacareí Eventos para",
+   "orgao": "Fundação Cultural Fundação Cultural",
+   "valor": 60439.61,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Marcos de Oliveira Malta - Reggae",
+   "orgao": "Fundação Cultural",
+   "valor": 15000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "Justificativa O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Fundação Cultural",
+   "valor": 818879.22,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-do-esporte",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-3-Impositiva-PEsporte.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Fundação Cultural",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-dos-condutores",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-25_Em15-LOA-2026-1-P.Condutores.pdf",
+   "destino": "O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Governo",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "paulinho-dos-condutores",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-25_Em15-LOA-2026-1-P.Condutores.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Governo",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "MUTIRÃO DE CIRURGIAS ELETIVAS",
+   "orgao": "Secretaria de Saúde",
+   "valor": 100000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "CEPAC",
+   "orgao": "Secretaria de Saúde",
+   "valor": 20000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "HOSPITAL SÃO FRANCISCO DE ASSIS",
+   "orgao": "Secretaria de Saúde",
+   "valor": 10000.0,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "UMSF CIDADE SALVADOR",
+   "orgao": "Secretaria de Saúde",
+   "valor": 279439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "(eventos) Fundação Cultural",
+   "orgao": "FUNDAÇÃO CULTURAL",
+   "valor": 80000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "REFORMA E MANUTENÇÃO DA",
+   "orgao": "Secretaria de Esportes",
+   "valor": 50000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "REFORMA E MANUTENÇÃO DA",
+   "orgao": "Secretaria de Esportes",
+   "valor": 74439.61,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "ASSOCIAÇÃO ATLÉTICA FAMiLIA",
+   "orgao": "Secretaria de Esportes",
+   "valor": 5000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "ESPORTE CLUBE PARQUE MEIA LUA",
+   "orgao": "Secretaria de Esportes",
+   "valor": 5000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "ASSOCIAÇÃO ESPORTIVA",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "CORPORAÇÃO MUSICAL DE JACAREÍ",
+   "orgao": "Fundação Cultural",
+   "valor": 10000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "LAR FREDERICO OZANAM Secretaria deAssistênciaSocial",
+   "orgao": "Fundação Cultural",
+   "valor": 10000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "GRÊMIO RECREATIVO E",
+   "orgao": "Fundação Cultural",
+   "valor": 20000.0,
+   "categoria": "Cultura"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "OBRA RELIGIOSA E SOCIAL",
+   "orgao": "Secretaria de Governo",
+   "valor": 20000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "ASSOCIAÇÃO VIVA BOA VISTA",
+   "orgao": "Secretaria de AssistênciaSocial",
+   "valor": 10000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "JAM -JACAREÍ AMPAFU MENORES",
+   "orgao": "Secretaria de AssistênciaSocial",
+   "valor": 10000.0,
+   "categoria": "Assistência social"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "APIJAC -ASSOCIAÇÃO DAS",
+   "orgao": "Secretaria de Meio",
+   "valor": 7500.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "PROTETORAS INDEPENDENTES DE Ambiente JACAREÍ AEJ (ASSOCIAÇÃO ESPORTIVA",
+   "orgao": "Secretaria de Assistência",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "lNSTITUTO GIRINOS -lmplantação da",
+   "orgao": "Secretaria de Esportes",
+   "valor": 70000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "Escolinha de Futebol Zona Leste INSTITUTO GIRINOS -Custeio",
+   "orgao": "Secretaria de Esportes",
+   "valor": 10000.0,
+   "categoria": "Esporte"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "PATAS DA AMIZADE",
+   "orgao": "Secretaria de MeioAmbiente",
+   "valor": 7500.0,
+   "categoria": "Outros"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "0 somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de MeioAmbiente",
+   "valor": 818879.22,
+   "categoria": "Obras e meio ambiente"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "siufarne",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037.2025-17_Em08-LOA-2026-1-Siufarne.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de MeioAmbiente",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "valmir",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-1-Impositiva-Valmir.pdf",
+   "destino": "O somatório dos valores correspondentes às Ações dos Programas mencionados totaliza, nas indicações deste Vereador, ,",
+   "orgao": "Secretaria de Educação",
+   "valor": 818879.22,
+   "categoria": "Educação"
+  },
+  {
+   "exercicio": "LOA 2026",
+   "vereador": "valmir",
+   "subemenda": false,
+   "documento": "http://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/PLE-037-2025-Emenda-nº-1-Impositiva-Valmir.pdf",
+   "destino": "correspondendo a para a área da saúde e para as",
+   "orgao": "Secretaria de Educação",
+   "valor": 409439.61,
+   "categoria": "Saúde"
+  }
+ ],
+ "resumo": {
+  "LOA 2026": {
+   "daniel-mariano": {
+    "Obras e meio ambiente": 818879.22,
+    "Saúde": 409439.61
+   },
+   "gabriel-belem": {
+    "Obras e meio ambiente": 818879.22,
+    "Saúde": 409439.61
+   },
+   "hernani-barreto": {
+    "Educação": 818879.22,
+    "Saúde": 409439.61
+   },
+   "jean-araujo": {
+    "Cultura": 818879.22,
+    "Saúde": 409439.61
+   },
+   "juex-almeida": {
+    "Saúde": 718879.22,
+    "Esporte": 203000.0,
+    "Educação": 42000.0,
+    "Outros": 49000.0,
+    "Assistência social": 22000.0,
+    "Cultura": 864318.83
+   },
+   "luis-flavio": {
+    "Obras e meio ambiente": 818879.22,
+    "Saúde": 409439.61
+   },
+   "marcelo-dantas": {
+    "Obras e meio ambiente": 818879.22,
+    "Saúde": 409439.61
+   },
+   "maria-amelia": {
+    "Cultura": 818879.22,
+    "Saúde": 409439.61
+   },
+   "netho-alves": {
+    "Saúde": 509439.61,
+    "Esporte": 20000.0,
+    "Obras e meio ambiente": 848879.22,
+    "Outros": 12000.0,
+    "Cultura": 94000.0,
+    "Assistência social": 5000.0,
+    "Educação": 5000.0
+   },
+   "paulinho-do-esporte": {
+    "Saúde": 709439.61,
+    "Assistência social": 49000.0,
+    "Educação": 85000.0,
+    "Esporte": 115000.0,
+    "Outros": 70000.0,
+    "Obras e meio ambiente": 15000.0,
+    "Cultura": 894318.83
+   },
+   "paulinho-dos-condutores": {
+    "Obras e meio ambiente": 818879.22,
+    "Saúde": 409439.61
+   },
+   "siufarne": {
+    "Saúde": 818879.22,
+    "Cultura": 120000.0,
+    "Esporte": 234439.61,
+    "Assistência social": 40000.0,
+    "Outros": 15000.0,
+    "Obras e meio ambiente": 818879.22
+   },
+   "valmir": {
+    "Educação": 818879.22,
+    "Saúde": 409439.61
+   }
+  }
+ }
+}
