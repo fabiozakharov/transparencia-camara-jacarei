@@ -24,3 +24,4 @@ python coletor/coletar.py
 | `dados/projetos_por_vereador.json` | Lista de projetos de cada vereador (e da Mesa e do Prefeito). |
 | `dados/votacoes.json` | Cada item votado nas sessões, com resultado e contagem de votos tirados das atas; votos nominais por vereador quando o boletim (PDF escaneado, lido por OCR) é reconhecido. |
 | `dados/boletins_texto/` | Texto OCR dos boletins de votação, para conferência. |
+| `dados/emendas.json` | Emendas impositivas desta legislatura: cada destino com órgão, valor e categoria (Saúde, Educação, Esporte, Cultura, Assistência social, Obras e meio ambiente, Outros), mais totais por vereador. |

@@ -290,6 +290,13 @@ def main() -> int:
         meta["votacoes"] = {"itens": len(votacoes), "com_boletim": sum(1 for v in votacoes if v["boletim"])}
     except Exception as erro:
         erros.append(f"votacoes: {erro}")
+    try:
+        import emendas as em
+
+        itens, meta["emendas"] = em.coletar_emendas()
+        salvar("emendas.json", {"categorias": [n for n, _ in em.CATEGORIAS] + ["Outros"], "itens": itens, "resumo": em.resumo(itens)})
+    except Exception as erro:
+        erros.append(f"emendas: {erro}")
     meta["erros"] = erros
     salvar("coleta.json", meta)
     print(json.dumps(meta, ensure_ascii=False, indent=1)[:3000])
