@@ -1,5 +1,5 @@
 {
- "executado_em": "2026-11-27T11:33:43+00:00",
+ "executado_em": "2026-11-27T11:46:32+00:00",
  "fonte": "https://www.jacarei.sp.leg.br",
  "trabalhos": {
   "itens_lidos": 7705,
@@ -15,7 +15,8 @@
   }
  },
  "presencas": {
-  "atas_lidas": 109,
+  "sessoes_lidas": 78,
+  "atas_sem_lista_de_presenca": [],
   "falhas": []
  },
  "erros": []

@@ -1,423 +1,123 @@
 {
  "por_vereador": {
   "paulinho-do-esporte": {
-   "sessoes_com_registro": 8,
-   "ausencias": 3
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "daniel-mariano": {
-   "sessoes_com_registro": 14,
-   "ausencias": 4
+   "sessoes": 78,
+   "presencas": 76,
+   "faltas": 2,
+   "datas_faltas": [
+    "2026-04-01",
+    "2026-11-03"
+   ],
+   "percentual_presenca": 97.4
   },
   "maria-amelia": {
-   "sessoes_com_registro": 16,
-   "ausencias": 2
+   "sessoes": 78,
+   "presencas": 74,
+   "faltas": 4,
+   "datas_faltas": [
+    "2025-04-16",
+    "2026-06-17",
+    "2026-10-28",
+    "2026-11-25"
+   ],
+   "percentual_presenca": 94.9
   },
   "jean-araujo": {
-   "sessoes_com_registro": 10,
-   "ausencias": 1
+   "sessoes": 78,
+   "presencas": 77,
+   "faltas": 1,
+   "datas_faltas": [
+    "2026-10-07"
+   ],
+   "percentual_presenca": 98.7
   },
   "gabriel-belem": {
-   "sessoes_com_registro": 11,
-   "ausencias": 1
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "juex-almeida": {
-   "sessoes_com_registro": 6,
-   "ausencias": 1
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "luis-flavio": {
-   "sessoes_com_registro": 7,
-   "ausencias": 1
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "marcelo-dantas": {
-   "sessoes_com_registro": 6,
-   "ausencias": 0
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "netho-alves": {
-   "sessoes_com_registro": 9,
-   "ausencias": 0
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "paulinho-dos-condutores": {
-   "sessoes_com_registro": 6,
-   "ausencias": 1
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "rogerio-timoteo": {
-   "sessoes_com_registro": 6,
-   "ausencias": 1
+   "sessoes": 39,
+   "presencas": 39,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "siufarne": {
-   "sessoes_com_registro": 6,
-   "ausencias": 0
+   "sessoes": 78,
+   "presencas": 78,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   },
   "valmir": {
-   "sessoes_com_registro": 9,
-   "ausencias": 0
+   "sessoes": 78,
+   "presencas": 76,
+   "faltas": 2,
+   "datas_faltas": [
+    "2026-04-01",
+    "2026-04-08"
+   ],
+   "percentual_presenca": 97.4
   },
   "hernani-barreto": {
-   "sessoes_com_registro": 5,
-   "ausencias": 0
+   "sessoes": 39,
+   "presencas": 39,
+   "faltas": 0,
+   "datas_faltas": [],
+   "percentual_presenca": 100.0
   }
  },
  "sessoes": {
-  "Ata-da-01a-SE-03.11.2026": {
-   "titulo": "Ata da 01ª SE – 03.11.2026",
-   "data_publicacao": "2026-11-05",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-01a-SE-03.11.2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-01ª-AP-23-02-2026-3º-Quadrimestre-de-2025": {
-   "titulo": "Ata da 01ª AP – 23 02 2026 – 3º Quadrimestre de 2025",
-   "data_publicacao": "2026-02-25",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Ata-da-01ª-AP-23-02-2026-3º-Quadrimestre-de-2025.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-01ª-SS-23.01.2026-Título-de-Cidadão-Pastor-José-Benjamín-Pére...": {
-   "titulo": "Ata da 01ª SS – 23.01.2026 – Título de Cidadão Pastor José Benjamín Pére…",
-   "data_publicacao": "2026-01-23",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/01/Ata-da-01ª-SS-23.01.2026-Título-de-Cidadão-Pastor-José-Benjamín-Pére....docx",
-   "resumo": false,
-   "presentes": [
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-02ª-AP-27-03-2026-Tarifa-Zero-no-Transporte-Municipal": {
-   "titulo": "Ata da 02ª AP – 27 03 2026 – Tarifa Zero no Transporte Municipal",
-   "data_publicacao": "2026-03-31",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Ata-da-02ª-AP-27-03-2026-Tarifa-Zero-no-Transporte-Municipal.docx",
-   "resumo": false,
-   "presentes": [
-    "paulinho-dos-condutores"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-02ª-SS-23.04.2026-Desbravadores-Luzeiros-do-Vale": {
-   "titulo": "Ata da 02ª SS – 23.04.2026 – Desbravadores Luzeiros do Vale",
-   "data_publicacao": "2026-04-27",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Ata-da-02ª-SS-23.04.2026-Desbravadores-Luzeiros-do-Vale.docx",
-   "resumo": false,
-   "presentes": [
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-03ª-AP-13-04-2026-Estradas-Rurais": {
-   "titulo": "Ata da 03ª AP – 13 04 2026 – Estradas Rurais",
-   "data_publicacao": "2026-04-15",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Ata-da-03ª-AP-13-04-2026-Estradas-Rurais.docx",
-   "resumo": false,
-   "presentes": [
-    "juex-almeida"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-03ª-SS-05.05.2026-Posse-da-Câmara-Jovem-2026": {
-   "titulo": "Ata da 03ª SS – 05.05.2026 – Posse da Câmara Jovem 2026",
-   "data_publicacao": "2026-05-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Ata-da-03ª-SS-05.05.2026-Posse-da-Câmara-Jovem-2026.docx",
-   "resumo": false,
-   "presentes": [
-    "paulinho-do-esporte"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-04ª-AP-23-06-2025-Prestação-de-Contas-do-SAAE": {
-   "titulo": "Ata da 04ª AP – 23 06 2025 – Prestação de Contas do SAAE",
-   "data_publicacao": "2025-07-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/07/Ata-da-04ª-AP-23-06-2025-Prestação-de-Contas-do-SAAE.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-04ª-AP-27-04-2026-Assistolia-Fetal": {
-   "titulo": "Ata da 04ª AP – 27 04 2026 – Assistolia Fetal",
-   "data_publicacao": "2026-04-28",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Ata-da-04ª-AP-27-04-2026-Assistolia-Fetal.docx",
-   "resumo": false,
-   "presentes": [
-    "jean-araujo",
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-04ª-SS-16.07.2026-Medalha-Filhos-Brilhantes-Rotary-Club": {
-   "titulo": "Ata da 04ª SS – 16.07.2026 – Medalha Filhos Brilhantes Rotary Club",
-   "data_publicacao": "2026-07-29",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/07/Ata-da-04ª-SS-16.07.2026-Medalha-Filhos-Brilhantes-Rotary-Club.docx",
-   "resumo": false,
-   "presentes": [
-    "netho-alves"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-05ª-AP-04-05-2026-lei-de-uso-e-ocupação-do-solo": {
-   "titulo": "Ata da 05ª AP – 04 05 2026 – lei de uso e ocupação do solo",
-   "data_publicacao": "2026-05-05",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Ata-da-05ª-AP-04-05-2026-lei-de-uso-e-ocupação-do-solo.docx",
-   "resumo": false,
-   "presentes": [
-    "gabriel-belem",
-    "rogerio-timoteo"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-05ª-SS-29.07.2026-Título-de-Cidadão-Maestro-Mauro-Messias": {
-   "titulo": "Ata da 05ª SS – 29.07.2026 – Título de Cidadão Maestro Mauro Messias",
-   "data_publicacao": "2026-08-03",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Ata-da-05ª-SS-29.07.2026-Título-de-Cidadão-Maestro-Mauro-Messias.docx",
-   "resumo": false,
-   "presentes": [
-    "marcelo-dantas",
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-06ª-AP-25-05-2026-1º-Quadrimestre-de-2026": {
-   "titulo": "Ata da 06ª AP – 25 05 2026 – 1º Quadrimestre de 2026",
-   "data_publicacao": "2026-05-27",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Ata-da-06ª-AP-25-05-2026-1º-Quadrimestre-de-2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-06ª-AP-28-08-2025-PDI-Campus-Jacareí-do-IFSP": {
-   "titulo": "Ata da 06ª AP – 28 08 2025 – PDI Campus Jacareí do IFSP",
-   "data_publicacao": "2025-09-01",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Ata-da-06ª-AP-28-08-2025-PDI-Campus-Jacareí-do-IFSP.docx",
-   "resumo": false,
-   "presentes": [
-    "gabriel-belem"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-07ª-AP-01-06-2026-Lei-de-Diretrizes-Orçamentárias-LDO": {
-   "titulo": "Ata da 07ª AP – 01 06 2026 – Lei de Diretrizes Orçamentárias – LDO",
-   "data_publicacao": "2026-06-02",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Ata-da-07ª-AP-01-06-2026-Lei-de-Diretrizes-Orçamentárias-LDO.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-07ª-AP-29-09-2025-2º-Quadrimestre-de-2025": {
-   "titulo": "Ata da 07ª AP – 29 09 2025 – 2º Quadrimestre de 2025",
-   "data_publicacao": "2025-09-30",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Ata-da-07ª-AP-29-09-2025-2º-Quadrimestre-de-2025.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-08ª-AP-06-11-2025-Plano-Plurianual-2026-2029": {
-   "titulo": "Ata da 08ª AP – 06 11 2025 – Plano Plurianual 2026-2029",
-   "data_publicacao": "2025-11-10",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Ata-da-08ª-AP-06-11-2025-Plano-Plurianual-2026-2029.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-08ª-AP-08-06-2026-Prestação-de-Contas-do-IPMJ": {
-   "titulo": "Ata da 08ª AP – 08 06 2026 – Prestação de Contas do IPMJ",
-   "data_publicacao": "2026-06-09",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Ata-da-08ª-AP-08-06-2026-Prestação-de-Contas-do-IPMJ.docx",
-   "resumo": false,
-   "presentes": [
-    "hernani-barreto"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-09ª-AP-13-11-2025-Descarte-de-Resíduos-de-Construção": {
-   "titulo": "Ata da 09ª AP – 13 11 2025 – Descarte de Resíduos de Construção",
-   "data_publicacao": "2025-11-14",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Ata-da-09ª-AP-13-11-2025-Descarte-de-Resíduos-de-Construção.docx",
-   "resumo": false,
-   "presentes": [
-    "rogerio-timoteo"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-10ª-AP-24-11-2025-LOA-2026": {
-   "titulo": "Ata da 10ª AP – 24 11 2025 – LOA 2026",
-   "data_publicacao": "2025-11-26",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Ata-da-10ª-AP-24-11-2025-LOA-2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-1ª-AP-27-02-2025-3º-Quadrimestre-de-2024": {
-   "titulo": "Ata da 1ª AP – 27 02 2025 – 3º Quadrimestre de 2024",
-   "data_publicacao": "2025-02-28",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Ata-da-1ª-AP-27-02-2025-3º-Quadrimestre-de-2024.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-2ª-AP-29-05-2025-1º-Quadrimestre-de-2025": {
-   "titulo": "Ata da 2ª AP – 29 05 2025 – 1º Quadrimestre de 2025",
-   "data_publicacao": "2025-06-02",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Ata-da-2ª-AP-29-05-2025-1º-Quadrimestre-de-2025.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-32ª-SO-15.10.2026": {
-   "titulo": "Ata da 32ª SO – 15.10.2026",
-   "data_publicacao": "2026-10-16",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Ata-da-32ª-SO-15.10.2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-33ª-SO-21.10.2026": {
-   "titulo": "Ata da 33ª SO – 21.10.2026",
-   "data_publicacao": "2026-10-22",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Ata-da-33ª-SO-21.10.2026.docx",
-   "resumo": false,
-   "presentes": [
-    "valmir"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-34a-SO-28.10.2026": {
-   "titulo": "Ata da 34ª SO – 28.10.2026",
-   "data_publicacao": "2026-10-29",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Ata-da-34a-SO-28.10.2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-35a-SO-05.11.2026": {
-   "titulo": "Ata da 35ª SO – 05.11.2026",
-   "data_publicacao": "2026-11-06",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-35a-SO-05.11.2026.docx",
-   "resumo": false,
-   "presentes": [
-    "rogerio-timoteo"
-   ],
-   "ausentes": []
-  },
-  "Ata-da-36a-SO-11.11.2026": {
-   "titulo": "Ata da 36ª SO – 11.11.2026",
-   "data_publicacao": "2026-11-12",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-36a-SO-11.11.2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": [
-    "daniel-mariano"
-   ]
-  },
-  "Ata-da-37a-SO-18.11.2026": {
-   "titulo": "Ata da 37ª SO – 18.11.2026",
-   "data_publicacao": "2026-11-19",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-37a-SO-18.11.2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-38a-SO-25.11.2026": {
-   "titulo": "Ata da 38ª SO – 25.11.2026",
-   "data_publicacao": "2026-11-26",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-38a-SO-25.11.2026.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Ata-da-3ª-AP-12-06-2025-Lei-de-Diretrizes-Orçamentárias-LDO": {
-   "titulo": "Ata da 3ª AP – 12 06 2025 – Lei de Diretrizes Orçamentárias – LDO",
-   "data_publicacao": "2025-06-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Ata-da-3ª-AP-12-06-2025-Lei-de-Diretrizes-Orçamentárias-LDO.docx",
-   "resumo": false,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-02ª-SS-12.04.2025-Prêmio-Herbert-José-de-Souza-à-Maria-Ac...": {
-   "titulo": "Resumo Ata 02ª SS – 12.04.2025 – Prêmio Herbert José de Souza à Maria Ac…",
-   "data_publicacao": "2025-04-16",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-02ª-SS-12.04.2025-Prêmio-Herbert-José-de-Souza-à-Maria-Ac....docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-03ª-SS-14.04.2025-Título-de-Cidadão-Jacareiense-Sidney-Ma...": {
-   "titulo": "Resumo Ata 03ª SS – 14.04.2025 – Título de Cidadão Jacareiense Sidney Ma…",
-   "data_publicacao": "2025-04-16",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-03ª-SS-14.04.2025-Título-de-Cidadão-Jacareiense-Sidney-Ma....docx",
-   "resumo": true,
-   "presentes": [
-    "daniel-mariano",
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-04ª-SS-24.04.2025-Desbravadores-Luzeiros-do-Vale": {
-   "titulo": "Resumo Ata 04ª SS – 24.04.2025 – Desbravadores Luzeiros do Vale",
-   "data_publicacao": "2025-04-25",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-04ª-SS-24.04.2025-Desbravadores-Luzeiros-do-Vale.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-06ª-SS-22.05.2025-Título-de-Cidadão-Jacareiense-Padre-Mar...": {
-   "titulo": "Resumo Ata 06ª SS – 22.05.2025 – Título de Cidadão Jacareiense Padre Mar…",
-   "data_publicacao": "2025-05-23",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-06ª-SS-22.05.2025-Título-de-Cidadão-Jacareiense-Padre-Mar....docx",
-   "resumo": true,
-   "presentes": [
-    "marcelo-dantas",
-    "paulinho-do-esporte"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-07ª-SS-14.06.2025-Título-de-Cidadão-Jacareiense-Dr.-Dirce...": {
-   "titulo": "Resumo Ata 07ª SS – 14.06.2025 – Título de Cidadão Jacareiense Dr. Dirce…",
-   "data_publicacao": "2025-06-17",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-07ª-SS-14.06.2025-Título-de-Cidadão-Jacareiense-Dr.-Dirce....docx",
-   "resumo": true,
-   "presentes": [
-    "daniel-mariano"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-08ª-SS-14.08.2025-Título-de-Cidadão-Jacareiense-Adriano-S...": {
-   "titulo": "Resumo Ata 08ª SS – 14.08.2025 – Título de Cidadão Jacareiense Adriano S…",
-   "data_publicacao": "2025-08-15",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-08ª-SS-14.08.2025-Título-de-Cidadão-Jacareiense-Adriano-S....docx",
-   "resumo": true,
-   "presentes": [
-    "daniel-mariano",
-    "netho-alves"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-10ª-SS-14.11.2025-Título-de-Cidadão-Jacareiense-Bruno-Evi...": {
-   "titulo": "Resumo Ata 10ª SS – 14.11.2025 – Título de Cidadão Jacareiense Bruno Evi…",
-   "data_publicacao": "2025-11-18",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-10ª-SS-14.11.2025-Título-de-Cidadão-Jacareiense-Bruno-Evi....docx",
-   "resumo": true,
-   "presentes": [
-    "juex-almeida"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-01ª-SO-de-04.02.2026": {
-   "titulo": "Resumo Ata da 01ª SO de 04.02.2026",
-   "data_publicacao": "2026-02-05",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-01ª-SO-de-04.02.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "juex-almeida",
-    "maria-amelia",
-    "paulinho-dos-condutores",
-    "rogerio-timoteo"
-   ]
-  },
-  "Resumo-Ata-da-01ª-SO-de-05.02.2025": {
-   "titulo": "Resumo Ata da 01ª SO de 05.02.2025",
-   "data_publicacao": "2025-02-07",
+  "2025-02-05-SO01": {
+   "tipo": "ordinaria",
+   "numero": 1,
+   "data": "2025-02-05",
    "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Resumo-Ata-da-01ª-SO-de-05.02.2025.docx",
-   "resumo": true,
    "presentes": [
     "daniel-mariano",
     "gabriel-belem",
@@ -429,643 +129,902 @@
     "maria-amelia",
     "netho-alves",
     "paulinho-do-esporte",
+    "paulinho-dos-condutores",
     "siufarne",
     "valmir"
    ],
+   "observacoes": [],
    "ausentes": []
   },
-  "Resumo-Ata-da-01ª-SS-de-01.01.2025-Instalação-da-19ª-Legislatura": {
-   "titulo": "Resumo Ata da 01ª SS de 01.01.2025 – Instalação da 19ª Legislatura",
-   "data_publicacao": "2025-01-09",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/01/Resumo-Ata-da-01ª-SS-de-01.01.2025-Instalação-da-19ª-Legislatura.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-02ª-SO-de-11.02.2026": {
-   "titulo": "Resumo Ata da 02ª SO de 11.02.2026",
-   "data_publicacao": "2026-02-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-02ª-SO-de-11.02.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-02ª-SO-de-12.02.2025": {
-   "titulo": "Resumo Ata da 02ª SO de 12.02.2025",
-   "data_publicacao": "2025-02-13",
+  "2025-02-12-SO02": {
+   "tipo": "ordinaria",
+   "numero": 2,
+   "data": "2025-02-12",
    "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Resumo-Ata-da-02ª-SO-de-12.02.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-03ª-SO-de-19.02.2025": {
-   "titulo": "Resumo Ata da 03ª SO de 19.02.2025",
-   "data_publicacao": "2025-02-22",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Resumo-Ata-da-03ª-SO-de-19.02.2025.docx",
-   "resumo": true,
    "presentes": [
     "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
     "jean-araujo",
     "juex-almeida",
+    "luis-flavio",
     "marcelo-dantas",
     "maria-amelia",
     "netho-alves",
     "paulinho-do-esporte",
-    "siufarne",
-    "valmir"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-03ª-SO-de-19.02.2026": {
-   "titulo": "Resumo Ata da 03ª SO de 19.02.2026",
-   "data_publicacao": "2026-02-20",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-03ª-SO-de-19.02.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-04ª-SO-de-25.02.2026": {
-   "titulo": "Resumo Ata da 04ª SO de 25.02.2026",
-   "data_publicacao": "2026-02-26",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-04ª-SO-de-25.02.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-04ª-SO-de-26.02.2025": {
-   "titulo": "Resumo Ata da 04ª SO de 26.02.2025",
-   "data_publicacao": "2025-02-28",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Resumo-Ata-da-04ª-SO-de-26.02.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "daniel-mariano",
-    "gabriel-belem",
-    "jean-araujo",
-    "maria-amelia",
-    "netho-alves",
-    "siufarne",
-    "valmir"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-05ª-SO-de-04.03.2026": {
-   "titulo": "Resumo Ata da 05ª SO de 04.03.2026",
-   "data_publicacao": "2026-03-05",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-05ª-SO-de-04.03.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-05ª-SO-de-06.03.2025": {
-   "titulo": "Resumo Ata da 05ª SO de 06.03.2025",
-   "data_publicacao": "2025-03-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-05ª-SO-de-06.03.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "hernani-barreto"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-05ª-SS-de-05.05.2025-Posse-Câmara-Jovem": {
-   "titulo": "Resumo Ata da 05ª SS de 05.05.2025 – Posse Câmara Jovem",
-   "data_publicacao": "2025-05-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-05ª-SS-de-05.05.2025-Posse-Câmara-Jovem.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-06ª-SO-de-11.03.2026": {
-   "titulo": "Resumo Ata da 06ª SO de 11.03.2026",
-   "data_publicacao": "2026-03-12",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-06ª-SO-de-11.03.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-06ª-SO-de-12.03.2025": {
-   "titulo": "Resumo Ata da 06ª SO de 12.03.2025",
-   "data_publicacao": "2025-03-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-06ª-SO-de-12.03.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "daniel-mariano",
-    "gabriel-belem",
-    "jean-araujo",
-    "luis-flavio",
-    "maria-amelia",
-    "netho-alves",
     "paulinho-dos-condutores",
     "siufarne",
     "valmir"
    ],
+   "observacoes": [],
    "ausentes": []
   },
-  "Resumo-Ata-da-07ª-SO-de-18.03.2026": {
-   "titulo": "Resumo Ata da 07ª SO de 18.03.2026",
-   "data_publicacao": "2026-03-19",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-07ª-SO-de-18.03.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "luis-flavio"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-07ª-SO-de-19.03.2025": {
-   "titulo": "Resumo Ata da 07ª SO de 19.03.2025",
-   "data_publicacao": "2025-03-20",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-07ª-SO-de-19.03.2025.docx",
-   "resumo": true,
+  "2025-02-19-SO03": {
+   "tipo": "ordinaria",
+   "numero": 3,
+   "data": "2025-02-19",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Resumo-Ata-da-03ª-SO-de-19.02.2025.docx",
    "presentes": [
     "daniel-mariano",
-    "gabriel-belem"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-08ª-SO-de-25.03.2026": {
-   "titulo": "Resumo Ata da 08ª SO de 25.03.2026",
-   "data_publicacao": "2026-03-26",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-08ª-SO-de-25.03.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-08ª-SO-de-26.03.2025": {
-   "titulo": "Resumo Ata da 08ª SO de 26.03.2025",
-   "data_publicacao": "2025-03-28",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-08ª-SO-de-26.03.2025.docx",
-   "resumo": true,
-   "presentes": [
     "gabriel-belem",
     "hernani-barreto",
     "jean-araujo",
-    "maria-amelia",
-    "siufarne",
-    "valmir"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-09ª-SO-de-01.04.2026": {
-   "titulo": "Resumo Ata da 09ª SO de 01.04.2026",
-   "data_publicacao": "2026-04-02",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-09ª-SO-de-01.04.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "daniel-mariano",
-    "valmir"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-09ª-SO-de-02.04.2025": {
-   "titulo": "Resumo Ata da 09ª SO de 02.04.2025",
-   "data_publicacao": "2025-04-09",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-09ª-SO-de-02.04.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-10ª-SO-de-08.04.2026": {
-   "titulo": "Resumo Ata da 10ª SO de 08.04.2026",
-   "data_publicacao": "2026-04-10",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-10ª-SO-de-08.04.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "gabriel-belem",
-    "valmir"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-10ª-SO-de-09.04.2025": {
-   "titulo": "Resumo Ata da 10ª SO de 09.04.2025",
-   "data_publicacao": "2025-04-10",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-10ª-SO-de-09.04.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-11ª-SO-de-15.04.2026": {
-   "titulo": "Resumo Ata da 11ª SO de 15.04.2026",
-   "data_publicacao": "2026-04-16",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-11ª-SO-de-15.04.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-11ª-SO-de-16.04.2025": {
-   "titulo": "Resumo Ata da 11ª SO de 16.04.2025",
-   "data_publicacao": "2025-04-22",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-11ª-SO-de-16.04.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "gabriel-belem",
+    "juex-almeida",
     "luis-flavio",
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-12ª-SO-de-23.04.2025": {
-   "titulo": "Resumo Ata da 12ª SO de 23.04.2025",
-   "data_publicacao": "2025-04-25",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-12ª-SO-de-23.04.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-12ª-SO-de-23.04.2026": {
-   "titulo": "Resumo Ata da 12ª SO de 23.04.2026",
-   "data_publicacao": "2026-04-24",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-12ª-SO-de-23.04.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-13ª-SO-de-29.04.2026": {
-   "titulo": "Resumo Ata da 13ª SO de 29.04.2026",
-   "data_publicacao": "2026-04-30",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-13ª-SO-de-29.04.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-13ª-SO-de-30.04.2025": {
-   "titulo": "Resumo Ata da 13ª SO de 30.04.2025",
-   "data_publicacao": "2025-05-06",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-13ª-SO-de-30.04.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-14ª-SO-de-06.05.2026": {
-   "titulo": "Resumo Ata da 14ª SO de 06.05.2026",
-   "data_publicacao": "2026-05-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-14ª-SO-de-06.05.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-14ª-SO-de-07.05.2025": {
-   "titulo": "Resumo Ata da 14ª SO de 07.05.2025",
-   "data_publicacao": "2025-05-08",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-14ª-SO-de-07.05.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-15ª-SO-de-13.05.2026": {
-   "titulo": "Resumo Ata da 15ª SO de 13.05.2026",
-   "data_publicacao": "2026-05-14",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-15ª-SO-de-13.05.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "jean-araujo"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-15ª-SO-de-14.05.2025": {
-   "titulo": "Resumo Ata da 15ª SO de 14.05.2025",
-   "data_publicacao": "2025-05-19",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-15ª-SO-de-14.05.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-16ª-SO-de-20.05.2026": {
-   "titulo": "Resumo Ata da 16ª SO de 20.05.2026",
-   "data_publicacao": "2026-05-21",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-16ª-SO-de-20.05.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-16ª-SO-de-21.05.2025": {
-   "titulo": "Resumo Ata da 16ª SO de 21.05.2025",
-   "data_publicacao": "2025-05-23",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-16ª-SO-de-21.05.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-17ª-SO-de-27.05.2026": {
-   "titulo": "Resumo Ata da 17ª SO de 27.05.2026",
-   "data_publicacao": "2026-05-28",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-17ª-SO-de-27.05.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-17ª-SO-de-28.05.2025": {
-   "titulo": "Resumo Ata da 17ª SO de 28.05.2025",
-   "data_publicacao": "2025-05-29",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-17ª-SO-de-28.05.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-18ª-SO-de-03.06.2026": {
-   "titulo": "Resumo Ata da 18ª SO de 03.06.2026",
-   "data_publicacao": "2026-06-09",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-18ª-SO-de-03.06.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-18ª-SO-de-04.06.2025": {
-   "titulo": "Resumo Ata da 18ª SO de 04.06.2025",
-   "data_publicacao": "2025-06-05",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-da-18ª-SO-de-04.06.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "jean-araujo"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-19ª-SO-de-10.06.2026": {
-   "titulo": "Resumo Ata da 19ª SO de 10.06.2026",
-   "data_publicacao": "2026-06-11",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-19ª-SO-de-10.06.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "maria-amelia"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-19ª-SO-de-11.06.2025": {
-   "titulo": "Resumo Ata da 19ª SO de 11.06.2025",
-   "data_publicacao": "2025-06-12",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-da-19ª-SO-de-11.06.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-20ª-SO-de-17.06.2026": {
-   "titulo": "Resumo Ata da 20ª SO de 17.06.2026",
-   "data_publicacao": "2026-06-18",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-20ª-SO-de-17.06.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "maria-amelia"
-   ]
-  },
-  "Resumo-Ata-da-20ª-SO-de-18.06.2025": {
-   "titulo": "Resumo Ata da 20ª SO de 18.06.2025",
-   "data_publicacao": "2025-06-24",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-da-20ª-SO-de-18.06.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "luis-flavio"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-21ª-SO-de-24.06.2026": {
-   "titulo": "Resumo Ata da 21ª SO de 24.06.2026",
-   "data_publicacao": "2026-06-25",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-21ª-SO-de-24.06.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-21ª-SO-de-25.06.2025": {
-   "titulo": "Resumo Ata da 21ª SO de 25.06.2025",
-   "data_publicacao": "2025-07-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/07/Resumo-Ata-da-21ª-SO-de-25.06.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-22ª-SO-de-05.08.2026": {
-   "titulo": "Resumo Ata da 22ª SO de 05.08.2026",
-   "data_publicacao": "2026-08-06",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-22ª-SO-de-05.08.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "paulinho-dos-condutores"
-   ],
-   "ausentes": [
-    "daniel-mariano",
-    "paulinho-do-esporte"
-   ]
-  },
-  "Resumo-Ata-da-22ª-SO-de-06.08.2025": {
-   "titulo": "Resumo Ata da 22ª SO de 06.08.2025",
-   "data_publicacao": "2025-08-07",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-22ª-SO-de-06.08.2025.docx",
-   "resumo": true,
-   "presentes": [
     "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
     "paulinho-dos-condutores",
-    "rogerio-timoteo"
+    "siufarne",
+    "valmir"
    ],
+   "observacoes": [],
    "ausentes": []
   },
-  "Resumo-Ata-da-23ª-SO-de-12.08.2026": {
-   "titulo": "Resumo Ata da 23ª SO de 12.08.2026",
-   "data_publicacao": "2026-08-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-23ª-SO-de-12.08.2026.docx",
-   "resumo": true,
-   "presentes": [
-    "netho-alves"
-   ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-23ª-SO-de-13.08.2025": {
-   "titulo": "Resumo Ata da 23ª SO de 13.08.2025",
-   "data_publicacao": "2025-08-15",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-23ª-SO-de-13.08.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-24ª-SO-de-19.08.2026": {
-   "titulo": "Resumo Ata da 24ª SO de 19.08.2026",
-   "data_publicacao": "2026-08-20",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-24ª-SO-de-19.08.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-24ª-SO-de-20.08.2025": {
-   "titulo": "Resumo Ata da 24ª SO de 20.08.2025",
-   "data_publicacao": "2025-08-25",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-24ª-SO-de-20.08.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-25ª-SO-de-26.08.2026": {
-   "titulo": "Resumo Ata da 25ª SO de 26.08.2026",
-   "data_publicacao": "2026-08-27",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-25ª-SO-de-26.08.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-25ª-SO-de-27.08.2025": {
-   "titulo": "Resumo Ata da 25ª SO de 27.08.2025",
-   "data_publicacao": "2025-08-29",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-25ª-SO-de-27.08.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-26ª-SO-de-02.09.2026": {
-   "titulo": "Resumo Ata da 26ª SO de 02.09.2026",
-   "data_publicacao": "2026-09-03",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-26ª-SO-de-02.09.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-26ª-SO-de-03.09.2025": {
-   "titulo": "Resumo Ata da 26ª SO de 03.09.2025",
-   "data_publicacao": "2025-09-05",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-26ª-SO-de-03.09.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-27ª-SO-de-10.09.2025": {
-   "titulo": "Resumo Ata da 27ª SO de 10.09.2025",
-   "data_publicacao": "2025-09-12",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-27ª-SO-de-10.09.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-27ª-SO-de-10.09.2026": {
-   "titulo": "Resumo Ata da 27ª SO de 10.09.2026",
-   "data_publicacao": "2026-09-11",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-27ª-SO-de-10.09.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-28ª-SO-de-16.09.2026": {
-   "titulo": "Resumo Ata da 28ª SO de 16.09.2026",
-   "data_publicacao": "2026-09-17",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-28ª-SO-de-16.09.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "daniel-mariano",
-    "paulinho-do-esporte"
-   ]
-  },
-  "Resumo-Ata-da-28ª-SO-de-17.09.2025": {
-   "titulo": "Resumo Ata da 28ª SO de 17.09.2025",
-   "data_publicacao": "2025-09-22",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-28ª-SO-de-17.09.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-29ª-SO-de-23.09.2026": {
-   "titulo": "Resumo Ata da 29ª SO de 23.09.2026",
-   "data_publicacao": "2026-09-24",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-29ª-SO-de-23.09.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-29ª-SO-de-24.09.2025": {
-   "titulo": "Resumo Ata da 29ª SO de 24.09.2025",
-   "data_publicacao": "2025-09-25",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-29ª-SO-de-24.09.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-30ª-SO-de-01.10.2025": {
-   "titulo": "Resumo Ata da 30ª SO de 01.10.2025",
-   "data_publicacao": "2025-10-02",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-30ª-SO-de-01.10.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "gabriel-belem"
-   ]
-  },
-  "Resumo-Ata-da-30ª-SO-de-30.09.2026": {
-   "titulo": "Resumo Ata da 30ª SO de 30.09.2026",
-   "data_publicacao": "2026-10-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Resumo-Ata-da-30ª-SO-de-30.09.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-31ª-SO-de-07.10.2026": {
-   "titulo": "Resumo Ata da 31ª SO de 07.10.2026",
-   "data_publicacao": "2026-10-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Resumo-Ata-da-31ª-SO-de-07.10.2026.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "jean-araujo"
-   ]
-  },
-  "Resumo-Ata-da-31ª-SO-de-08.10.2025": {
-   "titulo": "Resumo Ata da 31ª SO de 08.10.2025",
-   "data_publicacao": "2025-10-09",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-31ª-SO-de-08.10.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-32ª-SO-de-15.10.2025": {
-   "titulo": "Resumo Ata da 32ª SO de 15.10.2025",
-   "data_publicacao": "2025-10-16",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-32ª-SO-de-15.10.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-33ª-SO-de-22.10.2025": {
-   "titulo": "Resumo Ata da 33ª SO de 22.10.2025",
-   "data_publicacao": "2025-10-23",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-33ª-SO-de-22.10.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-34ª-SO-de-30.10.2025": {
-   "titulo": "Resumo Ata da 34ª SO de 30.10.2025",
-   "data_publicacao": "2025-10-31",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-34ª-SO-de-30.10.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "luis-flavio"
-   ]
-  },
-  "Resumo-Ata-da-36ª-SO-de-12.11.2025": {
-   "titulo": "Resumo Ata da 36ª SO de 12.11.2025",
-   "data_publicacao": "2025-11-13",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-da-36ª-SO-de-12.11.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-37ª-SO-de-19.11.2025": {
-   "titulo": "Resumo Ata da 37ª SO de 19.11.2025",
-   "data_publicacao": "2025-11-24",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-da-37ª-SO-de-19.11.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": [
-    "daniel-mariano",
-    "paulinho-do-esporte"
-   ]
-  },
-  "Resumo-Ata-da-38ª-SO-de-26.11.2025": {
-   "titulo": "Resumo Ata da 38ª SO de 26.11.2025",
-   "data_publicacao": "2025-11-27",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-da-38ª-SO-de-26.11.2025.docx",
-   "resumo": true,
+  "2025-02-26-SO04": {
+   "tipo": "ordinaria",
+   "numero": 4,
+   "data": "2025-02-26",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/02/Resumo-Ata-da-04ª-SO-de-26.02.2025.docx",
    "presentes": [
     "daniel-mariano",
     "gabriel-belem",
     "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-03-06-SO05": {
+   "tipo": "ordinaria",
+   "numero": 5,
+   "data": "2025-03-06",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-05ª-SO-de-06.03.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-03-12-SO06": {
+   "tipo": "ordinaria",
+   "numero": 6,
+   "data": "2025-03-12",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-06ª-SO-de-12.03.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-03-19-SO07": {
+   "tipo": "ordinaria",
+   "numero": 7,
+   "data": "2025-03-19",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-07ª-SO-de-19.03.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-03-26-SO08": {
+   "tipo": "ordinaria",
+   "numero": 8,
+   "data": "2025-03-26",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/03/Resumo-Ata-da-08ª-SO-de-26.03.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-04-02-SO09": {
+   "tipo": "ordinaria",
+   "numero": 9,
+   "data": "2025-04-02",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-09ª-SO-de-02.04.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-04-09-SO10": {
+   "tipo": "ordinaria",
+   "numero": 10,
+   "data": "2025-04-09",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-10ª-SO-de-09.04.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-04-16-SO11": {
+   "tipo": "ordinaria",
+   "numero": 11,
+   "data": "2025-04-16",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-11ª-SO-de-16.04.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": [
+    "maria-amelia"
+   ]
+  },
+  "2025-04-23-SO12": {
+   "tipo": "ordinaria",
+   "numero": 12,
+   "data": "2025-04-23",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/04/Resumo-Ata-da-12ª-SO-de-23.04.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-04-30-SO13": {
+   "tipo": "ordinaria",
+   "numero": 13,
+   "data": "2025-04-30",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-13ª-SO-de-30.04.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-05-07-SO14": {
+   "tipo": "ordinaria",
+   "numero": 14,
+   "data": "2025-05-07",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-14ª-SO-de-07.05.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-05-14-SO15": {
+   "tipo": "ordinaria",
+   "numero": 15,
+   "data": "2025-05-14",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-15ª-SO-de-14.05.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-05-21-SO16": {
+   "tipo": "ordinaria",
+   "numero": 16,
+   "data": "2025-05-21",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-16ª-SO-de-21.05.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-05-28-SO17": {
+   "tipo": "ordinaria",
+   "numero": 17,
+   "data": "2025-05-28",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/05/Resumo-Ata-da-17ª-SO-de-28.05.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-06-04-SO18": {
+   "tipo": "ordinaria",
+   "numero": 18,
+   "data": "2025-06-04",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-da-18ª-SO-de-04.06.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-06-11-SO19": {
+   "tipo": "ordinaria",
+   "numero": 19,
+   "data": "2025-06-11",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-da-19ª-SO-de-11.06.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-06-18-SO20": {
+   "tipo": "ordinaria",
+   "numero": 20,
+   "data": "2025-06-18",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/06/Resumo-Ata-da-20ª-SO-de-18.06.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-06-25-SO21": {
+   "tipo": "ordinaria",
+   "numero": 21,
+   "data": "2025-06-25",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/07/Resumo-Ata-da-21ª-SO-de-25.06.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-08-06-SO22": {
+   "tipo": "ordinaria",
+   "numero": 22,
+   "data": "2025-08-06",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-22ª-SO-de-06.08.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-08-13-SO23": {
+   "tipo": "ordinaria",
+   "numero": 23,
+   "data": "2025-08-13",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-23ª-SO-de-13.08.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-08-20-SO24": {
+   "tipo": "ordinaria",
+   "numero": 24,
+   "data": "2025-08-20",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-24ª-SO-de-20.08.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-08-27-SO25": {
+   "tipo": "ordinaria",
+   "numero": 25,
+   "data": "2025-08-27",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/Resumo-Ata-da-25ª-SO-de-27.08.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-09-03-SO26": {
+   "tipo": "ordinaria",
+   "numero": 26,
+   "data": "2025-09-03",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-26ª-SO-de-03.09.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-09-10-SO27": {
+   "tipo": "ordinaria",
+   "numero": 27,
+   "data": "2025-09-10",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-27ª-SO-de-10.09.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-09-17-SO28": {
+   "tipo": "ordinaria",
+   "numero": 28,
+   "data": "2025-09-17",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-28ª-SO-de-17.09.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-09-24-SO29": {
+   "tipo": "ordinaria",
+   "numero": 29,
+   "data": "2025-09-24",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/09/Resumo-Ata-da-29ª-SO-de-24.09.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-10-01-SO30": {
+   "tipo": "ordinaria",
+   "numero": 30,
+   "data": "2025-10-01",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-30ª-SO-de-01.10.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Retomada a Sessão, procedeu-se à verificação de presença, sendo justificada a ausência do Vereador GABRIEL BELÉM na fase seguinte por razão de saúde (consulta médica)."
+   ],
+   "ausentes": []
+  },
+  "2025-10-08-SO31": {
+   "tipo": "ordinaria",
+   "numero": 31,
+   "data": "2025-10-08",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-31ª-SO-de-08.10.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-10-15-SO32": {
+   "tipo": "ordinaria",
+   "numero": 32,
+   "data": "2025-10-15",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-32ª-SO-de-15.10.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-10-22-SO33": {
+   "tipo": "ordinaria",
+   "numero": 33,
+   "data": "2025-10-22",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-33ª-SO-de-22.10.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-10-30-SO34": {
+   "tipo": "ordinaria",
+   "numero": 34,
+   "data": "2025-10-30",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/10/Resumo-Ata-da-34ª-SO-de-30.10.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Fazemos constar que, durante a apreciação dos trabalhos da Fase do Expediente, o vereador Luís Flávio (Flavinho) necessitou se ausentar do Plenário, não mais retornando à sessão."
+   ],
+   "ausentes": []
+  },
+  "2025-11-12-SO36": {
+   "tipo": "ordinaria",
+   "numero": 36,
+   "data": "2025-11-12",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-da-36ª-SO-de-12.11.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-11-19-SO37": {
+   "tipo": "ordinaria",
+   "numero": 37,
+   "data": "2025-11-19",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-da-37ª-SO-de-19.11.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Registramos que, após a leitura dos votos de pesar, o Presidente da Câmara, vereador Paulinho do Esporte, necessitou se ausentar, e o Vice-Presidente, vereador Daniel Mariano, assumiu a presidência da sessão interinamente."
+   ],
+   "ausentes": []
+  },
+  "2025-11-26-SO38": {
+   "tipo": "ordinaria",
+   "numero": 38,
+   "data": "2025-11-26",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/11/Resumo-Ata-da-38ª-SO-de-26.11.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-12-03-SO39": {
+   "tipo": "ordinaria",
+   "numero": 39,
+   "data": "2025-12-03",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/Resumo-Ata-da-39ª-SO-de-03.12.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2025-12-11-SO40": {
+   "tipo": "ordinaria",
+   "numero": 40,
+   "data": "2025-12-11",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/Resumo-Ata-da-40ª-SO-de-11.12.2025.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-02-04-SO01": {
+   "tipo": "ordinaria",
+   "numero": 1,
+   "data": "2026-02-04",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-01ª-SO-de-04.02.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
     "jean-araujo",
     "juex-almeida",
     "luis-flavio",
@@ -1078,25 +1037,906 @@
     "siufarne",
     "valmir"
    ],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-39ª-SO-de-03.12.2025": {
-   "titulo": "Resumo Ata da 39ª SO de 03.12.2025",
-   "data_publicacao": "2025-12-04",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/Resumo-Ata-da-39ª-SO-de-03.12.2025.docx",
-   "resumo": true,
-   "presentes": [],
-   "ausentes": []
-  },
-  "Resumo-Ata-da-40ª-SO-de-11.12.2025": {
-   "titulo": "Resumo Ata da 40ª SO de 11.12.2025",
-   "data_publicacao": "2025-12-12",
-   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/12/Resumo-Ata-da-40ª-SO-de-11.12.2025.docx",
-   "resumo": true,
-   "presentes": [
-    "netho-alves"
+   "observacoes": [
+    "Consignamos que, no retorno do almoço, a Vereadora Maria Amélia necessitou se ausentar, e seu lugar na Mesa Diretora foi ocupado interinamente pelo Vereador Rogério Timóteo.",
+    "Posteriormente, também se ausentaram da sessão, em momentos distintos, os vereadores Paulinho dos Condutores e Juex Almeida, não participando de algumas votações dos trabalhos legislativos."
    ],
    "ausentes": []
+  },
+  "2026-02-11-SO02": {
+   "tipo": "ordinaria",
+   "numero": 2,
+   "data": "2026-02-11",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-02ª-SO-de-11.02.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-02-19-SO03": {
+   "tipo": "ordinaria",
+   "numero": 3,
+   "data": "2026-02-19",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-03ª-SO-de-19.02.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-02-25-SO04": {
+   "tipo": "ordinaria",
+   "numero": 4,
+   "data": "2026-02-25",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/02/Resumo-Ata-da-04ª-SO-de-25.02.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-03-04-SO05": {
+   "tipo": "ordinaria",
+   "numero": 5,
+   "data": "2026-03-04",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-05ª-SO-de-04.03.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-03-11-SO06": {
+   "tipo": "ordinaria",
+   "numero": 6,
+   "data": "2026-03-11",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-06ª-SO-de-11.03.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-03-18-SO07": {
+   "tipo": "ordinaria",
+   "numero": 7,
+   "data": "2026-03-18",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-07ª-SO-de-18.03.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-03-25-SO08": {
+   "tipo": "ordinaria",
+   "numero": 8,
+   "data": "2026-03-25",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/03/Resumo-Ata-da-08ª-SO-de-25.03.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-04-01-SO09": {
+   "tipo": "ordinaria",
+   "numero": 9,
+   "data": "2026-04-01",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-09ª-SO-de-01.04.2026.docx",
+   "presentes": [
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne"
+   ],
+   "observacoes": [
+    "Fazemos constar que os Vereadores DANIEL MARIANO e VALMIR DO PARQUE MEIA LUA não se fizeram presentes por motivos de saúde."
+   ],
+   "ausentes": [
+    "daniel-mariano",
+    "valmir"
+   ]
+  },
+  "2026-04-08-SO10": {
+   "tipo": "ordinaria",
+   "numero": 10,
+   "data": "2026-04-08",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-10ª-SO-de-08.04.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne"
+   ],
+   "observacoes": [
+    "Fazemos constar que o Vereador VALMIR DO PARQUE MEIA LUA não se fez presente por motivos de saúde."
+   ],
+   "ausentes": [
+    "valmir"
+   ]
+  },
+  "2026-04-15-SO11": {
+   "tipo": "ordinaria",
+   "numero": 11,
+   "data": "2026-04-15",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-11ª-SO-de-15.04.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-04-23-SO12": {
+   "tipo": "ordinaria",
+   "numero": 12,
+   "data": "2026-04-23",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-12ª-SO-de-23.04.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-04-29-SO13": {
+   "tipo": "ordinaria",
+   "numero": 13,
+   "data": "2026-04-29",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/04/Resumo-Ata-da-13ª-SO-de-29.04.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-05-06-SO14": {
+   "tipo": "ordinaria",
+   "numero": 14,
+   "data": "2026-05-06",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-14ª-SO-de-06.05.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-05-13-SO15": {
+   "tipo": "ordinaria",
+   "numero": 15,
+   "data": "2026-05-13",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-15ª-SO-de-13.05.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-05-20-SO16": {
+   "tipo": "ordinaria",
+   "numero": 16,
+   "data": "2026-05-20",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-16ª-SO-de-20.05.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-05-27-SO17": {
+   "tipo": "ordinaria",
+   "numero": 17,
+   "data": "2026-05-27",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/05/Resumo-Ata-da-17ª-SO-de-27.05.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-06-03-SO18": {
+   "tipo": "ordinaria",
+   "numero": 18,
+   "data": "2026-06-03",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-18ª-SO-de-03.06.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-06-10-SO19": {
+   "tipo": "ordinaria",
+   "numero": 19,
+   "data": "2026-06-10",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-19ª-SO-de-10.06.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-06-17-SO20": {
+   "tipo": "ordinaria",
+   "numero": 20,
+   "data": "2026-06-17",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-20ª-SO-de-17.06.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Registramos a ausência da Vereadora MARIA AMÉLIA – PSDB, devidamente justificada em razão de sua participação no evento Conexidade Mulher, como representante da Câmara Municipal de Jacareí, nos termos do Requerimento nº 290/2026, aprovado na Sessão Ordinária de 10/06/2026."
+   ],
+   "ausentes": [
+    "maria-amelia"
+   ]
+  },
+  "2026-06-24-SO21": {
+   "tipo": "ordinaria",
+   "numero": 21,
+   "data": "2026-06-24",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/06/Resumo-Ata-da-21ª-SO-de-24.06.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-08-05-SO22": {
+   "tipo": "ordinaria",
+   "numero": 22,
+   "data": "2026-08-05",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-22ª-SO-de-05.08.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Registramos que, após o início do horário da Tribuna, o Presidente Paulinho do Esporte necessitou se ausentar, ocupando seu lugar até o término da sessão o Vice-Presidente da Câmara, o Vereador Daniel Mariano."
+   ],
+   "ausentes": []
+  },
+  "2026-08-12-SO23": {
+   "tipo": "ordinaria",
+   "numero": 23,
+   "data": "2026-08-12",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-23ª-SO-de-12.08.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-08-19-SO24": {
+   "tipo": "ordinaria",
+   "numero": 24,
+   "data": "2026-08-19",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-24ª-SO-de-19.08.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-08-26-SO25": {
+   "tipo": "ordinaria",
+   "numero": 25,
+   "data": "2026-08-26",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/08/Resumo-Ata-da-25ª-SO-de-26.08.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-09-02-SO26": {
+   "tipo": "ordinaria",
+   "numero": 26,
+   "data": "2026-09-02",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-26ª-SO-de-02.09.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-09-10-SO27": {
+   "tipo": "ordinaria",
+   "numero": 27,
+   "data": "2026-09-10",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-27ª-SO-de-10.09.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-09-16-SO28": {
+   "tipo": "ordinaria",
+   "numero": 28,
+   "data": "2026-09-16",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-28ª-SO-de-16.09.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Registramos que, antes do início da fase do Horário da Tribuna (Temas Livres), o Presidente, Vereador Paulinho do Esporte, necessitou se ausentar, delegando interinamente a Presidência da Sessão ao Vereador Daniel Mariano, Vice-Presidente da Câmara."
+   ],
+   "ausentes": []
+  },
+  "2026-09-23-SO29": {
+   "tipo": "ordinaria",
+   "numero": 29,
+   "data": "2026-09-23",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/09/Resumo-Ata-da-29ª-SO-de-23.09.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-09-30-SO30": {
+   "tipo": "ordinaria",
+   "numero": 30,
+   "data": "2026-09-30",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Resumo-Ata-da-30ª-SO-de-30.09.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-10-07-SO31": {
+   "tipo": "ordinaria",
+   "numero": 31,
+   "data": "2026-10-07",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Resumo-Ata-da-31ª-SO-de-07.10.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Registramos a ausência do Vereador JEAN ARAÚJO – PP, justificada por motivo de saúde."
+   ],
+   "ausentes": [
+    "jean-araujo"
+   ]
+  },
+  "2026-10-15-SO32": {
+   "tipo": "ordinaria",
+   "numero": 32,
+   "data": "2026-10-15",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Ata-da-32ª-SO-15.10.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-10-21-SO33": {
+   "tipo": "ordinaria",
+   "numero": 33,
+   "data": "2026-10-21",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Ata-da-33ª-SO-21.10.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-10-28-SO34": {
+   "tipo": "ordinaria",
+   "numero": 34,
+   "data": "2026-10-28",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/10/Ata-da-34a-SO-28.10.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": [
+    "maria-amelia"
+   ]
+  },
+  "2026-11-03-SE01": {
+   "tipo": "extraordinaria",
+   "numero": 1,
+   "data": "2026-11-03",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-01a-SE-03.11.2026.docx",
+   "presentes": [
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": [
+    "daniel-mariano"
+   ]
+  },
+  "2026-11-05-SO35": {
+   "tipo": "ordinaria",
+   "numero": 35,
+   "data": "2026-11-05",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-35a-SO-05.11.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-11-11-SO36": {
+   "tipo": "ordinaria",
+   "numero": 36,
+   "data": "2026-11-11",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-36a-SO-11.11.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [
+    "Fazemos constar que, durante a discussão do PLL nº 70/2026, o Presidente comunicou que o Vereador Daniel Mariano precisou se ausentar da sessão por não estar se sentindo bem, para se dirigir ao hospital."
+   ],
+   "ausentes": []
+  },
+  "2026-11-18-SO37": {
+   "tipo": "ordinaria",
+   "numero": 37,
+   "data": "2026-11-18",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-37a-SO-18.11.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "maria-amelia",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": []
+  },
+  "2026-11-25-SO38": {
+   "tipo": "ordinaria",
+   "numero": 38,
+   "data": "2026-11-25",
+   "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/Ata-da-38a-SO-25.11.2026.docx",
+   "presentes": [
+    "daniel-mariano",
+    "gabriel-belem",
+    "jean-araujo",
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "paulinho-dos-condutores",
+    "rogerio-timoteo",
+    "siufarne",
+    "valmir"
+   ],
+   "observacoes": [],
+   "ausentes": [
+    "maria-amelia"
+   ]
   }
  }
 }
