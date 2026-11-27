@@ -10,7 +10,7 @@ Coleta diária de dados públicos da Câmara Municipal de Jacareí (legislatura 
 | Arquivo | Conteúdo |
 |---|---|
 | `dados/trabalhos.json` | Indicações, requerimentos, pedidos de informação e moções por vereador e por ano, contados pelos PDFs que a Câmara publica (um por item). |
-| `dados/presencas.json` | Presenças e ausências por sessão, extraídas das atas em Word. Heurística, conferir. |
+| `dados/presencas.json` | Presença por sessão ordinária e extraordinária, lida da lista "compareceram ... os seguintes Vereadores" de cada ata. Faltas = vereadores em exercício que não estão na lista. |
 | `dados/atas_texto/` | Texto de cada ata, para conferência. |
 | `dados/coleta.json` | Data da última coleta, totais e avisos (autores não reconhecidos, falhas). |
 

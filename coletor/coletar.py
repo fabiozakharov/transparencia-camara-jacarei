@@ -154,8 +154,11 @@ def coletar_trabalhos() -> tuple[dict, dict]:
 
 
 MIME_DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-RE_AUSENTES = re.compile(r"(ausen[ct]\w*|n[aã]o compareceu|n[aã]o compareceram|faltou|faltaram|justificad\w*|licen[cç]a)", re.I)
-RE_PRESENTES = re.compile(r"(presen[ct]\w*|responderam|respondeu)", re.I)
+# Cadeiras que mudaram de titular durante a legislatura: (sai, entra).
+SUBSTITUICOES = [("hernani-barreto", "rogerio-timoteo")]
+RE_LISTA = re.compile(r"seguintes\s+Vereadores\s*:(.*?)(?:\.\s|\n\s*\n)", re.S | re.I)
+RE_NOME_ATA = re.compile(r"(\d{1,2})\s*[ªaº]?\s*-?\s*(SO|SE)\b.*?(\d{2})[.-](\d{2})[.-](\d{4})", re.I)
+RE_JUSTIFICATIVA = re.compile(r"[^.\n]*(?:n[aã]o se fize(?:ram|ram-se)? presente|n[aã]o se fez presente|ausen[ct]|justificad)[^.\n]*\.", re.I)
 
 
 def texto_docx(conteudo: bytes) -> str:
@@ -169,27 +172,15 @@ def texto_docx(conteudo: bytes) -> str:
     return "\n".join(partes)
 
 
-def analisar_presenca(texto: str) -> dict:
-    """Heurística: procura frases de chamada/presença e de ausência e os nomes nelas.
-
-    O formato das atas pode variar; por isso o texto completo fica salvo em
-    dados/atas_texto/ para conferência e ajuste desta função.
-    """
-    frases = re.split(r"(?<=[.;\n])", texto)
-    ausentes, presentes = set(), set()
-    for frase in frases:
-        ids = identificar(frase)
-        if not ids:
-            continue
-        if RE_AUSENTES.search(frase):
-            ausentes.update(ids)
-        elif RE_PRESENTES.search(frase):
-            presentes.update(ids)
-    presentes -= ausentes
-    return {"presentes": sorted(presentes), "ausentes": sorted(ausentes)}
-
-
-RE_ATA = re.compile(r"ata", re.I)
+def presentes_na_ata(texto: str) -> list[str] | None:
+    """Lê a lista "compareceram ... os seguintes Vereadores: NOME – PARTIDO; ..." do início da ata."""
+    m = RE_LISTA.search(texto)
+    if not m:
+        return None
+    ids = set()
+    for parte in re.split(r";|\se\s", m.group(1)):
+        ids.update(identificar(re.sub(r"[–-].*", "", parte)))
+    return sorted(ids)
 
 
 def coletar_presencas() -> tuple[dict, dict]:
@@ -197,12 +188,15 @@ def coletar_presencas() -> tuple[dict, dict]:
     pasta = DADOS / "atas_texto"
     pasta.mkdir(parents=True, exist_ok=True)
     itens = listar_midia(search="Ata", mime_type=MIME_DOCX)
-    sessoes, falhas = {}, []
+    sessoes, falhas, sem_lista = {}, [], []
     for item in itens:
-        titulo = html.unescape(item["title"]["rendered"])
-        if not RE_ATA.search(titulo) or "solene" in titulo.lower() or "audi" in titulo.lower():
-            continue
         nome = Path(item["source_url"]).stem
+        m = RE_NOME_ATA.search(nome)
+        if not m:  # sessões solenes, audiências públicas etc.
+            continue
+        numero, tipo, dia, mes, ano = int(m.group(1)), m.group(2).upper(), m.group(3), m.group(4), m.group(5)
+        data = f"{ano}-{mes}-{dia}"
+        chave = f"{data}-{tipo}{numero:02d}"
         destino = pasta / f"{nome}.txt"
         if destino.exists():
             texto = destino.read_text(encoding="utf-8")
@@ -215,21 +209,45 @@ def coletar_presencas() -> tuple[dict, dict]:
                 falhas.append({"arquivo": item["source_url"], "erro": str(erro)[:200]})
                 continue
             destino.write_text(texto, encoding="utf-8")
-        sessoes[nome] = {
-            "titulo": titulo,
-            "data_publicacao": item["date"][:10],
+        presentes = presentes_na_ata(texto)
+        if presentes is None:
+            sem_lista.append(nome)
+            continue
+        justificativas = [j.strip() for j in RE_JUSTIFICATIVA.findall(texto) if identificar(j)]
+        sessoes[chave] = {
+            "tipo": "ordinaria" if tipo == "SO" else "extraordinaria",
+            "numero": numero,
+            "data": data,
             "url": item["source_url"],
-            "resumo": "resumo" in titulo.lower(),
-            **analisar_presenca(texto),
+            "presentes": presentes,
+            "observacoes": justificativas[:5],
         }
-    por_vereador = {vid: {"sessoes_com_registro": 0, "ausencias": 0} for vid in VEREADORES}
-    for s in sessoes.values():
-        for vid in s["presentes"] + s["ausentes"]:
-            por_vereador[vid]["sessoes_com_registro"] += 1
-        for vid in s["ausentes"]:
-            por_vereador[vid]["ausencias"] += 1
+
+    # Quem ocupava cada cadeira em cada data: o substituto entra a partir da
+    # primeira sessão em que aparece presente.
+    entrada = {}
+    for sai, entra in SUBSTITUICOES:
+        datas = [s["data"] for s in sessoes.values() if entra in s["presentes"]]
+        entrada[(sai, entra)] = min(datas) if datas else "9999-12-31"
+    por_vereador = {vid: {"sessoes": 0, "presencas": 0, "faltas": 0, "datas_faltas": []} for vid in VEREADORES}
+    for s in sorted(sessoes.values(), key=lambda x: x["data"]):
+        cadeiras = set(VEREADORES)
+        for (sai, entra), desde in entrada.items():
+            cadeiras.discard(entra if s["data"] < desde else sai)
+        s["ausentes"] = sorted(cadeiras - set(s["presentes"]))
+        for vid in cadeiras:
+            pv = por_vereador[vid]
+            pv["sessoes"] += 1
+            if vid in s["presentes"]:
+                pv["presencas"] += 1
+            else:
+                pv["faltas"] += 1
+                pv["datas_faltas"].append(s["data"])
+    for pv in por_vereador.values():
+        pv["percentual_presenca"] = round(100 * pv["presencas"] / pv["sessoes"], 1) if pv["sessoes"] else None
     return {"por_vereador": por_vereador, "sessoes": dict(sorted(sessoes.items()))}, {
-        "atas_lidas": len(sessoes),
+        "sessoes_lidas": len(sessoes),
+        "atas_sem_lista_de_presenca": sem_lista,
         "falhas": falhas,
     }
 
