@@ -21,7 +21,7 @@
  "descricoes": {
   "presenca": "100% de presença = 10. Cada ponto percentual abaixo tira 0,5.",
   "fiscalizacao": "Requerimentos e pedidos de informação por sessão no cargo. Quem mais fez = 10.",
-  "projetos": "Projetos que cortam impostos ou burocracia, dão transparência, sustam atos ou cortam benefícios políticos somam; os que repetem lei estadual ou federal, regulam demais, criam datas comemorativas, aumentam salários políticos ou impostos descontam. Autor e coautores levam em dobro. Saldo zero = 5.",
+  "projetos": "Projetos que cortam impostos ou burocracia, dão transparência, sustam atos ou cortam benefícios políticos somam; os que repetem lei estadual ou federal, regulam demais, criam datas comemorativas, aumentam salários políticos ou impostos descontam. Autor e coautores levam em dobro; quem vota SIM leva os pontos do projeto, e quem vota NÃO leva o inverso. Saldo zero = 5.",
   "indicacoes": "Indicações por sessão no cargo, com teto: chegar à mediana da Câmara já vale 10.",
   "gastos": "Gastos de gabinete por sessão no cargo. Quem gastou menos = 10, quem gastou mais = 0.",
   "votacoes": "Parte dos boletins de votação nominal em que votou SIM ou NÃO. Abstenção ou ausência = zero.",
@@ -37,7 +37,7 @@
   {
    "id": "gabriel-belem",
    "nome": "Gabriel Belém",
-   "nota": 8.4,
+   "nota": 8.6,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -48,8 +48,8 @@
      "detalhe": "100 requerimentos e 133 pedidos de informação"
     },
     "projetos": {
-     "nota": 5.0,
-     "detalhe": "1 positivo, 1 negativo e 4 a definir"
+     "nota": 5.8,
+     "detalhe": "1 positivo, 1 negativo e 4 a definir; 5 votos na boa posição e 2 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -74,7 +74,7 @@
   {
    "id": "netho-alves",
    "nome": "Netho Alves",
-   "nota": 6.9,
+   "nota": 6.8,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -85,8 +85,8 @@
      "detalhe": "152 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 3.8,
-     "detalhe": "0 positivos, 2 negativos e 7 a definir"
+     "nota": 3.4,
+     "detalhe": "0 positivos, 2 negativos e 7 a definir; 2 votos na boa posição e 4 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -111,7 +111,7 @@
   {
    "id": "jean-araujo",
    "nome": "Jean Araújo",
-   "nota": 6.7,
+   "nota": 6.5,
    "criterios": {
     "presenca": {
      "nota": 9.4,
@@ -122,8 +122,8 @@
      "detalhe": "115 requerimentos e 1 pedidos de informação"
     },
     "projetos": {
-     "nota": 5.0,
-     "detalhe": "2 positivos, 2 negativos e 8 a definir"
+     "nota": 3.9,
+     "detalhe": "2 positivos, 2 negativos e 8 a definir; 1 voto na boa posição e 5 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -146,9 +146,46 @@
    "posicao": 3
   },
   {
+   "id": "luis-flavio",
+   "nome": "Luís Flávio",
+   "nota": 6.3,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 4.5,
+     "detalhe": "36 requerimentos e 70 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 3.2,
+     "detalhe": "0 positivos, 2 negativos e 1 a definir; 2 votos na boa posição e 5 na posição ruim"
+    },
+    "indicacoes": {
+     "nota": 7.2,
+     "detalhe": "239 indicações"
+    },
+    "gastos": {
+     "nota": 6.7,
+     "detalhe": "R$ 15.683 (2025: R$ 9.823, 2026: R$ 5.860)"
+    },
+    "votacoes": {
+     "nota": 9.8,
+     "detalhe": "votou em 82 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 7.0,
+     "detalhe": "R$ 75.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 4
+  },
+  {
    "id": "siufarne",
    "nome": "Siufarne do Cidade Salvador",
-   "nota": 6.5,
+   "nota": 6.3,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -159,8 +196,8 @@
      "detalhe": "79 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 5.6,
-     "detalhe": "2 positivos, 1 negativo e 11 a definir"
+     "nota": 4.7,
+     "detalhe": "2 positivos, 1 negativo e 11 a definir; 2 votos na boa posição e 5 na posição ruim"
     },
     "indicacoes": {
      "nota": 9.4,
@@ -183,46 +220,9 @@
    "posicao": 4
   },
   {
-   "id": "luis-flavio",
-   "nome": "Luís Flávio",
-   "nota": 6.4,
-   "criterios": {
-    "presenca": {
-     "nota": 10.0,
-     "detalhe": "78 de 78 sessões (100,0%)"
-    },
-    "fiscalizacao": {
-     "nota": 4.5,
-     "detalhe": "36 requerimentos e 70 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 3.8,
-     "detalhe": "0 positivos, 2 negativos e 1 a definir"
-    },
-    "indicacoes": {
-     "nota": 7.2,
-     "detalhe": "239 indicações"
-    },
-    "gastos": {
-     "nota": 6.7,
-     "detalhe": "R$ 15.683 (2025: R$ 9.823, 2026: R$ 5.860)"
-    },
-    "votacoes": {
-     "nota": 9.8,
-     "detalhe": "votou em 82 de 84 votações nominais"
-    },
-    "emendas": {
-     "nota": 7.0,
-     "detalhe": "R$ 75.000 em destinos sem relevância ou sem justificativa"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 5
-  },
-  {
    "id": "maria-amelia",
    "nome": "Maria Amélia",
-   "nota": 6.3,
+   "nota": 6.2,
    "criterios": {
     "presenca": {
      "nota": 7.5,
@@ -233,8 +233,8 @@
      "detalhe": "55 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 4.4,
-     "detalhe": "1 positivo, 2 negativos e 30 a definir"
+     "nota": 3.7,
+     "detalhe": "1 positivo, 2 negativos e 30 a definir; 2 votos na boa posição e 5 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -259,7 +259,7 @@
   {
    "id": "hernani-barreto",
    "nome": "Hernani Barreto",
-   "nota": 6.1,
+   "nota": 6.0,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -270,8 +270,8 @@
      "detalhe": "77 requerimentos e 3 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.5,
-     "detalhe": "0 positivos, 2 negativos e 8 a definir"
+     "nota": 1.8,
+     "detalhe": "0 positivos, 2 negativos e 8 a definir; 2 votos na boa posição e 4 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -294,6 +294,41 @@
    "posicao": 7
   },
   {
+   "id": "rogerio-timoteo",
+   "nome": "Rogério Timóteo",
+   "nota": 6.0,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "39 de 39 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 3.1,
+     "detalhe": "37 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 3.9,
+     "detalhe": "0 positivos, 1 negativo e 2 a definir; 0 votos na boa posição e 0 na posição ruim"
+    },
+    "indicacoes": {
+     "nota": 3.5,
+     "detalhe": "58 indicações"
+    },
+    "gastos": {
+     "nota": 8.9,
+     "detalhe": "R$ 5.725 (2026: R$ 5.725)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 34 de 34 votações nominais"
+    }
+   },
+   "sem_dados": [
+    "emendas"
+   ],
+   "posicao": 7
+  },
+  {
    "id": "valmir",
    "nome": "Valmir do Parque Meia Lua",
    "nota": 6.0,
@@ -307,8 +342,8 @@
      "detalhe": "228 requerimentos e 8 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.2,
-     "detalhe": "2 positivos, 8 negativos e 15 a definir"
+     "nota": 1.6,
+     "detalhe": "2 positivos, 8 negativos e 15 a definir; 2 votos na boa posição e 3 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -328,12 +363,12 @@
     }
    },
    "sem_dados": [],
-   "posicao": 8
+   "posicao": 7
   },
   {
    "id": "daniel-mariano",
    "nome": "Daniel Mariano",
-   "nota": 5.9,
+   "nota": 5.8,
    "criterios": {
     "presenca": {
      "nota": 8.7,
@@ -344,8 +379,8 @@
      "detalhe": "130 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 3.8,
-     "detalhe": "0 positivos, 2 negativos e 23 a definir"
+     "nota": 3.2,
+     "detalhe": "0 positivos, 2 negativos e 23 a definir; 2 votos na boa posição e 5 na posição ruim"
     },
     "indicacoes": {
      "nota": 5.5,
@@ -365,47 +400,12 @@
     }
    },
    "sem_dados": [],
-   "posicao": 9
-  },
-  {
-   "id": "rogerio-timoteo",
-   "nome": "Rogério Timóteo",
-   "nota": 5.9,
-   "criterios": {
-    "presenca": {
-     "nota": 10.0,
-     "detalhe": "39 de 39 sessões (100,0%)"
-    },
-    "fiscalizacao": {
-     "nota": 3.1,
-     "detalhe": "37 requerimentos e 0 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 3.8,
-     "detalhe": "0 positivos, 1 negativo e 2 a definir"
-    },
-    "indicacoes": {
-     "nota": 3.5,
-     "detalhe": "58 indicações"
-    },
-    "gastos": {
-     "nota": 8.9,
-     "detalhe": "R$ 5.725 (2026: R$ 5.725)"
-    },
-    "votacoes": {
-     "nota": 10.0,
-     "detalhe": "votou em 34 de 34 votações nominais"
-    }
-   },
-   "sem_dados": [
-    "emendas"
-   ],
-   "posicao": 9
+   "posicao": 10
   },
   {
    "id": "juex-almeida",
    "nome": "Juex Almeida",
-   "nota": 5.5,
+   "nota": 5.4,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -416,8 +416,8 @@
      "detalhe": "70 requerimentos e 7 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.9,
-     "detalhe": "3 positivos, 8 negativos e 39 a definir"
+     "nota": 1.3,
+     "detalhe": "3 positivos, 8 negativos e 39 a definir; 1 voto na boa posição e 5 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -442,7 +442,7 @@
   {
    "id": "marcelo-dantas",
    "nome": "Marcelo Dantas",
-   "nota": 5.4,
+   "nota": 5.2,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -453,8 +453,8 @@
      "detalhe": "48 requerimentos e 4 pedidos de informação"
     },
     "projetos": {
-     "nota": 4.4,
-     "detalhe": "0 positivos, 1 negativo e 6 a definir"
+     "nota": 3.7,
+     "detalhe": "0 positivos, 1 negativo e 6 a definir; 2 votos na boa posição e 5 na posição ruim"
     },
     "indicacoes": {
      "nota": 3.1,
@@ -479,7 +479,7 @@
   {
    "id": "paulinho-do-esporte",
    "nome": "Paulinho do Esporte",
-   "nota": 4.9,
+   "nota": 5.0,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -490,8 +490,8 @@
      "detalhe": "67 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 4.4,
-     "detalhe": "0 positivos, 1 negativo e 15 a definir"
+     "nota": 5.3,
+     "detalhe": "0 positivos, 1 negativo e 15 a definir; 5 votos na boa posição e 2 na posição ruim"
     },
     "indicacoes": {
      "nota": 5.7,
@@ -528,7 +528,7 @@
     },
     "projetos": {
      "nota": 0.0,
-     "detalhe": "1 positivo, 9 negativos e 27 a definir"
+     "detalhe": "1 positivo, 9 negativos e 27 a definir; 1 voto na boa posição e 4 na posição ruim"
     },
     "indicacoes": {
      "nota": 2.7,

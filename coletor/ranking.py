@@ -6,7 +6,8 @@ Metodologia aprovada pelo Fabio (inspirada no Ranking dos Políticos, ranking.or
     presença               10%    100% = 10; cada ponto percentual abaixo tira 0,5
     fiscalização           20%    requerimentos + pedidos de informação por sessão no cargo; maior = 10
     projetos de lei        20%    positivo +1, negativo −1, a definir 0, em dobro para autor e coautores
-                                  (projetos_regras.py), por sessão no cargo; saldo zero = 5, melhor = 10, pior = 0
+                                  (projetos_regras.py); voto nominal SIM soma os pontos do projeto, NÃO soma o inverso;
+                                  por sessão no cargo; saldo zero = 5, melhor = 10, pior = 0
     indicações             10%    por sessão no cargo, com teto: chegar à mediana da Câmara = 10
     economia de gabinete   15%    gasto por sessão no cargo; menor = 10, maior = 0
     votações nominais      10%    % de boletins em que votou SIM ou NÃO (presidente não conta)
@@ -36,7 +37,7 @@ ROTULOS = {
 DESCRICOES = {
     "presenca": "100% de presença = 10. Cada ponto percentual abaixo tira 0,5.",
     "fiscalizacao": "Requerimentos e pedidos de informação por sessão no cargo. Quem mais fez = 10.",
-    "projetos": "Projetos que cortam impostos ou burocracia, dão transparência, sustam atos ou cortam benefícios políticos somam; os que repetem lei estadual ou federal, regulam demais, criam datas comemorativas, aumentam salários políticos ou impostos descontam. Autor e coautores levam em dobro. Saldo zero = 5.",
+    "projetos": "Projetos que cortam impostos ou burocracia, dão transparência, sustam atos ou cortam benefícios políticos somam; os que repetem lei estadual ou federal, regulam demais, criam datas comemorativas, aumentam salários políticos ou impostos descontam. Autor e coautores levam em dobro; quem vota SIM leva os pontos do projeto, e quem vota NÃO leva o inverso. Saldo zero = 5.",
     "indicacoes": "Indicações por sessão no cargo, com teto: chegar à mediana da Câmara já vale 10.",
     "gastos": "Gastos de gabinete por sessão no cargo. Quem gastou menos = 10, quem gastou mais = 0.",
     "votacoes": "Parte dos boletins de votação nominal em que votou SIM ou NÃO. Abstenção ou ausência = zero.",
@@ -171,7 +172,7 @@ def calcular() -> dict:
             detalhe[vid]["indicacoes"] = f"{ind} indicações"
 
     # projetos (regras em projetos_regras.py)
-    contagem = {vid: {"positivo": 0, "negativo": 0, "a definir": 0, "pontos": 0} for vid in ids}
+    contagem = {vid: {"positivo": 0, "negativo": 0, "a definir": 0, "pontos": 0, "votos_bons": 0, "votos_ruins": 0} for vid in ids}
     classificados = []
     for chave, p in projetos.items():
         if p["tipo"] not in TIPOS_VEREADOR:
@@ -184,12 +185,32 @@ def calcular() -> dict:
         for vid in autores:
             contagem[vid][cl["classe"]] += 1
             contagem[vid]["pontos"] += regras.PONTOS[cl["classe"]] * regras.PESO_AUTOR
+    # votos nominais: SIM soma os pontos do projeto, NÃO soma o inverso (uma vez por projeto,
+    # vale o último voto). O autor já leva o dobro e não pontua de novo pelo próprio voto.
+    classe_de = {i["projeto"]: i for i in classificados}
+    ultimo_voto: dict = {}
+    for v in sorted(votacoes, key=lambda x: x["data"]):
+        votos = v.get("votos_nominais") or {}
+        cl = classe_de.get(v["projeto"])
+        if not cl or len(votos) < MIN_VOTOS_BOLETIM:
+            continue
+        for vid, voto in votos.items():
+            if vid in contagem and vid not in cl["autores"]:
+                ultimo_voto[(vid, v["projeto"])] = voto
+    for (vid, proj), voto in ultimo_voto.items():
+        sinal = {"sim": 1, "nao": -1}.get(voto, 0)
+        pts = sinal * regras.PONTOS[classe_de[proj]["classe"]]
+        if pts:
+            contagem[vid]["pontos"] += pts
+            contagem[vid]["votos_bons" if pts > 0 else "votos_ruins"] += 1
     for vid in ids:
         if sessoes[vid]:
             k = contagem[vid]
             bruto[vid]["projetos"] = k["pontos"] / sessoes[vid]
             detalhe[vid]["projetos"] = (f"{k['positivo']} positivo{'s' if k['positivo'] != 1 else ''}, "
-                                        f"{k['negativo']} negativo{'s' if k['negativo'] != 1 else ''} e {k['a definir']} a definir")
+                                        f"{k['negativo']} negativo{'s' if k['negativo'] != 1 else ''} e {k['a definir']} a definir; "
+                                        f"{k['votos_bons']} voto{'s' if k['votos_bons'] != 1 else ''} na boa posição e "
+                                        f"{k['votos_ruins']} na posição ruim")
 
     # gastos de gabinete (dados/gastos_gabinete.json: {vid: {ano: total}})
     for vid in ids:
