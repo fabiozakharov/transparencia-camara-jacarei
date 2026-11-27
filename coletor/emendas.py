@@ -34,7 +34,15 @@ ORG_CATEGORIA = [
 ]
 
 
+RE_ESCOLA = re.compile(r"escola|emeb|emei|creche|ensino|rede municipal", re.I)
+RE_ENTIDADE_ESPORTIVA = re.compile(r"esport|futebol|\bfc\b|clube|quadra|campo\b|gin[aá]sio|basquete|v[oô]lei|handebol|rugby|jud[oô]|karat|atl[eé]t|skate|capoeira|nata[cç]|jiu|boxe|lutas?\b|xadrez|ciclis|corrida|maratona|t[eê]nis", re.I)
+
+
 def categoria(destino: str, orgao: str) -> str:
+    # Regra do projeto: qualquer verba para entidade ou atividade esportiva é Esporte,
+    # exceto atividades esportivas ligadas às escolas municipais (Educação).
+    if RE_ENTIDADE_ESPORTIVA.search(destino) or re.search(r"esporte", orgao, re.I):
+        return "Educação" if RE_ESCOLA.search(destino) else "Esporte"
     for nome, padrao in ORG_CATEGORIA:
         if re.search(padrao, orgao, re.I):
             return nome

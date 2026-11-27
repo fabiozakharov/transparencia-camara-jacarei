@@ -297,10 +297,17 @@ def main() -> int:
         salvar("emendas.json", {"categorias": [n for n, _ in em.CATEGORIAS] + ["Outros"], "itens": itens, "resumo": em.resumo(itens)})
     except Exception as erro:
         erros.append(f"emendas: {erro}")
+    try:
+        import pauta as pt
+
+        pauta, meta["pauta"] = pt.coletar_pauta()
+        salvar("pauta.json", pauta)
+    except Exception as erro:
+        erros.append(f"pauta: {erro}")
     meta["erros"] = erros
     salvar("coleta.json", meta)
     print(json.dumps(meta, ensure_ascii=False, indent=1)[:3000])
-    return 1 if len(erros) >= 4 else 0
+    return 1 if len(erros) >= 5 else 0
 
 
 if __name__ == "__main__":
