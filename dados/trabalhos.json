@@ -1,0 +1,179 @@
+{
+ "daniel-mariano": {
+  "2025": {
+   "indicacoes": 128,
+   "requerimentos": 72
+  },
+  "2026": {
+   "requerimentos": 58,
+   "indicacoes": 56
+  }
+ },
+ "gabriel-belem": {
+  "2025": {
+   "indicacoes": 740,
+   "pedidos_de_informacao": 66,
+   "requerimentos": 57
+  },
+  "2026": {
+   "requerimentos": 43,
+   "pedidos_de_informacao": 67,
+   "indicacoes": 190
+  }
+ },
+ "hernani-barreto": {
+  "2024": {
+   "indicacoes": 9,
+   "pedidos_de_informacao": 2,
+   "requerimentos": 1
+  },
+  "2025": {
+   "indicacoes": 323,
+   "pedidos_de_informacao": 3,
+   "requerimentos": 77
+  }
+ },
+ "jean-araujo": {
+  "2025": {
+   "indicacoes": 686,
+   "requerimentos": 64,
+   "outros_inc": 1
+  },
+  "2026": {
+   "requerimentos": 51,
+   "indicacoes": 147,
+   "outros_inc": 1,
+   "pedidos_de_informacao": 1
+  }
+ },
+ "juex-almeida": {
+  "2025": {
+   "indicacoes": 537,
+   "pedidos_de_informacao": 5,
+   "requerimentos": 26
+  },
+  "2026": {
+   "requerimentos": 44,
+   "indicacoes": 127,
+   "pedidos_de_informacao": 2
+  }
+ },
+ "luis-flavio": {
+  "2024": {
+   "indicacoes": 7
+  },
+  "2025": {
+   "indicacoes": 195,
+   "pedidos_de_informacao": 39,
+   "requerimentos": 22
+  },
+  "2026": {
+   "requerimentos": 14,
+   "pedidos_de_informacao": 31,
+   "indicacoes": 44
+  }
+ },
+ "marcelo-dantas": {
+  "2025": {
+   "indicacoes": 92,
+   "requerimentos": 33,
+   "pedidos_de_informacao": 3
+  },
+  "2026": {
+   "requerimentos": 15,
+   "indicacoes": 13,
+   "pedidos_de_informacao": 1
+  }
+ },
+ "maria-amelia": {
+  "2024": {
+   "indicacoes": 19,
+   "requerimentos": 1
+  },
+  "2025": {
+   "indicacoes": 433,
+   "requerimentos": 37
+  },
+  "2026": {
+   "requerimentos": 18,
+   "indicacoes": 48
+  }
+ },
+ "netho-alves": {
+  "2025": {
+   "indicacoes": 260,
+   "requerimentos": 62
+  },
+  "2026": {
+   "requerimentos": 90,
+   "indicacoes": 94
+  }
+ },
+ "paulinho-do-esporte": {
+  "2024": {
+   "indicacoes": 3,
+   "requerimentos": 1
+  },
+  "2025": {
+   "indicacoes": 166,
+   "requerimentos": 39
+  },
+  "2026": {
+   "requerimentos": 28,
+   "indicacoes": 23,
+   "outros_inc": 1
+  }
+ },
+ "paulinho-dos-condutores": {
+  "2024": {
+   "indicacoes": 5
+  },
+  "2025": {
+   "indicacoes": 82,
+   "requerimentos": 16,
+   "pedidos_de_informacao": 3,
+   "outros_inc": 1
+  },
+  "2026": {
+   "requerimentos": 8,
+   "pedidos_de_informacao": 5,
+   "indicacoes": 7
+  }
+ },
+ "rogerio-timoteo": {
+  "2024": {
+   "indicacoes": 5
+  },
+  "2026": {
+   "requerimentos": 37,
+   "indicacoes": 58
+  }
+ },
+ "siufarne": {
+  "2025": {
+   "indicacoes": 284,
+   "requerimentos": 34
+  },
+  "2026": {
+   "requerimentos": 45,
+   "indicacoes": 30
+  }
+ },
+ "valmir": {
+  "2024": {
+   "indicacoes": 37,
+   "pedidos_de_informacao": 2,
+   "requerimentos": 8
+  },
+  "2025": {
+   "indicacoes": 918,
+   "pedidos_de_informacao": 7,
+   "requerimentos": 132
+  },
+  "2026": {
+   "requerimentos": 96,
+   "indicacoes": 194,
+   "pedidos_de_informacao": 1
+  }
+ }
+}

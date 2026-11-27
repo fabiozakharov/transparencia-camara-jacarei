@@ -1,0 +1,22 @@
+{
+ "executado_em": "2026-11-27T11:33:43+00:00",
+ "fonte": "https://www.jacarei.sp.leg.br",
+ "trabalhos": {
+  "itens_lidos": 7705,
+  "trabalhos_unicos": 7435,
+  "autores_nao_identificados": {
+   "rodrigo": 1,
+   "sônia": 1,
+   "todos vereadores": 1,
+   "CANCELADO": 1
+  },
+  "prefixos_desconhecidos": {
+   "inc": 4
+  }
+ },
+ "presencas": {
+  "atas_lidas": 109,
+  "falhas": []
+ },
+ "erros": []
+}
