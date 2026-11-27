@@ -647,7 +647,7 @@
    "destino": "CLUBE DESBRAVADORES LUZEIROS DO VALE",
    "orgao": "URBANO SECRETARIA DE GOVERNO",
    "valor": 5000.0,
-   "categoria": "Outros"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -687,7 +687,7 @@
    "destino": "CINECLUBE JACAREÍ",
    "orgao": "FUNDAÇÃO CULTURAL DE",
    "valor": 5000.0,
-   "categoria": "Cultura"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -857,7 +857,7 @@
    "destino": "Cineclube Jacarei",
    "orgao": "Fundação Cultural",
    "valor": 5000.0,
-   "categoria": "Cultura"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -887,7 +887,7 @@
    "destino": "Maestro Mauro Messias Projeto Capoeira e suas Periferias - Mestre",
    "orgao": "Fundação Cultural",
    "valor": 5000.0,
-   "categoria": "Cultura"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -1727,7 +1727,7 @@
    "destino": "Cineclube Jacareí",
    "orgao": "Fundação Cultural",
    "valor": 5439.61,
-   "categoria": "Cultura"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -2247,7 +2247,7 @@
    "destino": "CLUBE DE DESBRAVADORES LUZEIROS DO VALE",
    "orgao": "Secretaria de Governo e",
    "valor": 10000.0,
-   "categoria": "Outros"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -2337,7 +2337,7 @@
    "destino": "Clube Desbravadores Luzeiros do Vale",
    "orgao": "Secretaria de Governo",
    "valor": 4000.0,
-   "categoria": "Outros"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -2857,7 +2857,7 @@
    "destino": "Clube Ferroviários de Malha",
    "orgao": "Secretaria de Governo",
    "valor": 10000.0,
-   "categoria": "Outros"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -3187,7 +3187,7 @@
    "destino": "JACAREÍ AEJ (ASSOCIAÇÃO ESPORTIVA",
    "orgao": "Secretaria de Assistência",
    "valor": 10000.0,
-   "categoria": "Assistência social"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -3517,7 +3517,7 @@
    "destino": "Clube de Desbravadores (Arautos do Vale)",
    "orgao": "Secretaria de Assistência Social",
    "valor": 10000.0,
-   "categoria": "Assistência social"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -3527,7 +3527,7 @@
    "destino": "Meia Lua Capoeira (Mestre Topete)",
    "orgao": "Fundação Cultural",
    "valor": 10000.0,
-   "categoria": "Cultura"
+   "categoria": "Esporte"
   },
   {
    "exercicio": "LOA 2026",
@@ -3557,7 +3557,7 @@
    "destino": "Clube de Desbravadores Luzeiros do Vale",
    "orgao": "Secretaria de Assistência Social",
    "valor": 5000.0,
-   "categoria": "Assistência social"
+   "categoria": "Esporte"
   }
  ],
  "resumo": {
@@ -3573,16 +3573,16 @@
    "gabriel-belem": {
     "Saúde": 409439.61,
     "Assistência social": 69139.61,
-    "Outros": 96000.0,
-    "Esporte": 81400.0,
+    "Outros": 91000.0,
+    "Esporte": 91400.0,
     "Educação": 82900.0,
     "Obras e meio ambiente": 50000.0,
-    "Cultura": 30000.0
+    "Cultura": 25000.0
    },
    "hernani-barreto": {
     "Saúde": 409439.61,
-    "Cultura": 40000.0,
-    "Esporte": 115000.0,
+    "Esporte": 125000.0,
+    "Cultura": 30000.0,
     "Obras e meio ambiente": 77439.61,
     "Outros": 122000.0,
     "Assistência social": 45000.0,
@@ -3600,9 +3600,9 @@
     "Saúde": 365000.0,
     "Outros": 62000.0,
     "Assistência social": 81439.61,
-    "Cultura": 25439.61,
+    "Cultura": 20000.0,
     "Educação": 42000.0,
-    "Esporte": 210000.0
+    "Esporte": 215439.61
    },
    "luis-flavio": {
     "Saúde": 409439.61,
@@ -3616,17 +3616,17 @@
    "marcelo-dantas": {
     "Saúde": 200439.61,
     "Obras e meio ambiente": 30000.0,
-    "Outros": 50000.0,
-    "Esporte": 100000.0,
+    "Outros": 40000.0,
+    "Esporte": 110000.0,
     "Educação": 20000.0
    },
    "maria-amelia": {
     "Saúde": 247439.61,
-    "Outros": 69000.0,
+    "Outros": 65000.0,
     "Obras e meio ambiente": 131439.61,
     "Assistência social": 55000.0,
-    "Cultura": 33000.0,
-    "Esporte": 50000.0
+    "Esporte": 54000.0,
+    "Cultura": 33000.0
    },
    "netho-alves": {
     "Saúde": 100000.0,
@@ -3639,8 +3639,8 @@
    "paulinho-do-esporte": {
     "Saúde": 409439.61,
     "Assistência social": 64000.0,
-    "Esporte": 115000.0,
-    "Outros": 70000.0,
+    "Esporte": 125000.0,
+    "Outros": 60000.0,
     "Educação": 70000.0,
     "Obras e meio ambiente": 15000.0,
     "Cultura": 75439.61
@@ -3648,18 +3648,18 @@
    "siufarne": {
     "Saúde": 409439.61,
     "Cultura": 110000.0,
-    "Esporte": 224439.61,
-    "Assistência social": 60000.0,
+    "Esporte": 234439.61,
+    "Assistência social": 50000.0,
     "Outros": 15000.0
    },
    "valmir": {
     "Saúde": 409439.61,
     "Outros": 15000.0,
-    "Assistência social": 80000.0,
-    "Cultura": 115000.0,
+    "Assistência social": 65000.0,
+    "Cultura": 105000.0,
     "Educação": 29439.61,
     "Obras e meio ambiente": 35000.0,
-    "Esporte": 135000.0
+    "Esporte": 160000.0
    }
   }
  }

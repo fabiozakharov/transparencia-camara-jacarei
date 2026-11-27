@@ -1,5 +1,5 @@
 {
- "executado_em": "2026-11-27T16:19:12+00:00",
+ "executado_em": "2026-11-27T17:39:21+00:00",
  "fonte": "https://www.jacarei.sp.leg.br",
  "trabalhos": {
   "itens_lidos": 7705,
@@ -148,6 +148,21 @@
     "soma_itens": 818879.22
    }
   ]
+ },
+ "pauta": {
+  "itens": 6
+ },
+ "audiencias": {
+  "audiencias": 17,
+  "falhas": []
+ },
+ "noticias": {
+  "noticias": 1483,
+  "paginas": 15
+ },
+ "licitacoes": {
+  "licitacoes": 123,
+  "falhas": []
  },
  "erros": []
 }
