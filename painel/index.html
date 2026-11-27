@@ -58,9 +58,20 @@ a{color:inherit;text-underline-offset:3px}
 .crit .d{grid-column:1/-1;color:var(--mut);font-size:13px;margin:-2px 0 6px}
 details{margin-top:4px}summary{cursor:pointer;color:var(--mut);font-size:14px;min-height:28px}
 .wide{overflow-x:auto}
+.views{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}.views a{min-height:40px;display:inline-flex;align-items:center;padding:0 14px;border-radius:20px;border:1px solid #555;color:#B5B5B5;text-decoration:none;font-weight:600;font-size:15px}
+.views a[aria-current]{background:#fff;color:#080808;border-color:#fff}
+.cl,.kpi span.cl{display:inline-block;font-size:13px;font-weight:600;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.cl.positivo{background:light-dark(#DDF0E3,#173B24);color:light-dark(#145A2E,#9FE0B5)}
+.cl.negativo{background:light-dark(#F7DEDC,#4A1C19);color:light-dark(#8A1F17,#F4ADA6)}
+.cl.neutro{background:light-dark(#E6E6E6,#3A3A3A);color:light-dark(#333,#DDD)}
+.cl.adef{background:light-dark(#FBEBC8,#47380F);color:light-dark(#6B4A00,#F2D27E)}
+.stk{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--line)}.stk i{display:block;height:100%}
+.stk .positivo,.lg .positivo{background:light-dark(#2E8B57,#5FC48A)}.stk .negativo,.lg .negativo{background:light-dark(#C0392B,#E57368)}.stk .neutro,.lg .neutro{background:light-dark(#9A9A9A,#777)}.stk .adef,.lg .adef{background:light-dark(#D4A017,#C9A23A)}
+.lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--mut);margin:6px 0 12px}.lg b{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 @media(max-width:600px){.bar{grid-template-columns:8em minmax(0,1fr) 6.5em}.it{grid-template-columns:minmax(0,1fr)}.it .r{text-align:left}}
 </style></head><body>
 <header class="cover"><section class="band">
+<nav class="views" aria-label="Telas"><a href="#todos" id="vw-p">Painel por vereador</a><a href="#liberal" id="vw-l">Projetos pela ótica liberal</a></nav>
 <h1>Painel da Câmara de Jacareí, legislatura 2025–2028</h1>
 <p class="lead">Ranking, projetos, votações, leis, vetos, emendas, homenagens, audiências e notícias de cada vereador, montados a partir do que a Câmara publica. Dados de <span id="upd"></span>.</p>
 <p class="q">O que cada vereador propõe, como vota e para onde manda o dinheiro.</p>
@@ -70,6 +81,7 @@ details{margin-top:4px}summary{cursor:pointer;color:var(--mut);font-size:14px;mi
 <section id="rank" aria-label="Ranking"></section>
 <div class="tabs" role="tablist" id="tabs"></div>
 <section id="painel" aria-live="polite"></section>
+<section id="liberal" hidden aria-live="polite"></section>
 </main>
 <script src="dados.js"></script>
 <script>
@@ -88,7 +100,7 @@ const TABS={projetos:'Projetos',votacoes:'Votações',emendas:'Emendas',leis:'Le
 const tabsDe=v=>Object.keys(TABS).filter(t=>t!=='licitacoes'||v==='todos');
 const TB=document.getElementById('tabs');
 TB.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;st.t=b.dataset.t;st.f={};st.lim=40;draw()});
-addEventListener('hashchange',()=>{st.v=VER.includes(location.hash.slice(1))?location.hash.slice(1):'todos';st.lim=40;draw()});
+addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(h==='liberal'){st.lib=true}else{st.lib=false;st.v=VER.includes(h)?h:'todos'}st.lim=40;draw()});
 const P=document.getElementById('painel');
 const kpi=(l,v)=>`<div class="kpi"><span>${esc(l)}</span><div class="big">${esc(v)}</div></div>`;
 function sel(id,label,opts,val){return `<label class="sr"><select id="${id}" aria-label="${esc(label)}"><option value="">${esc(label)}: todos</option>${opts.map(o=>`<option ${o===val?'selected':''}>${esc(o)}</option>`).join('')}</select></label>`}
@@ -219,7 +231,44 @@ function licitacoes(){
   <div class="list">${L.slice(0,st.lim).map(l=>`<div class="it"><div><a href="${esc(l.u)}"><strong>${esc(l.t)}</strong></a> · ${esc(l.o)}<div class="m">${esc(l.m)}${l.d?' · '+esc(l.d):''}</div></div><div class="r">${esc(l.st)}</div></div>`).join('')||'<p class="empty">Nenhuma licitação lida.</p>'}</div>${mais(L)}
   <p class="lead" style="font-size:14px;margin-top:12px">Compras e contratações da própria Câmara, listadas nas páginas de licitação do site. Valores e contratos assinados ficam no Portal da Transparência.</p>`;
 }
+
+const CLS=['positivo','negativo','neutro','a definir'], CLR={positivo:'Positivo',negativo:'Negativo',neutro:'Neutro','a definir':'A definir'};
+const ccl=c=>c==='a definir'?'adef':c;
+let lf={c:'',v:'',q:'',lim:40};
+function liberal(){
+  const A=X.PL||[];
+  if(!A.length)return '<p class="empty">A avaliação dos projetos ainda não foi publicada.</p>';
+  const cnt=c=>A.filter(p=>p.c===c).length;
+  let L=A.filter(p=>(!lf.c||p.c===lf.c)&&(!lf.v||p.a.includes(lf.v)));
+  if(lf.q){const q=normal(lf.q);L=L.filter(p=>normal(p.k+' '+p.s+' '+p.m).includes(q))}
+  L.sort((a,b)=>b.d.localeCompare(a.d));
+  const por={};for(const p of A)for(const a of p.a){if(!N[a]||a==='prefeito'||a==='mesa-diretora')continue;(por[a]=por[a]||{positivo:0,negativo:0,neutro:0,'a definir':0})[p.c]++}
+  const ord=Object.entries(por).map(([k,o])=>[k,o,o.positivo-o.negativo]).sort((a,b)=>b[2]-a[2]);
+  const mx=Math.max(1,...ord.map(([,o])=>CLS.reduce((s,c)=>s+o[c],0)));
+  const sug=A.filter(p=>p.sg).length;
+  return `<h2>Projetos pela ótica liberal</h2>
+  <p class="q" style="margin:0 0 16px">Cada projeto lido por uma pergunta: ele diminui ou aumenta o tamanho do Estado, a despesa pública e a intervenção na vida das pessoas e das empresas?</p>
+  <div class="kpis">${kpi('Projetos avaliados',A.length)}${CLS.map(c=>`<div class="kpi"><span><span class="cl ${ccl(c)}">${CLR[c]}</span></span><div class="big">${cnt(c)}</div></div>`).join('')}</div>
+  <h3>Saldo por vereador (positivos menos negativos)</h3>
+  <div class="lg">${CLS.map(c=>`<span><b class="${ccl(c)}"></b>${CLR[c]}</span>`).join('')}</div>
+  <div class="bars">${ord.map(([k,o,s])=>`<button class="bar lbv" data-v="${k}" aria-pressed="${lf.v===k}"><span>${esc(N[k])}</span><span class="stk">${CLS.map(c=>o[c]?`<i class="${ccl(c)}" style="width:${o[c]/mx*100}%" title="${CLR[c]}: ${o[c]}"></i>`:'').join('')}</span><span class="n">${s>0?'+':''}${s}</span></button>`).join('')}</div>
+  <div class="filters">${sel('lc','Classe',CLS.map(c=>CLR[c]),CLR[lf.c]||'')}<label><select id="lv" aria-label="Vereador"><option value="">Vereador: todos</option>${VER.slice(1).map(k=>`<option value="${k}" ${lf.v===k?'selected':''}>${esc(N[k])}</option>`).join('')}</select></label><input id="lq" type="search" placeholder="Buscar por assunto, número ou motivo" value="${esc(lf.q)}"></div>
+  <div class="list">${L.slice(0,lf.lim).map(p=>`<div class="it"><div><strong>${esc(p.k)}</strong> · ${esc(p.s)}<div class="m" style="color:var(--ink)">${esc(p.m)}${p.sg?' <span class="tag">avaliação sugerida, a conferir</span>':''}</div><div class="m">${p.a.map(a=>esc(N[a]||a)).join(', ')||'autoria não identificada'} · ${dt(p.d)}${p.n?' · '+esc(p.n):p.st?' · '+esc(p.st):''}${p.u?` · <a href="${esc(p.u)}">PDF do projeto</a>`:''}</div></div><div class="r"><span class="cl ${ccl(p.c)}">${CLR[p.c]}</span></div></div>`).join('')||'<p class="empty">Nenhum projeto com esses filtros.</p>'}</div>
+  ${L.length>lf.lim?`<div class="more"><button id="lmais">Mostrar mais (${L.length-lf.lim})</button></div>`:''}
+  <p class="lead" style="font-size:14px;margin-top:12px">Positivo: reduz gasto, tributo, burocracia ou intervenção. Negativo: cria despesa, órgão, obrigação ou regulação nova. Neutro: sem efeito relevante nesse sentido. A definir: depende de critério ainda em decisão.${sug?` ${sug} avaliações ainda são sugestões e estão marcadas para conferência.`:''} No ranking, o autor ganha +2 por projeto positivo e perde 2 por negativo.</p>`;
+}
+function drawLib(){
+  const E=document.getElementById('liberal');E.innerHTML=liberal();
+  const ch=(id,f)=>{const e=document.getElementById(id);if(e)e.addEventListener(id==='lq'?'input':'change',()=>{f(e.value);lf.lim=40;const pos=e.selectionStart;drawLib();if(id==='lq'){const n=document.getElementById(id);n.focus();try{n.setSelectionRange(pos,pos)}catch{}}})};
+  ch('lc',v=>lf.c=CLS.find(c=>CLR[c]===v)||'');ch('lv',v=>lf.v=v);ch('lq',v=>lf.q=v);
+  const m=document.getElementById('lmais');if(m)m.addEventListener('click',()=>{lf.lim+=60;drawLib()});
+  for(const b of E.querySelectorAll('.lbv'))b.addEventListener('click',()=>{lf.v=lf.v===b.dataset.v?'':b.dataset.v;lf.lim=40;drawLib()});
+}
 function draw(){
+  document.getElementById('vw-p').toggleAttribute('aria-current',!st.lib);document.getElementById('vw-l').toggleAttribute('aria-current',!!st.lib);
+  for(const id of ['rank','tabs','painel'])document.getElementById(id).hidden=!!st.lib;
+  document.getElementById('liberal').hidden=!st.lib;pick.hidden=!!st.lib;
+  if(st.lib){drawLib();return}
   for(const a of pick.children)a.toggleAttribute('aria-current',a.dataset.k===st.v);
   const ts=tabsDe(st.v);if(!ts.includes(st.t))st.t='projetos';
   TB.innerHTML=ts.map(t=>`<button role="tab" data-t="${t}" aria-selected="${t===st.t}">${esc(TABS[t])}</button>`).join('');
@@ -230,7 +279,7 @@ function draw(){
   const m=document.getElementById('mais');if(m)m.addEventListener('click',()=>{st.lim+=60;draw()});
   for(const b of P.querySelectorAll('.bar'))b.addEventListener('click',()=>{st.f.cat=st.f.cat===b.dataset.cat?'':b.dataset.cat;draw()});
 }
-st.v=VER.includes(location.hash.slice(1))?location.hash.slice(1):'todos';
+{const h=location.hash.slice(1);st.lib=h==='liberal';st.v=VER.includes(h)?h:'todos';}
 draw();
 }
 </script>

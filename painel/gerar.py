@@ -88,6 +88,10 @@ if ranking:
          "v": [{"id": x["id"], "pos": x["posicao"], "nota": x["nota"], "sd": x.get("sem_dados", []),
                 "c": {k: [y["nota"], y.get("detalhe", "")] for k, y in x["criterios"].items()}} for x in ranking["vereadores"]],
          "at": ranking.get("atualizado", "")}
+sit = {x["k"]: x["st"] for x in P}
+PL = [{"k": x["projeto"], "s": x["assunto"][:240], "a": x["autores"], "c": x["classe"], "m": x["motivo"], "sg": 1 if x.get("sugerido") else 0,
+       "pt": x.get("pontos_autor", 0), "n": x.get("norma"), "d": x.get("data") or "", "u": x.get("url") or "", "st": sit.get(x["projeto"], "")}
+      for x in (ranking or {}).get("projetos_classificados", [])]
 AP = [{"n": a["numero"], "d": a["data"], "t": a["tema"], "co": a["comissao"], "p": a["presentes"], "m": a["conduziram"], "u": a["url"]}
       for a in ler("audiencias.json", [])]
 NT = [{"d": n["data"], "t": n["titulo"], "u": n["url"], "x": n["destaque"], "c": n["citados"], "r": n["resumo"][:200]}
@@ -99,6 +103,6 @@ PA = ler("pauta.json", {})
 NOMES = {k: v["nome"] for k, v in c.VEREADORES.items()}
 NOMES.update({"mesa-diretora": "Mesa Diretora", "prefeito": "Prefeito"})
 meta = json.loads((D / "coleta.json").read_text(encoding="utf-8"))
-dados = {"nomes": NOMES, "P": P, "V": V, "E": E, "ok": OK, "cats": emendas["categorias"], "VT": VT, "R": R, "AP": AP, "NT": NT, "LI": LI, "PA": PA, "atualizado": meta["executado_em"][:10]}
+dados = {"nomes": NOMES, "P": P, "V": V, "E": E, "ok": OK, "cats": emendas["categorias"], "VT": VT, "R": R, "PL": PL, "AP": AP, "NT": NT, "LI": LI, "PA": PA, "atualizado": meta["executado_em"][:10]}
 (RAIZ / "painel" / "dados.js").write_text("window.DADOS=" + json.dumps(dados, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 print(len(P), len(V), len(E), len(VT), len(AP), len(NT), len(LI), bool(R), OK)
