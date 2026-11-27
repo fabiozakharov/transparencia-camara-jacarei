@@ -181,7 +181,14 @@ def calcular() -> dict:
         if not autores:
             continue
         cl = regras.classificar(chave, p.get("assunto", ""))
-        classificados.append({"projeto": chave, "assunto": p.get("assunto", ""), "autores": autores, **cl})
+        docs = p.get("documentos") or []
+        classificados.append({
+            "projeto": chave, "assunto": p.get("assunto", ""), "autores": autores, **cl,
+            "pontos_autor": regras.PONTOS[cl["classe"]] * regras.PESO_AUTOR,
+            "norma": p.get("norma"),
+            "data": docs[0]["data"] if docs else "",
+            "url": next((d["url"] for d in docs if "projeto" in d["etapa"]), docs[0]["url"] if docs else ""),
+        })
         for vid in autores:
             contagem[vid][cl["classe"]] += 1
             contagem[vid]["pontos"] += regras.PONTOS[cl["classe"]] * regras.PESO_AUTOR
