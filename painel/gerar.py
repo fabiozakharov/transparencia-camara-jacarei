@@ -1,5 +1,6 @@
 """Gera painel/dados.js a partir de dados/*.json (projetos, votações, emendas por vereador)."""
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -32,9 +33,12 @@ def situacao(chave, p):
     return "Em tramitação"
 
 
+RE_HONRA = re.compile(r"t[ií]tulo|cidad[aã]|medalha|honra|pr[eê]mio|diploma|comenda|m[eé]rito", re.I)
 P = []
 for chave, p in projetos.items():
+    pareceres = [[d["etapa"], d["url"], d["data"]] for d in p["documentos"] if re.search(r"parecer|relat", d["etapa"], re.I)]
     P.append({
+        "pc": sorted(pareceres, key=lambda x: x[2]), "h": 1 if p["tipo"] == "PDL" and RE_HONRA.search(p["assunto"]) else 0,
         "k": chave, "t": p["tipo"], "a": p["autores"], "s": p["assunto"][:220], "n": p.get("norma"),
         "st": situacao(chave, p), "u": p["documentos"][0]["url"] if p["documentos"] else "",
         "d": p["documentos"][0]["data"] if p["documentos"] else "",
@@ -59,9 +63,42 @@ for i in E:
     somas[i["v"]] = somas.get(i["v"], 0) + i["val"]
 OK = {v: abs(s - 818879.22) < 0.05 for v, s in somas.items()}
 
+def ler(nome, padrao):
+    arq = D / nome
+    return json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else padrao
+
+
+# Vetos do prefeito: o autor é quem fez o projeto vetado ("de autoria do Vereador X").
+VT = []
+for v in votacoes:
+    if v["projeto"].split(" ")[0] not in ("VT", "VP"):
+        continue
+    autor = re.search(r"de autoria d[oa] Vereador[a]? ([^,.;]+)", v["assunto"])
+    lei = re.search(r"Lei(?: Complementar)? n\.?º?\s*([\d.]+/\d{4})", v["assunto"])
+    r = v["resultado"]
+    VT.append({"k": v["projeto"], "d": v["data"], "s": re.sub(r"Registrou-se.*|FASE DO EXPEDIENTE.*", "", v["assunto"])[:260],
+               "a": c.identificar(autor.group(1)) if autor else [], "lei": lei.group(1) if lei else "",
+               "r": "Veto derrubado" if r.startswith(("rejeitad", "derrubad")) else "Veto mantido" if r.startswith(("aprovad", "mantid")) else r.capitalize(),
+               "f": v["favoraveis"], "c": v["contrarios"]})
+
+ranking = ler("ranking.json", None)
+R = None
+if ranking:
+    R = {"rot": ranking.get("rotulos", {}), "desc": ranking.get("descricoes", {}), "pesos": ranking.get("pesos", {}),
+         "v": [{"id": x["id"], "pos": x["posicao"], "nota": x["nota"], "sd": x.get("sem_dados", []),
+                "c": {k: [y["nota"], y.get("detalhe", "")] for k, y in x["criterios"].items()}} for x in ranking["vereadores"]],
+         "at": ranking.get("atualizado", "")}
+AP = [{"n": a["numero"], "d": a["data"], "t": a["tema"], "co": a["comissao"], "p": a["presentes"], "m": a["conduziram"], "u": a["url"]}
+      for a in ler("audiencias.json", [])]
+NT = [{"d": n["data"], "t": n["titulo"], "u": n["url"], "x": n["destaque"], "c": n["citados"], "r": n["resumo"][:200]}
+      for n in ler("noticias.json", [])]
+LI = [{"m": l["modalidade"], "t": l["titulo"], "a": l["ano"], "st": l["status"], "o": l["objeto"], "d": l["data"], "u": l["url"]}
+      for l in ler("licitacoes.json", [])]
+PA = ler("pauta.json", {})
+
 NOMES = {k: v["nome"] for k, v in c.VEREADORES.items()}
 NOMES.update({"mesa-diretora": "Mesa Diretora", "prefeito": "Prefeito"})
 meta = json.loads((D / "coleta.json").read_text(encoding="utf-8"))
-dados = {"nomes": NOMES, "P": P, "V": V, "E": E, "ok": OK, "cats": emendas["categorias"], "atualizado": meta["executado_em"][:10]}
+dados = {"nomes": NOMES, "P": P, "V": V, "E": E, "ok": OK, "cats": emendas["categorias"], "VT": VT, "R": R, "AP": AP, "NT": NT, "LI": LI, "PA": PA, "atualizado": meta["executado_em"][:10]}
 (RAIZ / "painel" / "dados.js").write_text("window.DADOS=" + json.dumps(dados, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
-print(len(P), len(V), len(E), OK)
+print(len(P), len(V), len(E), len(VT), len(AP), len(NT), len(LI), bool(R), OK)

@@ -46,20 +46,29 @@ input{flex:1 1 220px}
 .more{margin-top:12px}.more button{font:600 15px Inter;min-height:44px;padding:0 16px;border-radius:22px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
 .empty{color:var(--mut);padding:18px 0}
 a{color:inherit;text-underline-offset:3px}
+.rk{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:22px}
+.rk .top{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:baseline;margin-bottom:10px}
+.rk .pos{font-family:Manrope,Inter,sans-serif;font-weight:800;font-size:clamp(40px,6vw,64px);line-height:1}
+.rk .pos small{font-size:.4em;color:var(--mut)}
+.rk table{width:100%;border-collapse:collapse;font-size:15px}.rk td,.rk th{padding:7px 6px;border-top:1px solid var(--line);text-align:left;vertical-align:middle}
+.rk th{font-weight:600;color:var(--mut);font-size:13px;border-top:0}.rk td.n{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.rk tr.me td{background:var(--soft)}.rk a{text-decoration:none}.rk a:hover{text-decoration:underline}
+.mini{display:inline-block;width:90px;height:8px;background:var(--line);border-radius:4px;vertical-align:middle;overflow:hidden}.mini i{display:block;height:100%;background:var(--ink)}
+.crit{display:grid;grid-template-columns:11em minmax(0,1fr) 3em;gap:4px 10px;align-items:center;font-size:15px}
+.crit .d{grid-column:1/-1;color:var(--mut);font-size:13px;margin:-2px 0 6px}
+details{margin-top:4px}summary{cursor:pointer;color:var(--mut);font-size:14px;min-height:28px}
+.wide{overflow-x:auto}
 @media(max-width:600px){.bar{grid-template-columns:8em minmax(0,1fr) 6.5em}.it{grid-template-columns:minmax(0,1fr)}.it .r{text-align:left}}
 </style></head><body>
 <header class="cover"><section class="band">
 <h1>Painel da Câmara de Jacareí, legislatura 2025–2028</h1>
-<p class="lead">Projetos, votações e destino das emendas de cada vereador, montados a partir do que a Câmara publica. Dados de <span id="upd"></span>.</p>
+<p class="lead">Ranking, projetos, votações, leis, vetos, emendas, homenagens, audiências e notícias de cada vereador, montados a partir do que a Câmara publica. Dados de <span id="upd"></span>.</p>
 <p class="q">O que cada vereador propõe, como vota e para onde manda o dinheiro.</p>
 <nav class="pick" id="pick" aria-label="Escolher vereador"></nav>
 </section></header>
 <main class="band">
-<div class="tabs" role="tablist" id="tabs">
-<button role="tab" data-t="projetos" aria-selected="true">Projetos</button>
-<button role="tab" data-t="votacoes" aria-selected="false">Votações</button>
-<button role="tab" data-t="emendas" aria-selected="false">Emendas</button>
-</div>
+<section id="rank" aria-label="Ranking"></section>
+<div class="tabs" role="tablist" id="tabs"></div>
 <section id="painel" aria-live="polite"></section>
 </main>
 <script src="dados.js"></script>
@@ -75,7 +84,10 @@ const nome=k=>k==='todos'?'Câmara toda':N[k];
 let st={v:'todos',t:'projetos',f:{},lim:40};
 const pick=document.getElementById('pick');
 pick.innerHTML=VER.map(k=>`<a href="#${k}" data-k="${k}">${esc(nome(k))}</a>`).join('');
-for(const b of document.querySelectorAll('#tabs button'))b.addEventListener('click',()=>{st.t=b.dataset.t;st.f={};st.lim=40;draw()});
+const TABS={projetos:'Projetos',votacoes:'Votações',emendas:'Emendas',leis:'Leis e vetos',homenagens:'Homenagens',audiencias:'Audiências',noticias:'Notícias',pauta:'Próxima pauta',licitacoes:'Licitações da Câmara'};
+const tabsDe=v=>Object.keys(TABS).filter(t=>t!=='licitacoes'||v==='todos');
+const TB=document.getElementById('tabs');
+TB.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;st.t=b.dataset.t;st.f={};st.lim=40;draw()});
 addEventListener('hashchange',()=>{st.v=VER.includes(location.hash.slice(1))?location.hash.slice(1):'todos';st.lim=40;draw()});
 const P=document.getElementById('painel');
 const kpi=(l,v)=>`<div class="kpi"><span>${esc(l)}</span><div class="big">${esc(v)}</div></div>`;
@@ -89,7 +101,7 @@ function projetos(){
   L.sort((a,b)=>b.d.localeCompare(a.d));
   return `<div class="kpis">${kpi('Projetos desde 2025',tot)}${kpi('Aprovados ou viraram norma',ok)}${kpi('Taxa de aprovação',tot?Math.round(100*ok/tot)+'%':'—')}</div>
   <div class="filters">${sel('ftipo','Tipo',tipos,st.f.tipo)}${sel('fsit','Situação',sits,st.f.sit)}<input id="fq" type="search" placeholder="Buscar por assunto ou número" value="${esc(st.f.q||'')}"></div>
-  <div class="list">${L.slice(0,st.lim).map(p=>`<div class="it"><div><strong>${esc(p.k)}</strong> · ${esc(p.s||'(assunto não informado no título)')}<div class="m">${p.a.map(a=>esc(N[a]||a)).join(', ')} · ${dt(p.d)}${p.u?` · <a href="${esc(p.u)}">documento</a>`:''}</div></div><div class="r">${esc(p.n||p.st)}</div></div>`).join('')||'<p class="empty">Nenhum projeto com esses filtros.</p>'}</div>
+  <div class="list">${L.slice(0,st.lim).map(p=>`<div class="it"><div><strong>${esc(p.k)}</strong> · ${esc(p.s||'(assunto não informado no título)')}<div class="m">${p.a.map(a=>esc(N[a]||a)).join(', ')} · ${dt(p.d)}${p.u?` · <a href="${esc(p.u)}">documento</a>`:''}</div>${pareceres(p)}</div><div class="r">${esc(p.n||p.st)}</div></div>`).join('')||'<p class="empty">Nenhum projeto com esses filtros.</p>'}</div>
   ${L.length>st.lim?`<div class="more"><button id="mais">Mostrar mais (${L.length-st.lim})</button></div>`:''}
   <p class="lead" style="font-size:14px;margin-top:12px">Projetos de lei, de decreto legislativo, de lei complementar e de resolução protocolados desde 2025, montados pelos títulos dos documentos publicados. A situação vem da última votação registrada em ata ou da norma gerada.</p>`;
 }
@@ -130,12 +142,91 @@ function emendas(){
   ${L.length>st.lim?`<div class="more"><button id="mais">Mostrar mais (${L.length-st.lim})</button></div>`:''}
   <p class="lead" style="font-size:14px;margin-top:12px">Lido automaticamente das emendas impositivas ao orçamento de 2026. A categoria segue o órgão de destino e, quando não há, o tipo de entidade. Confira sempre o PDF.</p>`;
 }
+
+const RK=X.R;
+const nota=n=>n==null?'—':n.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1});
+function ranking(){
+  if(!RK)return '<div class="rk"><p class="empty">O ranking ainda não foi calculado.</p></div>';
+  const L=RK.v.slice().sort((a,b)=>a.pos-b.pos), ks=Object.keys(RK.rot);
+  if(st.v==='todos'){
+    return `<div class="rk"><h2>Ranking dos vereadores</h2><p class="lead" style="font-size:14px;margin-bottom:8px">Nota de 0 a 10, que soma ${ks.map(k=>`${esc(RK.rot[k])} (${Math.round(RK.pesos[k]*100)}%)`).join(', ')}. Toque num nome para abrir a ficha.</p>
+    <div class="wide"><table><thead><tr><th>Posição</th><th>Vereador</th><th>Nota</th>${ks.map(k=>`<th title="${esc(RK.desc[k])}">${esc(RK.rot[k])}</th>`).join('')}</tr></thead><tbody>
+    ${L.map(x=>`<tr><td class="n">${x.pos}º</td><td><a href="#${x.id}">${esc(N[x.id]||x.id)}</a></td><td class="n">${nota(x.nota)}</td>${ks.map(k=>`<td title="${esc(x.c[k]?.[1]||'sem dado')}"><span class="mini"><i style="width:${(x.c[k]?.[0]||0)*10}%"></i></span></td>`).join('')}</tr>`).join('')}
+    </tbody></table></div></div>`;
+  }
+  const me=RK.v.find(x=>x.id===st.v);
+  if(!me)return '<div class="rk"><p class="empty">Este vereador não entrou no ranking (cadeira ocupada por pouco tempo).</p></div>';
+  return `<div class="rk"><div class="top"><div class="pos">${me.pos}º <small>de ${RK.v.length}</small></div><div><div class="big" style="font-size:32px">${nota(me.nota)}</div><span class="m" style="color:var(--mut)">nota de 0 a 10 no ranking</span></div></div>
+  <div class="crit">${ks.map(k=>{const c=me.c[k];return `<span>${esc(RK.rot[k])} <span style="color:var(--mut);font-size:13px">${Math.round(RK.pesos[k]*100)}%</span></span><span class="trk"><i style="width:${(c?.[0]||0)*10}%"></i></span><span class="n" style="text-align:right;font-weight:600">${c?nota(c[0]):'—'}</span><span class="d">${esc(c?.[1]||'sem dado')}</span>`}).join('')}</div>
+  ${me.sd.length?`<p class="note">Sem dado para: ${me.sd.map(k=>esc(RK.rot[k]||k)).join(', ')}.</p>`:''}
+  <details><summary>Como cada critério é calculado</summary>${ks.map(k=>`<p class="lead" style="font-size:14px;margin:6px 0"><strong>${esc(RK.rot[k])}:</strong> ${esc(RK.desc[k])}</p>`).join('')}</details></div>`;
+}
+const mais=L=>L.length>st.lim?`<div class="more"><button id="mais">Mostrar mais (${L.length-st.lim})</button></div>`:'';
+const busca=(ph)=>`<input id="fq" type="search" placeholder="${esc(ph)}" value="${esc(st.f.q||'')}">`;
+const filtraQ=(L,f)=>{if(!st.f.q)return L;const q=st.f.q.toLowerCase();return L.filter(x=>f(x).toLowerCase().includes(q))};
+const pareceres=p=>p.pc&&p.pc.length?`<details><summary>${p.pc.length} parecer${p.pc.length>1?'es':''} e relatórios das comissões</summary>${p.pc.map(([e,u,d])=>`<div class="m"><a href="${esc(u)}">${esc(e)}</a> · ${dt(d)}</div>`).join('')}</details>`:'';
+function leis(){
+  const meu=p=>st.v==='todos'?!p.a.includes('prefeito'):p.a.includes(st.v);
+  let L=X.P.filter(p=>p.n&&meu(p)), VT=X.VT.filter(v=>st.v==='todos'||v.a.includes(st.v));
+  const der=VT.filter(v=>v.r==='Veto derrubado').length;
+  L=filtraQ(L,p=>p.s+' '+p.k+' '+p.n);L.sort((a,b)=>b.d.localeCompare(a.d));
+  return `<div class="kpis">${kpi('Projetos que viraram norma',X.P.filter(p=>p.n&&meu(p)).length)}${kpi('Vetos do prefeito votados',VT.length)}${kpi('Vetos derrubados',der)}</div>
+  <h3>Vetos</h3><div class="list" style="margin-bottom:20px">${VT.map(v=>`<div class="it"><div><strong>${esc(v.k)}</strong> · ${esc(v.s)}<div class="m">${dt(v.d)}${v.f!=null?` · ${v.f} votos pela manutenção`:''}${v.c?`, ${v.c} pela derrubada`:''}</div></div><div class="r">${esc(v.r)}</div></div>`).join('')||'<p class="empty">Nenhum veto a projeto deste vereador foi votado desde 2025.</p>'}</div>
+  <h3>Leis e normas aprovadas</h3><div class="filters">${busca('Buscar lei por assunto ou número')}</div>
+  <div class="list">${L.slice(0,st.lim).map(p=>`<div class="it"><div><strong>${esc(p.n)}</strong> · ${esc(p.s)}<div class="m">${esc(p.k)} · ${p.a.map(a=>esc(N[a]||a)).join(', ')} · ${dt(p.d)}${p.u?` · <a href="${esc(p.u)}">documento</a>`:''}</div>${pareceres(p)}</div><div class="r">${esc(p.t)}</div></div>`).join('')||'<p class="empty">Nenhuma norma encontrada.</p>'}</div>${mais(L)}
+  <p class="lead" style="font-size:14px;margin-top:12px">Veto mantido quer dizer que a Câmara concordou com o prefeito e a lei não vale; veto derrubado quer dizer que a lei vale mesmo assim. O autor do projeto vetado vem do texto da ata.</p>`;
+}
+function homenagens(){
+  let L=X.P.filter(p=>p.h&&(st.v==='todos'||p.a.includes(st.v)));
+  const por={};for(const p of L)for(const a of p.a)por[a]=(por[a]||0)+1;
+  L=filtraQ(L,p=>p.s+' '+p.k);L.sort((a,b)=>b.d.localeCompare(a.d));
+  return `<div class="kpis">${kpi('Títulos, medalhas e prêmios propostos',L.length)}${st.v==='todos'?kpi('Vereadores que propuseram',Object.keys(por).length):''}</div>
+  ${st.v==='todos'&&Object.keys(por).length?`<div class="bars">${Object.entries(por).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<a class="bar" href="#${k}" style="text-decoration:none"><span>${esc(N[k]||k)}</span><span class="trk"><i style="width:${n/Math.max(...Object.values(por))*100}%"></i></span><span class="n">${n}</span></a>`).join('')}</div>`:''}
+  <div class="list">${L.map(p=>`<div class="it"><div><strong>${esc(p.k)}</strong> · ${esc(p.s)}<div class="m">${p.a.map(a=>esc(N[a]||a)).join(', ')} · ${dt(p.d)}${p.u?` · <a href="${esc(p.u)}">documento</a>`:''}</div></div><div class="r">${esc(p.n||p.st)}</div></div>`).join('')||'<p class="empty">Nenhuma homenagem proposta desde 2025.</p>'}</div>
+  <p class="lead" style="font-size:14px;margin-top:12px">Projetos de decreto legislativo que concedem título de cidadania, medalha, prêmio ou diploma. Alguns tramitam em sigilo e não trazem o nome do homenageado.</p>`;
+}
+function audiencias(){
+  const L=X.AP;const tot=L.length;
+  const meu=st.v==='todos'?null:L.filter(a=>a.p.includes(st.v));
+  const Ls=meu||L;
+  return `<div class="kpis">${kpi('Audiências públicas desde 2025',tot)}${meu?kpi('Esteve presente',meu.length)+kpi('Conduziu pela comissão',L.filter(a=>a.m.includes(st.v)).length):''}</div>
+  <div class="list">${(st.v==='todos'?L:L).map(a=>{const foi=st.v==='todos'?null:a.p.includes(st.v);return `<div class="it"><div><strong>${a.n}ª audiência</strong> · ${esc(a.t)}<div class="m">${dt(a.d)} · ${esc(a.co)} · <a href="${esc(a.u)}">ata</a></div><div class="m">Presentes: ${a.p.map(k=>esc(N[k])).join(', ')||'não lido'}</div></div><div class="r">${foi===null?a.p.length+' vereadores':foi?(a.m.includes(st.v)?'Conduziu':'Presente'):'Não foi'}</div></div>`}).join('')||'<p class="empty">Nenhuma audiência lida.</p>'}</div>
+  <p class="lead" style="font-size:14px;margin-top:12px">Presença tirada da lista de vereadores no início de cada ata de audiência pública.</p>`;
+}
+function noticias(){
+  let L=X.NT.filter(n=>st.v==='todos'||n.c.includes(st.v));
+  const dest=st.v==='todos'?0:L.filter(n=>n.x.includes(st.v)).length;
+  L=filtraQ(L,n=>n.t+' '+n.r);L.sort((a,b)=>b.d.localeCompare(a.d));
+  return `<div class="kpis">${kpi(st.v==='todos'?'Notícias desde 2025':'Notícias que citam o vereador',X.NT.filter(n=>st.v==='todos'||n.c.includes(st.v)).length)}${st.v==='todos'?'':kpi('Com o nome no título',dest)}</div>
+  <div class="filters">${busca('Buscar nas notícias')}</div>
+  <div class="list">${L.slice(0,st.lim).map(n=>`<div class="it"><div><a href="${esc(n.u)}"><strong>${esc(n.t)}</strong></a><div class="m">${dt(n.d)}${st.v==='todos'&&n.c.length?' · '+n.c.map(k=>esc(N[k])).join(', '):''}</div><div class="m">${esc(n.r)}…</div></div><div class="r">${st.v!=='todos'&&n.x.includes(st.v)?'<span class="tag on">no título</span>':''}</div></div>`).join('')||'<p class="empty">Nenhuma notícia encontrada.</p>'}</div>${mais(L)}
+  <p class="lead" style="font-size:14px;margin-top:12px">Notícias publicadas pela Câmara. Uma notícia de sessão costuma citar vários vereadores.</p>`;
+}
+const normal=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+function pauta(){
+  const A=X.PA||{};const L=A.itens||[];
+  const meu=it=>st.v!=='todos'&&normal(it.autoria).includes(normal(N[st.v]).split(' do ')[0]);
+  return `<div class="kpis">${kpi('Sessão',A.sessao||'—')}${kpi('Itens na Ordem do Dia',L.length)}${A.proxima?kpi('Próxima',A.proxima):''}</div>
+  ${A.url?`<p class="lead" style="margin-bottom:12px"><a href="${esc(A.url)}">Ver a Ordem do Dia no site da Câmara</a></p>`:''}
+  <div class="list">${L.map(it=>`<div class="it"><div><strong>${esc(it.projeto)}</strong> · ${esc(it.assunto||it.titulo)}<div class="m">${esc(it.titulo)} · ${esc(it.autoria)}</div>${it.documentos.length?`<div class="m">${it.documentos.map(d=>`<a href="${esc(d.url)}">${esc(d.rotulo||'PDF')}</a>`).join(' · ')}</div>`:''}</div><div class="r">${meu(it)?'<span class="tag on">deste vereador</span>':''}</div></div>`).join('')||'<p class="empty">A pauta da próxima sessão ainda não foi publicada.</p>'}</div>`;
+}
+function licitacoes(){
+  let L=X.LI.slice();const mods=[...new Set(L.map(l=>l.m))];
+  if(st.f.mod)L=L.filter(l=>l.m===st.f.mod);L=filtraQ(L,l=>l.t+' '+l.o);
+  L.sort((a,b)=>b.a-a.a||b.t.localeCompare(a.t));
+  return `<div class="kpis">${kpi('Processos desde 2025',X.LI.length)}${mods.map(m=>kpi(m,X.LI.filter(l=>l.m===m).length)).join('')}</div>
+  <div class="filters">${sel('fmod','Modalidade',mods,st.f.mod)}${busca('Buscar pelo objeto')}</div>
+  <div class="list">${L.slice(0,st.lim).map(l=>`<div class="it"><div><a href="${esc(l.u)}"><strong>${esc(l.t)}</strong></a> · ${esc(l.o)}<div class="m">${esc(l.m)}${l.d?' · '+esc(l.d):''}</div></div><div class="r">${esc(l.st)}</div></div>`).join('')||'<p class="empty">Nenhuma licitação lida.</p>'}</div>${mais(L)}
+  <p class="lead" style="font-size:14px;margin-top:12px">Compras e contratações da própria Câmara, listadas nas páginas de licitação do site. Valores e contratos assinados ficam no Portal da Transparência.</p>`;
+}
 function draw(){
   for(const a of pick.children)a.toggleAttribute('aria-current',a.dataset.k===st.v);
-  for(const b of document.querySelectorAll('#tabs button'))b.setAttribute('aria-selected',b.dataset.t===st.t);
-  P.innerHTML=`<h2>${esc(nome(st.v))}</h2>`+({projetos,votacoes,emendas})[st.t]();
+  const ts=tabsDe(st.v);if(!ts.includes(st.t))st.t='projetos';
+  TB.innerHTML=ts.map(t=>`<button role="tab" data-t="${t}" aria-selected="${t===st.t}">${esc(TABS[t])}</button>`).join('');
+  document.getElementById('rank').innerHTML=(st.v==='todos'?'':`<h2>${esc(nome(st.v))}</h2>`)+ranking();
+  P.innerHTML=(st.v==='todos'?`<h2>${esc(nome(st.v))}</h2>`:'')+({projetos,votacoes,emendas,leis,homenagens,audiencias,noticias,pauta,licitacoes})[st.t]();
   const bind=(id,k,ev='change')=>{const e=document.getElementById(id);if(e)e.addEventListener(ev,()=>{st.f[k]=e.value;st.lim=40;const pos=e.selectionStart;draw();const n=document.getElementById(id);if(ev==='input'&&n){n.focus();try{n.setSelectionRange(pos,pos)}catch{}}})};
-  bind('ftipo','tipo');bind('fsit','sit');bind('fvoto','voto');bind('fcat','cat');bind('fq','q','input');
+  bind('ftipo','tipo');bind('fsit','sit');bind('fvoto','voto');bind('fcat','cat');bind('fmod','mod');bind('fq','q','input');
   const m=document.getElementById('mais');if(m)m.addEventListener('click',()=>{st.lim+=60;draw()});
   for(const b of P.querySelectorAll('.bar'))b.addEventListener('click',()=>{st.f.cat=st.f.cat===b.dataset.cat?'':b.dataset.cat;draw()});
 }

@@ -26,7 +26,7 @@ def coletar_pauta() -> tuple[dict, dict]:
     def data(u):
         m = re.search(r"(\d{2})-(\d{2})-(\d{4})", u)
         return f"{m.group(3)}{m.group(2)}{m.group(1)}" if m else ""
-    url = max((u for u, _ in sessoes), key=data)
+    url, rotulo = max(sessoes, key=lambda x: data(x[0]))
     pagina = c.get(url if url.startswith("http") else c.BASE + url)
     pagina.raise_for_status()
     corpo = pagina.text

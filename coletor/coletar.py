@@ -304,6 +304,18 @@ def main() -> int:
         salvar("pauta.json", pauta)
     except Exception as erro:
         erros.append(f"pauta: {erro}")
+    try:
+        import extras as ex
+
+        for nome, funcao in (("audiencias", ex.coletar_audiencias), ("noticias", ex.coletar_noticias),
+                             ("licitacoes", ex.coletar_licitacoes)):
+            try:
+                dados, meta[nome] = funcao()
+                salvar(f"{nome}.json", dados)
+            except Exception as erro:
+                erros.append(f"{nome}: {erro}")
+    except Exception as erro:
+        erros.append(f"extras: {erro}")
     meta["erros"] = erros
     salvar("coleta.json", meta)
     print(json.dumps(meta, ensure_ascii=False, indent=1)[:3000])
