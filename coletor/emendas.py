@@ -23,13 +23,22 @@ CATEGORIAS = [
     ("Obras e meio ambiente", r"obra|pra[cç]a|pavimenta|asfalt|ilumina|poste|led\b|cal[cç]ada|reforma|alambrado|grama|meio ambiente|[aá]rea verde|parque|animal|animais|prote[cç][aã]o animal|ambiental|playground|brinquedo"),
 ]
 
-RE_VALOR = re.compile(r"R\$\s*([\d.]{1,12},\d{2})")
-RE_UNIDADE = re.compile(r"(Secretaria\s+(?:Municipal\s+)?de\s+[A-Za-zÀ-ú ]+?(?=\s{2,}|,|\.|$|\s+R\$|\s+-)|Funda[cç][aã]o\s+Cultural[A-Za-zÀ-ú ]*|SAAE|Instituto de Previd[eê]ncia)", re.I)
-RE_TOTAL = re.compile(r"\btotal\b|\bsubtotal\b|\bsoma\b", re.I)
+RE_NUM = re.compile(r"^(?:R[$S]\s*)?(\d{1,3}(?:\.\d{3})*,\d{2})$")
+RE_ORG_INICIO = re.compile(r"^(Secretaria|Secr?\.|Funda[cç][aã]o|SAAE|Instituto)", re.I)
+RE_ORG_DENTRO = re.compile(r"\s(Secretaria\s+(?:de|da|do)\b.*|Funda[cç][aã]o Cultural.*)$", re.I)
+RE_LIXO = re.compile(r"P R A Ç A|PRAÇA DOS TRÊS|C[ÂA]MARA MUNICIPAL DE JACARE|PAL[ÁA]CIO DA LIBERDADE|^\s*Destino\s*$|Valor em Reais|^\s*\d+\s*$", re.I)
+ORG_CATEGORIA = [
+    ("Saúde", r"sa[uú]de"), ("Educação", r"educa"), ("Esporte", r"esporte"), ("Cultura", r"cultu"),
+    ("Assistência social", r"assist"),
+    ("Obras e meio ambiente", r"infraestrutura|meio ambiente|obras|mobilidade|urbanismo|servi[cç]os p[uú]blicos|habita"),
+]
 
 
-def categoria(texto: str) -> str:
-    t = texto.lower()
+def categoria(destino: str, orgao: str) -> str:
+    for nome, padrao in ORG_CATEGORIA:
+        if re.search(padrao, orgao, re.I):
+            return nome
+    t = destino.lower()
     for nome, padrao in CATEGORIAS:
         if re.search(padrao, t):
             return nome
@@ -40,38 +49,123 @@ def valor(txt: str) -> float:
     return float(txt.replace(".", "").replace(",", "."))
 
 
+def _segmentos(linha: str):
+    for m in re.finditer(r"\S+(?: \S+)*", linha):
+        yield m.start(), m.group(0)
+
+
 def itens_da_emenda(texto: str) -> list[dict]:
-    """Cada linha com um valor em R$ é um item; a descrição pode vir em linhas anteriores sem valor."""
-    itens, unidade, pendente = [], "", []
+    """Lê as tabelas "Descrição da Atividade | Secretaria de Destino | Valor" pela posição das colunas.
+
+    Descrições e órgãos quebram em várias linhas acima e abaixo do valor; cada fragmento
+    é ligado à linha de valor mais próxima dentro da mesma tabela.
+    """
+    itens = []
+    linhas = texto.splitlines()
+    dentro, bloco = False, []
+
+    def fecha():
+        vals = [(i, v) for i, (_, _, v) in enumerate(bloco) if v]
+        if not vals:
+            return
+        # Uma linha só com o valor que é a soma das anteriores é o total da tabela.
+        if len(vals) > 1:
+            i_ult, v_ult = vals[-1]
+            d_ult, o_ult, _ = bloco[i_ult]
+            if not d_ult.strip() and abs(valor(v_ult) - sum(valor(v) for _, v in vals[:-1])) < 0.02:
+                vals = vals[:-1]
+        grupos = {i: ([], []) for i, _ in vals}
+        idx = [i for i, _ in vals]
+        conector = re.compile(r"(\b(de|da|do|das|dos|para|a|o|e|em|no|na|com|ao)|[,(\-–])\s*$", re.I)
+        ultima_desc = {i: bloco[i][0] for i in idx}
+        for i, (desc, org, _) in enumerate(bloco):
+            if not desc and not org:
+                continue
+            if i in grupos:
+                alvo = i
+            else:
+                ant = max((j for j in idx if j < i), default=None)
+                prox = min((j for j in idx if j > i), default=None)
+                if ant is None:
+                    alvo = prox
+                elif prox is None:
+                    alvo = ant
+                elif desc:
+                    continua = desc[:1].islower() or desc[:1] in ")-–" or bool(conector.search(ultima_desc[ant] or ""))
+                    # sem pista, a linha vai para o valor mais próximo (empate: o seguinte)
+                    alvo = ant if continua else (prox if (prox - i) <= (i - ant) else ant)
+                else:
+                    alvo = prox if (prox - i) <= (i - ant) else ant
+            if desc:
+                grupos[alvo][0].append(desc)
+                ultima_desc[alvo] = desc
+            if org and (alvo != i or True):
+                grupos[alvo][1].append(org)
+        for i, v in vals:
+            d = re.sub(r"\s+", " ", " ".join(grupos[i][0])).strip(" -–")
+            o = re.sub(r"\s+", " ", " ".join(grupos[i][1])).strip(" -–")
+            itens.append({"destino": d[:200], "orgao": o[:80], "valor": valor(v), "categoria": categoria(d, o)})
+
+    for linha in linhas:
+        if re.search(r"Descri[cç][aã]o da Atividade", linha, re.I):
+            fecha(); bloco = []; dentro = True
+            continue
+        if not dentro:
+            continue
+        if re.match(r"\s*Total\b", linha, re.I):
+            fecha(); bloco = []; dentro = False
+            continue
+        if RE_LIXO.search(linha) or re.match(r"\s*Art\.?\s*\d", linha):
+            if re.match(r"\s*Art\.?\s*\d", linha):
+                fecha(); bloco = []; dentro = False
+            continue
+        desc, org, val = [], [], None
+        for pos, seg in _segmentos(linha):
+            if RE_NUM.match(seg):
+                val = RE_NUM.match(seg).group(1)
+            elif pos >= 60 or RE_ORG_INICIO.match(seg):
+                org.append(seg)
+            else:
+                m = RE_ORG_DENTRO.search(seg)
+                if m:
+                    desc.append(seg[: m.start()]); org.append(m.group(1))
+                else:
+                    desc.append(seg)
+        bloco.append((" ".join(desc), " ".join(org), val))
+    fecha()
+    if not itens:
+        itens = itens_ocr(texto)
+    return [i for i in itens if i["valor"] > 0]
+
+
+RE_LINHA_OCR = re.compile(r"^(.*?)\s*\|?\s*((?:Secretaria|Funda[cç][aã]o|SAAE)[^|\d]*?)?\s*\|?\s*(\d{1,3}(?:\.\d{3})*,\d{2})\s*\|?\s*$", re.I)
+
+
+def itens_ocr(texto: str) -> list[dict]:
+    """Para PDFs escaneados: cada linha termina em valor; linhas seguintes sem valor completam a descrição."""
+    itens, dentro, atual = [], False, None
     for linha in texto.splitlines():
-        bruta = linha.strip()
-        if not bruta:
-            pendente = []
+        l = linha.strip()
+        if re.search(r"seguinte forma", l, re.I):
+            dentro = True
             continue
-        u = RE_UNIDADE.search(bruta)
-        valores = RE_VALOR.findall(bruta)
-        if u and not valores:
-            unidade = re.sub(r"\s+", " ", u.group(1)).strip()
-            pendente = []
+        if not dentro or not l:
             continue
-        if not valores:
-            if len(bruta) < 200:
-                pendente = (pendente + [bruta])[-2:]
+        if re.match(r"(Total|Art\.?\s*\d)", l, re.I):
+            dentro = re.match(r"Total", l, re.I) is None and dentro
+            if re.match(r"Total", l, re.I):
+                dentro = False
+            atual = None
             continue
-        if RE_TOTAL.search(bruta):
-            pendente = []
-            continue
-        desc = RE_VALOR.sub("", bruta).strip()
-        u = RE_UNIDADE.search(desc)
-        if u:
-            unidade = re.sub(r"\s+", " ", u.group(1)).strip()
-            desc = desc.replace(u.group(0), "")
-        desc = re.sub(r"\s{2,}", " ", " ".join(pendente + [desc])).strip(" |-–:")
-        pendente = []
-        if len(desc) < 3:
-            continue
-        v = valor(valores[-1])
-        itens.append({"destino": desc[:200], "orgao": unidade, "valor": v, "categoria": categoria(f"{desc} {unidade}")})
+        m = RE_LINHA_OCR.match(l)
+        if m and m.group(1):
+            atual = {"destino": m.group(1).strip(" |-–"), "orgao": (m.group(2) or "").strip(" |"), "valor": valor(m.group(3))}
+            itens.append(atual)
+        elif atual and re.fullmatch(r"[\wÀ-ú().,;/º°ª\- ]{12,}", l) and sum(ch.isalpha() for ch in l) > 0.7 * len(l.replace(" ", "")):
+            if not RE_LIXO.search(l) and not re.search(r"Secretaria|Funda[cç]", l):
+                atual["destino"] = (atual["destino"] + " " + l).strip()[:200]
+    for i in itens:
+        i["categoria"] = categoria(i["destino"], i["orgao"])
     return itens
 
 
