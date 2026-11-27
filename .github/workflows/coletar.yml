@@ -2,7 +2,7 @@ name: Coleta diária da Câmara de Jacareí
 
 on:
   schedule:
-    - cron: "17 9 * * *" # 6h17 em Brasília
+    - cron: "0 12 * * *" # 9h em Brasília (12h UTC)
   workflow_dispatch: {}
 
 permissions:
