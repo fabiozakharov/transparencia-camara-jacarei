@@ -297,6 +297,12 @@ def main() -> int:
         salvar("emendas.json", {"categorias": [n for n, _ in em.CATEGORIAS] + ["Outros"], "itens": itens, "resumo": em.resumo(itens)})
     except Exception as erro:
         erros.append(f"emendas: {erro}")
+    try:
+        import ranking
+
+        salvar("ranking.json", ranking.calcular())
+    except Exception as erro:
+        erros.append(f"ranking: {erro}")
     meta["erros"] = erros
     salvar("coleta.json", meta)
     print(json.dumps(meta, ensure_ascii=False, indent=1)[:3000])

@@ -25,3 +25,5 @@ python coletor/coletar.py
 | `dados/votacoes.json` | Cada item votado nas sessões, com resultado e contagem de votos tirados das atas; votos nominais por vereador quando o boletim (PDF escaneado, lido por OCR) é reconhecido. |
 | `dados/boletins_texto/` | Texto OCR dos boletins de votação, para conferência. |
 | `dados/emendas.json` | Emendas impositivas desta legislatura: cada destino com órgão, valor e categoria (Saúde, Educação, Esporte, Cultura, Assistência social, Obras e meio ambiente, Outros), mais totais por vereador. |
+| `dados/gastos_gabinete.json` | Gastos de gabinete por vereador e ano (combustível, carro, impressão, telefone fixo, material e diárias), lançados à mão do painel "Gastos Vereadores Mensal" da Câmara. |
+| `dados/ranking.json` | Ranking dos vereadores: nota de 0 a 10, posição e nota de cada critério (presença, fiscalização, projetos, indicações, economia de gabinete, votações nominais e emendas). Metodologia em `coletor/ranking.py`. |
