@@ -21,7 +21,7 @@
  "descricoes": {
   "presenca": "100% de presença = 10. Cada ponto percentual abaixo tira 0,5.",
   "fiscalizacao": "Requerimentos e pedidos de informação por sessão no cargo. Quem mais fez = 10.",
-  "projetos": "Projeto apresentado = 1, aprovado = 3, honraria = 0,25, por sessão no cargo. Quem mais pontuou = 10.",
+  "projetos": "Projetos que cortam impostos ou burocracia, dão transparência, sustam atos ou cortam benefícios políticos somam; os que repetem lei estadual ou federal, regulam demais, criam datas comemorativas, aumentam salários políticos ou impostos descontam. Autor e coautores levam em dobro. Saldo zero = 5.",
   "indicacoes": "Indicações por sessão no cargo, com teto: chegar à mediana da Câmara já vale 10.",
   "gastos": "Gastos de gabinete por sessão no cargo. Quem gastou menos = 10, quem gastou mais = 0.",
   "votacoes": "Parte dos boletins de votação nominal em que votou SIM ou NÃO. Abstenção ou ausência = zero.",
@@ -37,7 +37,7 @@
   {
    "id": "gabriel-belem",
    "nome": "Gabriel Belém",
-   "nota": 7.7,
+   "nota": 8.4,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -48,8 +48,8 @@
      "detalhe": "100 requerimentos e 133 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.3,
-     "detalhe": "6 projetos (2 aprovados) e 0 honrarias"
+     "nota": 5.0,
+     "detalhe": "1 positivo, 1 negativo e 4 a definir"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -72,157 +72,9 @@
    "posicao": 1
   },
   {
-   "id": "juex-almeida",
-   "nome": "Juex Almeida",
-   "nota": 7.1,
-   "criterios": {
-    "presenca": {
-     "nota": 10.0,
-     "detalhe": "78 de 78 sessões (100,0%)"
-    },
-    "fiscalizacao": {
-     "nota": 3.3,
-     "detalhe": "70 requerimentos e 7 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 10.0,
-     "detalhe": "40 projetos (17 aprovados) e 10 honrarias"
-    },
-    "indicacoes": {
-     "nota": 10.0,
-     "detalhe": "664 indicações"
-    },
-    "gastos": {
-     "nota": 5.5,
-     "detalhe": "R$ 17.963 (2025: R$ 10.618, 2026: R$ 7.345)"
-    },
-    "votacoes": {
-     "nota": 9.9,
-     "detalhe": "votou em 83 de 84 votações nominais"
-    },
-    "emendas": {
-     "nota": 4.3,
-     "detalhe": "R$ 262.000 em destinos sem relevância ou sem justificativa"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 2
-  },
-  {
-   "id": "valmir",
-   "nome": "Valmir do Parque Meia Lua",
-   "nota": 6.6,
-   "criterios": {
-    "presenca": {
-     "nota": 8.7,
-     "detalhe": "76 de 78 sessões (97,4%)"
-    },
-    "fiscalizacao": {
-     "nota": 10.0,
-     "detalhe": "228 requerimentos e 8 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 4.3,
-     "detalhe": "20 projetos (6 aprovados) e 5 honrarias"
-    },
-    "indicacoes": {
-     "nota": 10.0,
-     "detalhe": "1112 indicações"
-    },
-    "gastos": {
-     "nota": 0.0,
-     "detalhe": "R$ 28.571 (2025: R$ 15.613, 2026: R$ 12.957)"
-    },
-    "votacoes": {
-     "nota": 9.6,
-     "detalhe": "votou em 81 de 84 votações nominais"
-    },
-    "emendas": {
-     "nota": 5.8,
-     "detalhe": "R$ 170.000 em destinos sem relevância ou sem justificativa"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 3
-  },
-  {
-   "id": "hernani-barreto",
-   "nome": "Hernani Barreto",
-   "nota": 6.5,
-   "criterios": {
-    "presenca": {
-     "nota": 10.0,
-     "detalhe": "39 de 39 sessões (100,0%)"
-    },
-    "fiscalizacao": {
-     "nota": 6.8,
-     "detalhe": "77 requerimentos e 3 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 4.6,
-     "detalhe": "7 projetos (5 aprovados) e 3 honrarias"
-    },
-    "indicacoes": {
-     "nota": 10.0,
-     "detalhe": "323 indicações"
-    },
-    "gastos": {
-     "nota": 2.7,
-     "detalhe": "R$ 11.701 (2025: R$ 11.279, 2026: R$ 422)"
-    },
-    "votacoes": {
-     "nota": 10.0,
-     "detalhe": "votou em 50 de 50 votações nominais"
-    },
-    "emendas": {
-     "nota": 5.6,
-     "detalhe": "R$ 172.000 em destinos sem relevância ou sem justificativa"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 4
-  },
-  {
-   "id": "maria-amelia",
-   "nome": "Maria Amélia",
-   "nota": 6.5,
-   "criterios": {
-    "presenca": {
-     "nota": 7.5,
-     "detalhe": "74 de 78 sessões (94,9%)"
-    },
-    "fiscalizacao": {
-     "nota": 2.3,
-     "detalhe": "55 requerimentos e 0 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 5.2,
-     "detalhe": "18 projetos (9 aprovados) e 15 honrarias"
-    },
-    "indicacoes": {
-     "nota": 10.0,
-     "detalhe": "481 indicações"
-    },
-    "gastos": {
-     "nota": 8.7,
-     "detalhe": "R$ 11.808 (2025: R$ 8.683, 2026: R$ 3.125)"
-    },
-    "votacoes": {
-     "nota": 9.3,
-     "detalhe": "votou em 78 de 84 votações nominais"
-    },
-    "emendas": {
-     "nota": 6.6,
-     "detalhe": "R$ 49.000 em destinos sem relevância ou sem justificativa (coleta parcial: 71,5% da cota lida)"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 4
-  },
-  {
    "id": "netho-alves",
    "nome": "Netho Alves",
-   "nota": 6.4,
+   "nota": 6.9,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -233,8 +85,8 @@
      "detalhe": "152 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.4,
-     "detalhe": "6 projetos (2 aprovados) e 3 honrarias"
+     "nota": 3.8,
+     "detalhe": "0 positivos, 2 negativos e 7 a definir"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -254,12 +106,12 @@
     }
    },
    "sem_dados": [],
-   "posicao": 6
+   "posicao": 2
   },
   {
    "id": "jean-araujo",
    "nome": "Jean Araújo",
-   "nota": 6.2,
+   "nota": 6.7,
    "criterios": {
     "presenca": {
      "nota": 9.4,
@@ -270,8 +122,8 @@
      "detalhe": "115 requerimentos e 1 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.2,
-     "detalhe": "8 projetos (4 aprovados) e 4 honrarias"
+     "nota": 5.0,
+     "detalhe": "2 positivos, 2 negativos e 8 a definir"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -291,12 +143,12 @@
     }
    },
    "sem_dados": [],
-   "posicao": 7
+   "posicao": 3
   },
   {
    "id": "siufarne",
    "nome": "Siufarne do Cidade Salvador",
-   "nota": 5.9,
+   "nota": 6.5,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -307,8 +159,8 @@
      "detalhe": "79 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.6,
-     "detalhe": "14 projetos (3 aprovados) e 0 honrarias"
+     "nota": 5.6,
+     "detalhe": "2 positivos, 1 negativo e 11 a definir"
     },
     "indicacoes": {
      "nota": 9.4,
@@ -328,12 +180,160 @@
     }
    },
    "sem_dados": [],
+   "posicao": 4
+  },
+  {
+   "id": "luis-flavio",
+   "nome": "Luís Flávio",
+   "nota": 6.4,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 4.5,
+     "detalhe": "36 requerimentos e 70 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 3.8,
+     "detalhe": "0 positivos, 2 negativos e 1 a definir"
+    },
+    "indicacoes": {
+     "nota": 7.2,
+     "detalhe": "239 indicações"
+    },
+    "gastos": {
+     "nota": 6.7,
+     "detalhe": "R$ 15.683 (2025: R$ 9.823, 2026: R$ 5.860)"
+    },
+    "votacoes": {
+     "nota": 9.8,
+     "detalhe": "votou em 82 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 7.0,
+     "detalhe": "R$ 75.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 5
+  },
+  {
+   "id": "maria-amelia",
+   "nome": "Maria Amélia",
+   "nota": 6.3,
+   "criterios": {
+    "presenca": {
+     "nota": 7.5,
+     "detalhe": "74 de 78 sessões (94,9%)"
+    },
+    "fiscalizacao": {
+     "nota": 2.3,
+     "detalhe": "55 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 4.4,
+     "detalhe": "1 positivo, 2 negativos e 30 a definir"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "481 indicações"
+    },
+    "gastos": {
+     "nota": 8.7,
+     "detalhe": "R$ 11.808 (2025: R$ 8.683, 2026: R$ 3.125)"
+    },
+    "votacoes": {
+     "nota": 9.3,
+     "detalhe": "votou em 78 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 6.6,
+     "detalhe": "R$ 49.000 em destinos sem relevância ou sem justificativa (coleta parcial: 71,5% da cota lida)"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 6
+  },
+  {
+   "id": "hernani-barreto",
+   "nome": "Hernani Barreto",
+   "nota": 6.1,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "39 de 39 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 6.8,
+     "detalhe": "77 requerimentos e 3 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 2.5,
+     "detalhe": "0 positivos, 2 negativos e 8 a definir"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "323 indicações"
+    },
+    "gastos": {
+     "nota": 2.7,
+     "detalhe": "R$ 11.701 (2025: R$ 11.279, 2026: R$ 422)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 50 de 50 votações nominais"
+    },
+    "emendas": {
+     "nota": 5.6,
+     "detalhe": "R$ 172.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 7
+  },
+  {
+   "id": "valmir",
+   "nome": "Valmir do Parque Meia Lua",
+   "nota": 6.0,
+   "criterios": {
+    "presenca": {
+     "nota": 8.7,
+     "detalhe": "76 de 78 sessões (97,4%)"
+    },
+    "fiscalizacao": {
+     "nota": 10.0,
+     "detalhe": "228 requerimentos e 8 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 1.2,
+     "detalhe": "2 positivos, 8 negativos e 15 a definir"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "1112 indicações"
+    },
+    "gastos": {
+     "nota": 0.0,
+     "detalhe": "R$ 28.571 (2025: R$ 15.613, 2026: R$ 12.957)"
+    },
+    "votacoes": {
+     "nota": 9.6,
+     "detalhe": "votou em 81 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 5.8,
+     "detalhe": "R$ 170.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
    "posicao": 8
   },
   {
    "id": "daniel-mariano",
    "nome": "Daniel Mariano",
-   "nota": 5.8,
+   "nota": 5.9,
    "criterios": {
     "presenca": {
      "nota": 8.7,
@@ -344,8 +344,8 @@
      "detalhe": "130 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 3.5,
-     "detalhe": "17 projetos (4 aprovados) e 8 honrarias"
+     "nota": 3.8,
+     "detalhe": "0 positivos, 2 negativos e 23 a definir"
     },
     "indicacoes": {
      "nota": 5.5,
@@ -368,46 +368,9 @@
    "posicao": 9
   },
   {
-   "id": "luis-flavio",
-   "nome": "Luís Flávio",
-   "nota": 5.8,
-   "criterios": {
-    "presenca": {
-     "nota": 10.0,
-     "detalhe": "78 de 78 sessões (100,0%)"
-    },
-    "fiscalizacao": {
-     "nota": 4.5,
-     "detalhe": "36 requerimentos e 70 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 0.6,
-     "detalhe": "2 projetos (1 aprovados) e 1 honrarias"
-    },
-    "indicacoes": {
-     "nota": 7.2,
-     "detalhe": "239 indicações"
-    },
-    "gastos": {
-     "nota": 6.7,
-     "detalhe": "R$ 15.683 (2025: R$ 9.823, 2026: R$ 5.860)"
-    },
-    "votacoes": {
-     "nota": 9.8,
-     "detalhe": "votou em 82 de 84 votações nominais"
-    },
-    "emendas": {
-     "nota": 7.0,
-     "detalhe": "R$ 75.000 em destinos sem relevância ou sem justificativa"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 9
-  },
-  {
    "id": "rogerio-timoteo",
    "nome": "Rogério Timóteo",
-   "nota": 5.4,
+   "nota": 5.9,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -418,8 +381,8 @@
      "detalhe": "37 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.6,
-     "detalhe": "2 projetos (2 aprovados) e 1 honrarias"
+     "nota": 3.8,
+     "detalhe": "0 positivos, 1 negativo e 2 a definir"
     },
     "indicacoes": {
      "nota": 3.5,
@@ -437,47 +400,49 @@
    "sem_dados": [
     "emendas"
    ],
-   "posicao": 11
+   "posicao": 9
   },
   {
-   "id": "paulinho-dos-condutores",
-   "nome": "Paulinho dos Condutores",
-   "nota": 5.3,
+   "id": "juex-almeida",
+   "nome": "Juex Almeida",
+   "nota": 5.5,
    "criterios": {
     "presenca": {
      "nota": 10.0,
      "detalhe": "78 de 78 sessões (100,0%)"
     },
     "fiscalizacao": {
-     "nota": 1.4,
-     "detalhe": "24 requerimentos e 8 pedidos de informação"
+     "nota": 3.3,
+     "detalhe": "70 requerimentos e 7 pedidos de informação"
     },
     "projetos": {
-     "nota": 6.7,
-     "detalhe": "29 projetos (10 aprovados) e 8 honrarias"
+     "nota": 1.9,
+     "detalhe": "3 positivos, 8 negativos e 39 a definir"
     },
     "indicacoes": {
-     "nota": 2.7,
-     "detalhe": "89 indicações"
+     "nota": 10.0,
+     "detalhe": "664 indicações"
     },
     "gastos": {
-     "nota": 4.0,
-     "detalhe": "R$ 20.785 (2025: R$ 12.881, 2026: R$ 7.905)"
+     "nota": 5.5,
+     "detalhe": "R$ 17.963 (2025: R$ 10.618, 2026: R$ 7.345)"
     },
     "votacoes": {
-     "nota": 10.0,
-     "detalhe": "votou em 84 de 84 votações nominais"
+     "nota": 9.9,
+     "detalhe": "votou em 83 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 4.3,
+     "detalhe": "R$ 262.000 em destinos sem relevância ou sem justificativa"
     }
    },
-   "sem_dados": [
-    "emendas"
-   ],
-   "posicao": 12
+   "sem_dados": [],
+   "posicao": 11
   },
   {
    "id": "marcelo-dantas",
    "nome": "Marcelo Dantas",
-   "nota": 4.7,
+   "nota": 5.4,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -488,8 +453,8 @@
      "detalhe": "48 requerimentos e 4 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.2,
-     "detalhe": "5 projetos (2 aprovados) e 2 honrarias"
+     "nota": 4.4,
+     "detalhe": "0 positivos, 1 negativo e 6 a definir"
     },
     "indicacoes": {
      "nota": 3.1,
@@ -509,12 +474,12 @@
     }
    },
    "sem_dados": [],
-   "posicao": 13
+   "posicao": 12
   },
   {
    "id": "paulinho-do-esporte",
    "nome": "Paulinho do Esporte",
-   "nota": 4.5,
+   "nota": 4.9,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -525,8 +490,8 @@
      "detalhe": "67 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.7,
-     "detalhe": "14 projetos (3 aprovados) e 2 honrarias"
+     "nota": 4.4,
+     "detalhe": "0 positivos, 1 negativo e 15 a definir"
     },
     "indicacoes": {
      "nota": 5.7,
@@ -546,7 +511,2400 @@
     }
    },
    "sem_dados": [],
+   "posicao": 13
+  },
+  {
+   "id": "paulinho-dos-condutores",
+   "nome": "Paulinho dos Condutores",
+   "nota": 3.7,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 1.4,
+     "detalhe": "24 requerimentos e 8 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 0.0,
+     "detalhe": "1 positivo, 9 negativos e 27 a definir"
+    },
+    "indicacoes": {
+     "nota": 2.7,
+     "detalhe": "89 indicações"
+    },
+    "gastos": {
+     "nota": 4.0,
+     "detalhe": "R$ 20.785 (2025: R$ 12.881, 2026: R$ 7.905)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 84 de 84 votações nominais"
+    }
+   },
+   "sem_dados": [
+    "emendas"
+   ],
    "posicao": 14
+  }
+ ],
+ "projetos_classificados": [
+  {
+   "projeto": "PDL 001/2025",
+   "assunto": "título de cidadania (tramitação sigilosa)",
+   "autores": [
+    "marcelo-dantas"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 001/2026",
+   "assunto": "Dia do influenciador e criador de conteúdo digital",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 002/2025",
+   "assunto": "Título de Cidadania",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 002/2026",
+   "assunto": "Concede Título de Cidadão",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 003/2025",
+   "assunto": "Título de cidadania",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 003/2026",
+   "assunto": "Concede Título de Cidadania",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 004/2025",
+   "assunto": "Título de Cidadania",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 004/2026",
+   "assunto": "Concede Título de Cidadania",
+   "autores": [
+    "marcelo-dantas"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 005/2025",
+   "assunto": "Título de Cidadania",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 005/2026",
+   "assunto": "medalha mérito enfermagem",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 006/2025",
+   "assunto": "Dispõe sobre a instituição do Selo Empresa do Futuro",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 006/2026",
+   "assunto": "Dispõe sobre a concessão de Medalha",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 007/2026",
+   "assunto": "Concede Título de Cidadão",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 008/2025",
+   "assunto": "Concede Título de Cidadania",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 008/2026",
+   "assunto": "Institui o Selo Empresa Amiga do Autista",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 010/2025",
+   "assunto": "Altera prêmio guarahna ramos",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 010/2026",
+   "assunto": "Susta os efeitos do Decreto nº 664 de 4 de agosto de 2026",
+   "autores": [
+    "gabriel-belem"
+   ],
+   "classe": "positivo",
+   "motivo": "Susta outro ato",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 011/2025",
+   "assunto": "título de cidadania",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PDL 012/2026",
+   "assunto": "Concede Título de Cidadania",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLCL 001/2025",
+   "assunto": "Multa quando do descarte irregular de resíduos",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLCL 001/2026",
+   "assunto": "Altera a Lei Complementar nº 68",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 001/2025",
+   "assunto": "conceder anistia de multa e juros de crédito tributário",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "positivo",
+   "motivo": "Diminui imposto",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 001/2026",
+   "assunto": "Semana Enfrentamento Dependência Emocional",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 002/2025",
+   "assunto": "obrigatoriedade da michroshipagem em animais grande porte",
+   "autores": [
+    "marcelo-dantas"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 002/2026",
+   "assunto": "Identificação dos postes de iluminação",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 003/2025",
+   "assunto": "02_parecer juridico – incentivo fiscal posto combustível",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "positivo",
+   "motivo": "Diminui imposto",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 003/2026",
+   "assunto": "Sepultamento Animais Estimação Junto a Tutores",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei estadual (exemplo do Fabio)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 004/2025",
+   "assunto": "proíbe shows infantojuvenil que incentivem droga e crimes",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 004/2026",
+   "assunto": "Programa Fomento Artesanato",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 005/2025",
+   "assunto": "Amélia – Denominação da Rua Tereza de Moura",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 005/2026",
+   "assunto": "fiscalização eletrônica e radares",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 006/2025",
+   "assunto": "obrigatoriedade de exame toxicológico",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 006/2026",
+   "assunto": "Visita de animais a hospitais",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 007/2025",
+   "assunto": "Juex – proibição de shows que façam apologia ao crime",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 007/2026",
+   "assunto": "Obrigatoriedade entrega motoboys portaria",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "negativo",
+   "motivo": "Regulação exagerada (obriga entrega na portaria por motoboys)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 008/2025",
+   "assunto": "infração trato de drogas",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 008/2026",
+   "assunto": "Utilização de radares de ruído",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 009/2025",
+   "assunto": "Programa Mãos à Horta",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 009/2026",
+   "assunto": "Utilização de radares de ruído",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 010/2025",
+   "assunto": "institui e inclui o Dia do Síndico.",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 010/2026",
+   "assunto": "Declara de utilidade pública a Associação Comunitária e Filantrópica RJC",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 011/2025",
+   "assunto": "campanha automedicação.",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 011/2026",
+   "assunto": "Dispõe sobre denominação de rua",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 012/2025",
+   "assunto": "habitação de animais domésticos",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 012/2026",
+   "assunto": "Institui no Município a Notificação de Cidadania",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 013/2025",
+   "assunto": "banco de ração e utensílios para animais",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 013/2026",
+   "assunto": "Dispõe sobre a denominação da área verde como Praça Sargento Heber",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 014/2025",
+   "assunto": "Divulgação de informativos sobre proteção e denúncia em espaços esport",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 014/2026",
+   "assunto": "Institui o Dia do Produtor Agro",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 015/2025",
+   "assunto": "revoga parágrafo lei 6.486 ref. prazo doação",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "positivo",
+   "motivo": "Revoga exigência de prazo (menos burocracia)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 015/2026",
+   "assunto": "Monitoramento integrado das Vias Rurais",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 016/2025",
+   "assunto": "01_projeto – alterar o nome da Guarda Civil Municipal de Jacareí",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 016/2026",
+   "assunto": "pavimento túmulos cemitérios municipais",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 017/2025",
+   "assunto": "03_parecer C1.C5 – altera lei 6.423 programa qualifica jacareí",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 017/2026",
+   "assunto": "Declara de utilidade pública – ACORJ",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 018/2026",
+   "assunto": "denominação viela pastor antonio carlos de sousa",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 019/2025",
+   "assunto": "dia do feirante",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 019/2026",
+   "assunto": "Declara de utilidade pública Servos de Maria",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 020/2025",
+   "assunto": "Câmera de video monitoramento em escolas e creches públicas",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 020/2026",
+   "assunto": "fornecimento de medicamentos receitas particulares",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 021/2025",
+   "assunto": "03_parecer c1.5 – disponibilização de canal de denuncia violência obstétrica",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 021/2026",
+   "assunto": "Escolha do membro para administração de terapia intravenosa",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 022/2025",
+   "assunto": "obrigatoriedade de divulgação de atendimento profissionais SUS",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "positivo",
+   "motivo": "Gera transparência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 022/2026",
+   "assunto": "Institui a politica municipal de valorização da família (2)",
+   "autores": [
+    "rogerio-timoteo"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 023/2026",
+   "assunto": "implantação de espaços públicos de apoio a trabalhadores de entrega",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 024/2026",
+   "assunto": "Dispõe sobre criação da Política de Eco-Vigilância.",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 025/2025",
+   "assunto": "PCondutores – disponibilização de interpretes de LIBRAS nos estabelecimentos de saúde",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (Libras: Lei 10.436/2002 e Decreto 5.626/2005)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 027/2026",
+   "assunto": "Saúde bucal na melhor idade",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 028/2025",
+   "assunto": "Institui o programa de atenção psicológica",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 028/2026",
+   "assunto": "Informação sobre a presença de glúten e lactose em alimentos",
+   "autores": [
+    "rogerio-timoteo"
+   ],
+   "classe": "negativo",
+   "motivo": "Regulação exagerada (exemplo do Fabio)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 029/2025",
+   "assunto": "institui o estatuto municipal de trabalhadores por app",
+   "autores": [
+    "gabriel-belem"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 029/2026",
+   "assunto": "Programa de vacinação domiciliar para pessoas com TEA.",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 030/2025",
+   "assunto": "Hino Nacional e de Jacareí em escolas",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 030/2026",
+   "assunto": "Disponibilização de intérpretes de libras.",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (Libras: Lei 10.436/2002 e Decreto 5.626/2005)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 031/2025",
+   "assunto": "define telemedicina em Jacareí (1)",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (telemedicina: Lei 14.510/2022)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 031/2026",
+   "assunto": "Registros digitais como prova em casos violência contra mulher",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Trata de prova em processo, assunto de lei federal",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 032/2025",
+   "assunto": "institui política prevenção de crimes digitais",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 032/2026",
+   "assunto": "Política Municipal de Sinalização Inteligente",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 033/2025",
+   "assunto": "semana municipal privacidade proteção dados",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 033/2026",
+   "assunto": "Ressarcimento dos custos relacionados aos serviços de saúde",
+   "autores": [
+    "marcelo-dantas"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 034/2025",
+   "assunto": "Juex – braille e mapas táteis em pontos embarque",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 034/2026",
+   "assunto": "Siufarne – Transmissão da programação da TV Câmara De Jacareí",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "positivo",
+   "motivo": "Gera transparência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 035/2025",
+   "assunto": "institui selo empresa do futuro.",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 035/2026",
+   "assunto": "Atendimento em saúde aos agentes se segurança pública",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 036/2025",
+   "assunto": "diretrizes proteção de dados sensíveis",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (dados pessoais: LGPD, Lei 13.709/2018)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 036/2026",
+   "assunto": "Proibição do consumo de cigarros e outros produtos fumígenos",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete leis federal e estadual antifumo (Lei 9.294/1996 e Lei SP 13.541/2009)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 037/2025",
+   "assunto": "denomina Rua Odete Francisca da Silva.",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 037/2026",
+   "assunto": "Abordagem humanizada em emergências de saúde mental",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 038/2025",
+   "assunto": "Disciplina implantação de crematório e incineração animais.",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 038/2026",
+   "assunto": "Institui o Cadastro Único de Violência Doméstica (CAVID)",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 039/2025",
+   "assunto": "denominação da Rua Antônio Carlos da Silva",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 039/2026",
+   "assunto": "Obrigatoriedade de recolhimento seguro de brinquedos",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Regulação exagerada (obrigação sobre recolhimento de brinquedos)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 040/2025",
+   "assunto": "Programa Lote Urbanizado",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 040/2026",
+   "assunto": "Institui a Política Municipal de Segurança Alimentar",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 041/2025",
+   "assunto": "prioridade de atendimento para mães atípicas",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 041/2026",
+   "assunto": "Priorização do atendimento de pessoas idosas",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (prioridade a idosos: Estatuto da Pessoa Idosa)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 042/2025",
+   "assunto": "Amélia – institui programa educacional e formativo da capoeira",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 043/2025",
+   "assunto": "Inclui no Calendário Oficial o Show Mulheres",
+   "autores": [
+    "luis-flavio"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 043/2026",
+   "assunto": "Programa Placa Inteligente Identificada",
+   "autores": [
+    "marcelo-dantas"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 044/2025",
+   "assunto": "sementes do futuro.",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 044/2026",
+   "assunto": "Denominação da VIELA DEZESSEIS como Paulo Antonio de Godoy",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 045/2025",
+   "assunto": "dia da saúde ocular",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 045/2026",
+   "assunto": "Institui o Projeto Trânsito Livre",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 046/2025",
+   "assunto": "MURO LEGAL valoriza grafite e muralismo em Jacareí .",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 046/2026",
+   "assunto": "Denominação da Praça Valdeci de Araújo (2)",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 047/2025",
+   "assunto": "institui semana da cultura geekJuex – institui semana da cultura geek",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 047/2026",
+   "assunto": "Conversão de multas em prestação de serviços comunitários.",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "positivo",
+   "motivo": "Converte multas em serviço comunitário (menos ônus ao cidadão)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 048/2025",
+   "assunto": "institui atividades escolares alusivas",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 048/2026",
+   "assunto": "Institui Programa Tempo Vital",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 049/2025",
+   "assunto": "institui política de enfrentamento crime organizado",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 049/2026",
+   "assunto": "Painel Municipal de Consulta de Medicamentos e Insumos",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "positivo",
+   "motivo": "Gera transparência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 050/2025",
+   "assunto": "obrigatoriedade de informações das vacinas",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 050/2026",
+   "assunto": "Denomina Praça Prof. Said Salim",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 051/2025",
+   "assunto": "Arte na Periferia",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 051/2026",
+   "assunto": "Programa Tempo Vital",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 052/2025",
+   "assunto": "vedação homenagens violência à mulher…",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 052/2026",
+   "assunto": "Academia da Terceira Idade",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 053/2025",
+   "assunto": "vedação homenagens crimes hediondos o…",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 053/2026",
+   "assunto": "Procedimento de vacinação e coleta de exame das pessoas com TEA",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 054/2025",
+   "assunto": "vedação homenagens crimes maus-tratos…",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 054/2026",
+   "assunto": "Equiparação pessoas com Síndrome de Tourette às pessoas com deficiência",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 055/2025",
+   "assunto": "vedação homenagens crimes contra adm …",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 055/2026",
+   "assunto": "Denominação Rua Wallace Fernando Campos",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 056/2025",
+   "assunto": "Programa Incentivo Futebol Feminino",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 056/2026",
+   "assunto": "Altera a redação da Lei nº 6.833",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 057/2025",
+   "assunto": "programa municipal de esducação financeira e investimentos",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 057/2026",
+   "assunto": "Reconhece como de interesse público o Circuito das Montanhas",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 058/2025",
+   "assunto": "autoriza dois acompanahantes às pessoas com TEA.",
+   "autores": [
+    "luis-flavio"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 058/2026",
+   "assunto": "altera lei 6450 selo empresa amiga do jovem e do adolescente.",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 059/2025",
+   "assunto": "denomina rua Luiz Felipe de Paula Gundim..",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 059/2026",
+   "assunto": "Altera a Lei nº 6.495",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 060/2025",
+   "assunto": "altera regras gerais de moralidade inventura agentes públicos",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "positivo",
+   "motivo": "Regras de moralidade para nomeação de agentes públicos",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 060/2026",
+   "assunto": "Altera a Lei nº 6.472",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 061/2025",
+   "assunto": "declara de utilidade pública Associação Parque Sto Antônio",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 061/2026",
+   "assunto": "Altera a Lei nº 6.473",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 062/2025",
+   "assunto": "define critérios de pequeno valor",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 062/2026",
+   "assunto": "Altera a Lei nº 5.999",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 063/2025",
+   "assunto": "símbolo acessibilidade",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 063/2026",
+   "assunto": "Dispõe sobre denominação de rua",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 064/2025",
+   "assunto": "parecer jur_Em01 – Valmir – denomina avenida José Antônio Marçon",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 064/2026",
+   "assunto": "Siufarne – Programa Ponto Ecológico Solidário – Reusa Jacareí.",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 065/2025",
+   "assunto": "institui no Calendário o dia do insanos moto Clube",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 065/2026",
+   "assunto": "Utilidade Pública Instituto Transformando História",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 066/2025",
+   "assunto": "proteção contra hipersexualização de crianças",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 066/2026",
+   "assunto": "Institui a Politica Pública de Mobilidade",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 067/2025",
+   "assunto": "dispõe sobre o agendamento e cancelamento de consultas",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 067/2026",
+   "assunto": "Altera a Lei 6.777 – Programa Ag. de Transito Mirim",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 068/2025",
+   "assunto": "institui a polítiva municipal Infância Conectada",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 068/2026",
+   "assunto": "Utilidade Pública Anjos sem Asas",
+   "autores": [
+    "rogerio-timoteo"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 069/2025",
+   "assunto": "dispõe sobre diretrizes para a realização de eventos de música.",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 069/2026",
+   "assunto": "credencial para TEA",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 070/2025",
+   "assunto": "institui o orçamento cidadão",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "positivo",
+   "motivo": "Gera transparência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 070/2026",
+   "assunto": "programa Minutos de Segurança",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 071/2025",
+   "assunto": "Dispõe sobre prevenção ao assédio_organized",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 071/2026",
+   "assunto": "Proteção, resgate e conservação de abelhas silvestres",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 072/2025",
+   "assunto": "institui política integrada pela primeira infância",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 072/2026",
+   "assunto": "Compartilhamento de dados e acesso.",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 073/2025",
+   "assunto": "dispõe sobre a denominação da Rua Apenina dos Santos Rangel",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 073/2026",
+   "assunto": "Benefício Eventual de Auxílio Funerário",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 074/2025",
+   "assunto": "denomia rua sueli maria restani rocha.",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 074/2026",
+   "assunto": "Dispõe sobre a denominação da Rua Quatro",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 075/2025",
+   "assunto": "humanização de luto materno e paternal",
+   "autores": [
+    "gabriel-belem",
+    "juex-almeida",
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 075/2026",
+   "assunto": "Institui a Política Pública de Mobilidade",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 076/2025",
+   "assunto": "Institui o Programa Agente de Trânsito Mirim",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 076/2026",
+   "assunto": "Dispõe sobre a ação ‘COM ELAS, POR ELAS’",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 077/2025",
+   "assunto": "Conscientização e Combate à Alienação Parental (1)",
+   "autores": [
+    "juex-almeida",
+    "luis-flavio",
+    "marcelo-dantas"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (alienação parental: Lei 12.318/2010)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 077/2026",
+   "assunto": "Dispõe sobre a instalação e a adequação de trocadores infantis",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 078/2025",
+   "assunto": "Direito à informação sobre a posição do paciente na fila de espera do SUS",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "positivo",
+   "motivo": "Gera transparência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 078/2026",
+   "assunto": "Navegação de pacientes com neoplasia maliga de mama e colo do útero",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 079/2025",
+   "assunto": "proibição entrada escolas.",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 079/2026",
+   "assunto": "festa junina e pamonhada lar ozanam…",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa (festa no calendário oficial)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 080/2025",
+   "assunto": "PROSAME – programa saúde escolar",
+   "autores": [
+    "gabriel-belem",
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 080/2026",
+   "assunto": "Institui e inclui a Encontros …",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 081/2025",
+   "assunto": "Obrigatoriedade de um profissional de enfermagem em creches públicas",
+   "autores": [
+    "marcelo-dantas"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 081/2026",
+   "assunto": "Dispõe sobre a denominação da …",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 082/2025",
+   "assunto": "Protocolo Escola Acolhedora",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 083/2025",
+   "assunto": "autorização para comercialização de alimentos preparados em quadras públicas",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 084/2025",
+   "assunto": "Dispõe sobre o programa de reconstrução dentária para mulheres vítimas de violência doméstica",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 085/2025",
+   "assunto": "declara de utilidade pública a Associação Esportiva e Cultural do Jardim Paraiso",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 086/2025",
+   "assunto": "Programa Educacional de Resistência as Drogas e à Violência (PROERD)",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 087/2025",
+   "assunto": "dignidade sepultamento natimortos",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 088/2025",
+   "assunto": "Programa de Enfrentamento Local Contra a Adultização",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 089/2025",
+   "assunto": "Alteração a redação da lei nº 6.664 – FLIJ",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 090/2025",
+   "assunto": "política sobre varizes",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 091/2025",
+   "assunto": "Implementação e uso de inteligência artificial",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 092/2025",
+   "assunto": "regime 24h conselheiros tutelares",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 093/2025",
+   "assunto": "aceitação de receitas médicas",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 094/2025",
+   "assunto": "ampliação atuação assistentes sociais",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 095/2025",
+   "assunto": "emissão documento medicamentos e tratamentos",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 096/2025",
+   "assunto": "Juex, Amélia, Gabriel – institui a política municiapal de saúde mental materna",
+   "autores": [
+    "gabriel-belem",
+    "juex-almeida",
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 097/2025",
+   "assunto": "Altera a redação da Lei nº 5.702, aparelho sonoro",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 098/2025",
+   "assunto": "Institui a obrigatoriedade de supermercados e estabelecimentos similares disponibilizarem carrinhos de compras adaptados – Copia",
+   "autores": [
+    "jean-araujo"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 099/2025",
+   "assunto": "Institui programa de monitorização de diabetes em escolas",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 100/2025",
+   "assunto": "Insanos Moto Clube",
+   "autores": [
+    "gabriel-belem",
+    "hernani-barreto",
+    "jean-araujo",
+    "juex-almeida",
+    "netho-alves",
+    "paulinho-do-esporte",
+    "siufarne",
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa (Insanos Moto Clube no calendário)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 101/2025",
+   "assunto": "Institui o Dia dos Patronos das Escolas",
+   "autores": [
+    "jean-araujo",
+    "maria-amelia"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 102/2025",
+   "assunto": "Dispõe sobre a obrigatoriedade de implantação de faixa de pedestre",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 103/2025",
+   "assunto": "utilização de decibelímetro pela Guarda Civil-1",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 104/2025",
+   "assunto": "Daniel – atendimento preferencial aos profissionais da saúde",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 106/2025",
+   "assunto": "Dispõe sobre a prevenção e a punição de atos de vandalismo e depredação",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 107/2025",
+   "assunto": "Programa Municipal de Vizinhança Solidária (PVS)",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 108/2025",
+   "assunto": "Institui a Política Municipal de Videomonitoramento Colaborativo.",
+   "autores": [
+    "juex-almeida"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 110/2025",
+   "assunto": "Declara de utilidade pública o Instituto Desportivo MINNA",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 111/2025",
+   "assunto": "PCondutores – Dia Municipal do Corretor de Imóveis",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 112/2025",
+   "assunto": "Daniel – Declara de utilidade pública Vira Lata Vira Vida",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 113/2025",
+   "assunto": "PCondutores – Prevenção e enfrentamento ao infarto agudo do miocárdio",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 115/2025",
+   "assunto": "Amélia – declara de utilidade pública a Missão Kairós",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 116/2025",
+   "assunto": "Utilidade Pública Zabia Esporte Clube",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 117/2025",
+   "assunto": "Utilidade Pública Radar Companhia de Dança",
+   "autores": [
+    "hernani-barreto"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 118/2025",
+   "assunto": "PCondutores – Apresentação de exames cardiológicos em academias",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "negativo",
+   "motivo": "Regulação exagerada (exige exames cardiológicos em academias)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 119/2025",
+   "assunto": "Siufarne – Instalação de condutores numéricos nos semáforos",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 120/2025",
+   "assunto": "Denominação da atual Viela Seis como Viela Isabel Bandeira",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 121/2025",
+   "assunto": "Programa Cuidando de Quem Cuida",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 122/2025",
+   "assunto": "PCondutores – Cadastro Municipal de Pacientes Oncológicos",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Saúde",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 123/2025",
+   "assunto": "Inclui no calendário oficial Festa de São Miguel",
+   "autores": [
+    "netho-alves",
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 124/2025",
+   "assunto": "Amélia – prevenção da violência doméstica contra a mulher",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 125/2025",
+   "assunto": "Dispõe da Rua Sete como Rua José Leite Machado",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 126/2025",
+   "assunto": "Institui o Programa Bombeiro na Escola",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 128/2025",
+   "assunto": "Programa de Atenção às Pessoas com Altas Habilidades",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 129/2025",
+   "assunto": "Programa de Atenção Integral às Pessoas com Superdotação",
+   "autores": [
+    "paulinho-do-esporte"
+   ],
+   "classe": "a definir",
+   "motivo": "Outros programas e políticas",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 131/2025",
+   "assunto": "PCondutores – garantia de matrícula de irmãos na mesma unidade escolar",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 132/2025",
+   "assunto": "câmeras nas UMSFs e UPAs",
+   "autores": [
+    "siufarne"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 133/2025",
+   "assunto": "Dispõe sobre a denominação da Viela Cinco como Viela Carlos Roberto",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 134/2025",
+   "assunto": "Prescrição da ozonioterapia como tratamento médico.",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Repete lei federal (ozonioterapia: Lei 14.648/2023)",
+   "sugerido": true
+  },
+  {
+   "projeto": "PLL 135/2025",
+   "assunto": "dia eletricista e pintor",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 136/2025",
+   "assunto": "homenagem motoristas profissionais",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Honrarias (títulos, medalhas, selos, prêmios)",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 137/2025",
+   "assunto": "PCondutores – regulamentação de transporte em mototáxi",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Trânsito e mobilidade",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 138/2025",
+   "assunto": "Declara de utilidade pública a Associação Remar do Brasil",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Utilidade pública",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 139/2025",
+   "assunto": "Denominação da Rua Seis como Rua Lucas Barros Lima Silva",
+   "autores": [
+    "maria-amelia"
+   ],
+   "classe": "a definir",
+   "motivo": "Nome de rua, praça ou viela",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 140/2025",
+   "assunto": "Institui Programa Municipal Superação Jacareí",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Animais e meio ambiente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 141/2025",
+   "assunto": "Curso de primeiros socorros a recém-nascidos",
+   "autores": [
+    "daniel-mariano"
+   ],
+   "classe": "a definir",
+   "motivo": "Educação e infância",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 143/2025",
+   "assunto": "prestação de informações sobre medicamentos",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "positivo",
+   "motivo": "Gera transparência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 144/2025",
+   "assunto": "Institui programa de prevenção de abuso sexual contra crianças",
+   "autores": [
+    "netho-alves"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
+  },
+  {
+   "projeto": "PLL 145/2025",
+   "assunto": "Altera a a redação da Lei nº 6.469",
+   "autores": [
+    "valmir"
+   ],
+   "classe": "a definir",
+   "motivo": "Alteração de lei existente",
+   "sugerido": false
+  },
+  {
+   "projeto": "PR 001/2025",
+   "assunto": "Proibição do porte de armas de fogo na Câmara Municipal",
+   "autores": [
+    "paulinho-dos-condutores"
+   ],
+   "classe": "a definir",
+   "motivo": "Segurança e violência",
+   "sugerido": false
   }
  ],
  "emendas_classificadas": {

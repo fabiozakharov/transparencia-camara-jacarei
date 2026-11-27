@@ -5,7 +5,8 @@ Metodologia aprovada pelo Fabio (inspirada no Ranking dos Políticos, ranking.or
     critério               peso   como vira nota de 0 a 10
     presença               10%    100% = 10; cada ponto percentual abaixo tira 0,5
     fiscalização           20%    requerimentos + pedidos de informação por sessão no cargo; maior = 10
-    projetos de lei        20%    apresentado = 1, aprovado = 3, honraria = 0,25, por sessão no cargo; maior = 10
+    projetos de lei        20%    positivo +1, negativo −1, a definir 0, em dobro para autor e coautores
+                                  (projetos_regras.py), por sessão no cargo; saldo zero = 5, melhor = 10, pior = 0
     indicações             10%    por sessão no cargo, com teto: chegar à mediana da Câmara = 10
     economia de gabinete   15%    gasto por sessão no cargo; menor = 10, maior = 0
     votações nominais      10%    % de boletins em que votou SIM ou NÃO (presidente não conta)
@@ -21,6 +22,7 @@ import statistics
 from datetime import date
 
 import coletar as c
+import projetos_regras as regras
 
 PESOS = {
     "presenca": 0.10, "fiscalizacao": 0.20, "projetos": 0.20, "indicacoes": 0.10,
@@ -34,7 +36,7 @@ ROTULOS = {
 DESCRICOES = {
     "presenca": "100% de presença = 10. Cada ponto percentual abaixo tira 0,5.",
     "fiscalizacao": "Requerimentos e pedidos de informação por sessão no cargo. Quem mais fez = 10.",
-    "projetos": "Projeto apresentado = 1, aprovado = 3, honraria = 0,25, por sessão no cargo. Quem mais pontuou = 10.",
+    "projetos": "Projetos que cortam impostos ou burocracia, dão transparência, sustam atos ou cortam benefícios políticos somam; os que repetem lei estadual ou federal, regulam demais, criam datas comemorativas, aumentam salários políticos ou impostos descontam. Autor e coautores levam em dobro. Saldo zero = 5.",
     "indicacoes": "Indicações por sessão no cargo, com teto: chegar à mediana da Câmara já vale 10.",
     "gastos": "Gastos de gabinete por sessão no cargo. Quem gastou menos = 10, quem gastou mais = 0.",
     "votacoes": "Parte dos boletins de votação nominal em que votou SIM ou NÃO. Abstenção ou ausência = zero.",
@@ -43,9 +45,6 @@ DESCRICOES = {
 
 ANOS = ("2025", "2026")
 TIPOS_VEREADOR = {"PLL", "PLCL", "PDL", "PR"}
-RE_HONRARIA = re.compile(
-    r"t[ií]tulo|cidadan|cidad[ãa]o|denomina|medalha|comenda|honra|diploma|homenag|utilidade p[úu]blica|"
-    r"dia municipal|institui o dia|data comemorativa|calend[áa]rio|semana municipal", re.I)
 MIN_VOTOS_BOLETIM = 12  # boletins com OCR incompleto ficam de fora
 
 # --------------------------------------------------------------- emendas
@@ -132,13 +131,6 @@ def ler(nome: str, padrao=None):
     return json.loads(arq.read_text(encoding="utf-8"))
 
 
-def aprovado(chave: str, p: dict, ultimo: dict) -> bool:
-    if p.get("norma"):
-        return True
-    vs = ultimo.get(chave)
-    return bool(vs and vs[-1]["resultado"].startswith("aprovad"))
-
-
 def br(n: float, casas: int = 1) -> str:
     return f"{n:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
@@ -178,32 +170,26 @@ def calcular() -> dict:
             detalhe[vid]["fiscalizacao"] = f"{req} requerimentos e {ped} pedidos de informação"
             detalhe[vid]["indicacoes"] = f"{ind} indicações"
 
-    # projetos
-    ultimo: dict = {}
-    for v in sorted(votacoes, key=lambda x: x["data"]):
-        ultimo.setdefault(v["projeto"], []).append(v)
-    contagem = {vid: {"apresentados": 0, "aprovados": 0, "honrarias": 0, "pontos": 0.0} for vid in ids}
+    # projetos (regras em projetos_regras.py)
+    contagem = {vid: {"positivo": 0, "negativo": 0, "a definir": 0, "pontos": 0} for vid in ids}
+    classificados = []
     for chave, p in projetos.items():
         if p["tipo"] not in TIPOS_VEREADOR:
             continue
-        honra = bool(RE_HONRARIA.search(p.get("assunto", "")))
-        ok = aprovado(chave, p, ultimo)
-        for vid in p["autores"]:
-            if vid not in contagem:
-                continue
-            k = contagem[vid]
-            if honra:
-                k["honrarias"] += 1
-                k["pontos"] += 0.25
-            else:
-                k["apresentados"] += 1
-                k["aprovados"] += int(ok)
-                k["pontos"] += 3 if ok else 1
+        autores = [a for a in p["autores"] if a in contagem]
+        if not autores:
+            continue
+        cl = regras.classificar(chave, p.get("assunto", ""))
+        classificados.append({"projeto": chave, "assunto": p.get("assunto", ""), "autores": autores, **cl})
+        for vid in autores:
+            contagem[vid][cl["classe"]] += 1
+            contagem[vid]["pontos"] += regras.PONTOS[cl["classe"]] * regras.PESO_AUTOR
     for vid in ids:
         if sessoes[vid]:
             k = contagem[vid]
             bruto[vid]["projetos"] = k["pontos"] / sessoes[vid]
-            detalhe[vid]["projetos"] = f"{k['apresentados']} projetos ({k['aprovados']} aprovados) e {k['honrarias']} honrarias"
+            detalhe[vid]["projetos"] = (f"{k['positivo']} positivo{'s' if k['positivo'] != 1 else ''}, "
+                                        f"{k['negativo']} negativo{'s' if k['negativo'] != 1 else ''} e {k['a definir']} a definir")
 
     # gastos de gabinete (dados/gastos_gabinete.json: {vid: {ano: total}})
     for vid in ids:
@@ -255,7 +241,10 @@ def calcular() -> dict:
         n = notas[vid]
         if "presenca" in b:
             n["presenca"] = max(0.0, 10 - 0.5 * (100 - b["presenca"]))
-        for k in ("fiscalizacao", "projetos"):
+        if "projetos" in b:
+            teto = max(abs(x) for x in serie("projetos"))
+            n["projetos"] = 5 + 5 * b["projetos"] / teto if teto else 5.0
+        for k in ("fiscalizacao",):
             if k in b:
                 n[k] = 10 * b[k] / mx[k] if mx[k] else 0.0
         if "indicacoes" in b:
@@ -293,6 +282,7 @@ def calcular() -> dict:
         "descricoes": DESCRICOES,
         "pontos_emenda": PONTOS_EMENDA,
         "vereadores": vereadores,
+        "projetos_classificados": classificados,
         "emendas_classificadas": {vid: d["itens"] for vid, d in sorted(em.items())},
     }
 
