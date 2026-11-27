@@ -16,6 +16,8 @@ Segunda rodada (Fabio, 27/11/2026, ótica liberal: menos intervenção estatal, 
     passam da competência do vereador ou criam obrigações para a iniciativa privada;
     criam gratuidades, prioridades de atendimento ou vagas ("fura-fila"); repetem outro projeto;
     obrigações como exame toxicológico.
+Nomes de rua (Fabio): rua que só tinha número ou letra ("Rua Um", loteamento novo) = neutro;
+  troca de um nome que já existia, sem motivo = negativo.
 Autor e coautores recebem a pontuação em dobro.
 O resto fica "a definir" (vale 0) até o Fabio decidir a regra.
 
@@ -27,7 +29,7 @@ from __future__ import annotations
 
 import re
 
-PONTOS = {"positivo": 1, "negativo": -1, "a definir": 0}
+PONTOS = {"positivo": 1, "negativo": -1, "neutro": 0, "a definir": 0}
 PESO_AUTOR = 2
 
 # --- regras automáticas -------------------------------------------------------
@@ -194,6 +196,46 @@ MANUAL = {
     "PLL 140/2025": ("negativo", "Programa com gasto público", True),
     "PLL 141/2025": ("negativo", "Programa com gasto público", True),
     "PR 001/2025": ("negativo", "Restringe liberdade (porte de armas)", True),
+    # terceira rodada, lida no texto dos projetos (Claude)
+    "PLL 005/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 011/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 013/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 018/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 037/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 039/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 044/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 046/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 050/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 055/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 059/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 063/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 064/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 073/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 074/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 074/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 081/2026": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 120/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 125/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 133/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 139/2025": ("neutro", "Dá nome a rua, praça ou viela que só tinha número ou letra", True),
+    "PLL 062/2025": ("neutro", "Regra técnica de pagamento de dívidas judiciais (RPV até 110 VRMs)", True),
+    "PLL 002/2026": ("positivo", "Acesso a informação (QR Code nos postes para pedir reparo)", True),
+    "PLL 005/2026": ("positivo", "Transparência: proíbe radar escondido e publica a localização dos radares", True),
+    "PLL 006/2026": ("negativo", "Regulação desnecessária (visita de animais em hospitais)", True),
+    "PLL 008/2025": ("negativo", "Passa da competência do vereador (multa por uso de drogas, tema da Lei federal 11.343)", True),
+    "PLL 017/2025": ("negativo", "Cria prioridade de vagas em programa público", True),
+    "PLL 021/2026": ("negativo", "Regulação exagerada sobre serviços de saúde públicos e privados", True),
+    "PLL 059/2026": ("negativo", "Mexe em data do calendário oficial (Arraiá do Milho)", True),
+    "PLL 060/2026": ("negativo", "Cria data comemorativa (Dia dos Protetores dos Animais)", True),
+    "PLL 061/2026": ("negativo", "Amplia homenagem de data comemorativa (Dia do Motorista)", True),
+    "PLL 089/2025": ("negativo", "Mexe em evento do calendário oficial (FLIJ)", True),
+    "PLL 062/2026": ("positivo", "Flexibiliza regra: permite transferir a permissão de feirante", True),
+    "PLL 067/2026": ("negativo", "Amplia programa público (Agente de Trânsito Mirim)", True),
+    "PLL 070/2026": ("negativo", "Programa educativo com gasto público", True),
+    "PLL 122/2025": ("negativo", "Cria cadastro e política pública com gasto", True),
+    "PLL 124/2025": ("negativo", "Ações educativas com servidores (gasto, política vaga)", True),
+    "PLL 144/2025": ("negativo", "Programa vago com gasto público", True),
+    "PLL 145/2025": ("negativo", "Obrigação à concessionária de energia, tema federal", True),
 }
 
 

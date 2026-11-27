@@ -48,8 +48,8 @@
      "detalhe": "100 requerimentos e 133 pedidos de informação"
     },
     "projetos": {
-     "nota": 3.0,
-     "detalhe": "1 positivo, 5 negativos e 0 a definir; 9 votos na boa posição e 16 na posição ruim"
+     "nota": 2.8,
+     "detalhe": "1 positivo, 5 negativos e 0 a definir; 9 votos na boa posição e 17 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -74,7 +74,7 @@
   {
    "id": "netho-alves",
    "nome": "Netho Alves",
-   "nota": 6.6,
+   "nota": 6.5,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -85,8 +85,8 @@
      "detalhe": "152 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.2,
-     "detalhe": "1 positivo, 5 negativos e 3 a definir; 6 votos na boa posição e 19 na posição ruim"
+     "nota": 1.8,
+     "detalhe": "1 positivo, 6 negativos e 2 a definir; 6 votos na boa posição e 20 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -111,7 +111,7 @@
   {
    "id": "jean-araujo",
    "nome": "Jean Araújo",
-   "nota": 6.3,
+   "nota": 6.2,
    "criterios": {
     "presenca": {
      "nota": 9.4,
@@ -122,8 +122,8 @@
      "detalhe": "115 requerimentos e 1 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.8,
-     "detalhe": "3 positivos, 5 negativos e 4 a definir; 5 votos na boa posição e 18 na posição ruim"
+     "nota": 2.6,
+     "detalhe": "3 positivos, 5 negativos e 2 a definir; 5 votos na boa posição e 19 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -159,8 +159,8 @@
      "detalhe": "36 requerimentos e 70 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.4,
-     "detalhe": "0 positivos, 3 negativos e 0 a definir; 6 votos na boa posição e 20 na posição ruim"
+     "nota": 2.2,
+     "detalhe": "0 positivos, 3 negativos e 0 a definir; 6 votos na boa posição e 21 na posição ruim"
     },
     "indicacoes": {
      "nota": 7.2,
@@ -183,9 +183,44 @@
    "posicao": 4
   },
   {
+   "id": "rogerio-timoteo",
+   "nome": "Rogério Timóteo",
+   "nota": 5.8,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "39 de 39 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 3.1,
+     "detalhe": "37 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 3.1,
+     "detalhe": "0 positivos, 2 negativos e 1 a definir; 2 votos na boa posição e 5 na posição ruim"
+    },
+    "indicacoes": {
+     "nota": 3.5,
+     "detalhe": "58 indicações"
+    },
+    "gastos": {
+     "nota": 8.9,
+     "detalhe": "R$ 5.725 (2026: R$ 5.725)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 34 de 34 votações nominais"
+    }
+   },
+   "sem_dados": [
+    "emendas"
+   ],
+   "posicao": 5
+  },
+  {
    "id": "valmir",
    "nome": "Valmir do Parque Meia Lua",
-   "nota": 6.0,
+   "nota": 5.8,
    "criterios": {
     "presenca": {
      "nota": 8.7,
@@ -196,8 +231,8 @@
      "detalhe": "228 requerimentos e 8 pedidos de informação"
     },
     "projetos": {
-     "nota": 1.6,
-     "detalhe": "5 positivos, 11 negativos e 9 a definir; 4 votos na boa posição e 18 na posição ruim"
+     "nota": 0.3,
+     "detalhe": "5 positivos, 15 negativos e 2 a definir; 4 votos na boa posição e 19 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -220,44 +255,9 @@
    "posicao": 5
   },
   {
-   "id": "rogerio-timoteo",
-   "nome": "Rogério Timóteo",
-   "nota": 5.9,
-   "criterios": {
-    "presenca": {
-     "nota": 10.0,
-     "detalhe": "39 de 39 sessões (100,0%)"
-    },
-    "fiscalizacao": {
-     "nota": 3.1,
-     "detalhe": "37 requerimentos e 0 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 3.4,
-     "detalhe": "0 positivos, 2 negativos e 1 a definir; 2 votos na boa posição e 4 na posição ruim"
-    },
-    "indicacoes": {
-     "nota": 3.5,
-     "detalhe": "58 indicações"
-    },
-    "gastos": {
-     "nota": 8.9,
-     "detalhe": "R$ 5.725 (2026: R$ 5.725)"
-    },
-    "votacoes": {
-     "nota": 10.0,
-     "detalhe": "votou em 34 de 34 votações nominais"
-    }
-   },
-   "sem_dados": [
-    "emendas"
-   ],
-   "posicao": 6
-  },
-  {
    "id": "siufarne",
    "nome": "Siufarne do Cidade Salvador",
-   "nota": 5.8,
+   "nota": 5.7,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -268,8 +268,8 @@
      "detalhe": "79 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.0,
-     "detalhe": "4 positivos, 9 negativos e 1 a definir; 6 votos na boa posição e 19 na posição ruim"
+     "nota": 1.6,
+     "detalhe": "4 positivos, 10 negativos e 0 a definir; 6 votos na boa posição e 19 na posição ruim"
     },
     "indicacoes": {
      "nota": 9.4,
@@ -292,43 +292,6 @@
    "posicao": 7
   },
   {
-   "id": "maria-amelia",
-   "nome": "Maria Amélia",
-   "nota": 5.7,
-   "criterios": {
-    "presenca": {
-     "nota": 7.5,
-     "detalhe": "74 de 78 sessões (94,9%)"
-    },
-    "fiscalizacao": {
-     "nota": 2.3,
-     "detalhe": "55 requerimentos e 0 pedidos de informação"
-    },
-    "projetos": {
-     "nota": 1.4,
-     "detalhe": "2 positivos, 10 negativos e 21 a definir; 5 votos na boa posição e 16 na posição ruim"
-    },
-    "indicacoes": {
-     "nota": 10.0,
-     "detalhe": "481 indicações"
-    },
-    "gastos": {
-     "nota": 8.7,
-     "detalhe": "R$ 11.808 (2025: R$ 8.683, 2026: R$ 3.125)"
-    },
-    "votacoes": {
-     "nota": 9.3,
-     "detalhe": "votou em 78 de 84 votações nominais"
-    },
-    "emendas": {
-     "nota": 6.6,
-     "detalhe": "R$ 49.000 em destinos sem relevância ou sem justificativa (coleta parcial: 71,5% da cota lida)"
-    }
-   },
-   "sem_dados": [],
-   "posicao": 8
-  },
-  {
    "id": "hernani-barreto",
    "nome": "Hernani Barreto",
    "nota": 5.6,
@@ -342,8 +305,8 @@
      "detalhe": "77 requerimentos e 3 pedidos de informação"
     },
     "projetos": {
-     "nota": 0.3,
-     "detalhe": "1 positivo, 5 negativos e 4 a definir; 4 votos na boa posição e 14 na posição ruim"
+     "nota": 0.1,
+     "detalhe": "1 positivo, 5 negativos e 3 a definir; 4 votos na boa posição e 14 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -363,12 +326,12 @@
     }
    },
    "sem_dados": [],
-   "posicao": 9
+   "posicao": 8
   },
   {
    "id": "juex-almeida",
    "nome": "Juex Almeida",
-   "nota": 5.6,
+   "nota": 5.5,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -379,8 +342,8 @@
      "detalhe": "70 requerimentos e 7 pedidos de informação"
     },
     "projetos": {
-     "nota": 2.2,
-     "detalhe": "19 positivos, 23 negativos e 8 a definir; 4 votos na boa posição e 17 na posição ruim"
+     "nota": 1.8,
+     "detalhe": "19 positivos, 24 negativos e 6 a definir; 4 votos na boa posição e 18 na posição ruim"
     },
     "indicacoes": {
      "nota": 10.0,
@@ -403,6 +366,43 @@
    "posicao": 9
   },
   {
+   "id": "maria-amelia",
+   "nome": "Maria Amélia",
+   "nota": 5.5,
+   "criterios": {
+    "presenca": {
+     "nota": 7.5,
+     "detalhe": "74 de 78 sessões (94,9%)"
+    },
+    "fiscalizacao": {
+     "nota": 2.3,
+     "detalhe": "55 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 0.4,
+     "detalhe": "2 positivos, 13 negativos e 11 a definir; 5 votos na boa posição e 17 na posição ruim"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "481 indicações"
+    },
+    "gastos": {
+     "nota": 8.7,
+     "detalhe": "R$ 11.808 (2025: R$ 8.683, 2026: R$ 3.125)"
+    },
+    "votacoes": {
+     "nota": 9.3,
+     "detalhe": "votou em 78 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 6.6,
+     "detalhe": "R$ 49.000 em destinos sem relevância ou sem justificativa (coleta parcial: 71,5% da cota lida)"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 9
+  },
+  {
    "id": "daniel-mariano",
    "nome": "Daniel Mariano",
    "nota": 5.1,
@@ -417,7 +417,7 @@
     },
     "projetos": {
      "nota": 0.0,
-     "detalhe": "2 positivos, 15 negativos e 8 a definir; 6 votos na boa posição e 18 na posição ruim"
+     "detalhe": "3 positivos, 15 negativos e 5 a definir; 6 votos na boa posição e 19 na posição ruim"
     },
     "indicacoes": {
      "nota": 5.5,
@@ -453,8 +453,8 @@
      "detalhe": "48 requerimentos e 4 pedidos de informação"
     },
     "projetos": {
-     "nota": 3.0,
-     "detalhe": "2 positivos, 3 negativos e 2 a definir; 6 votos na boa posição e 19 na posição ruim"
+     "nota": 2.8,
+     "detalhe": "2 positivos, 3 negativos e 2 a definir; 6 votos na boa posição e 20 na posição ruim"
     },
     "indicacoes": {
      "nota": 3.1,
@@ -479,7 +479,7 @@
   {
    "id": "paulinho-do-esporte",
    "nome": "Paulinho do Esporte",
-   "nota": 4.9,
+   "nota": 4.8,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -490,8 +490,8 @@
      "detalhe": "67 requerimentos e 0 pedidos de informação"
     },
     "projetos": {
-     "nota": 4.3,
-     "detalhe": "1 positivo, 10 negativos e 5 a definir; 19 votos na boa posição e 6 na posição ruim"
+     "nota": 4.2,
+     "detalhe": "1 positivo, 11 negativos e 3 a definir; 20 votos na boa posição e 6 na posição ruim"
     },
     "indicacoes": {
      "nota": 5.7,
@@ -516,7 +516,7 @@
   {
    "id": "paulinho-dos-condutores",
    "nome": "Paulinho dos Condutores",
-   "nota": 3.9,
+   "nota": 3.8,
    "criterios": {
     "presenca": {
      "nota": 10.0,
@@ -527,8 +527,8 @@
      "detalhe": "24 requerimentos e 8 pedidos de informação"
     },
     "projetos": {
-     "nota": 0.8,
-     "detalhe": "5 positivos, 16 negativos e 16 a definir; 6 votos na boa posição e 16 na posição ruim"
+     "nota": 0.3,
+     "detalhe": "7 positivos, 19 negativos e 6 a definir; 6 votos na boa posição e 17 na posição ruim"
     },
     "indicacoes": {
      "nota": 2.7,
@@ -796,9 +796,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Trânsito e mobilidade",
-   "sugerido": false
+   "classe": "positivo",
+   "motivo": "Acesso a informação (QR Code nos postes para pedir reparo)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 003/2025",
@@ -846,9 +846,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 005/2026",
@@ -856,9 +856,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Trânsito e mobilidade",
-   "sugerido": false
+   "classe": "positivo",
+   "motivo": "Transparência: proíbe radar escondido e publica a localização dos radares",
+   "sugerido": true
   },
   {
    "projeto": "PLL 006/2025",
@@ -876,9 +876,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Animais e meio ambiente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Regulação desnecessária (visita de animais em hospitais)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 007/2025",
@@ -906,9 +906,9 @@
    "autores": [
     "juex-almeida"
    ],
-   "classe": "a definir",
-   "motivo": "Segurança e violência",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Passa da competência do vereador (multa por uso de drogas, tema da Lei federal 11.343)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 008/2026",
@@ -976,9 +976,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 012/2025",
@@ -1016,9 +1016,9 @@
    "autores": [
     "juex-almeida"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 014/2025",
@@ -1086,9 +1086,9 @@
    "autores": [
     "paulinho-do-esporte"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Cria prioridade de vagas em programa público",
+   "sugerido": true
   },
   {
    "projeto": "PLL 017/2026",
@@ -1106,9 +1106,9 @@
    "autores": [
     "daniel-mariano"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 019/2025",
@@ -1166,9 +1166,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Saúde",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Regulação exagerada sobre serviços de saúde públicos e privados",
+   "sugerido": true
   },
   {
    "projeto": "PLL 022/2025",
@@ -1416,9 +1416,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 037/2026",
@@ -1456,9 +1456,9 @@
    "autores": [
     "jean-araujo"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 039/2026",
@@ -1556,9 +1556,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 045/2025",
@@ -1596,9 +1596,9 @@
    "autores": [
     "daniel-mariano"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 047/2025",
@@ -1676,9 +1676,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 051/2025",
@@ -1776,9 +1776,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 056/2025",
@@ -1846,9 +1846,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 059/2026",
@@ -1856,9 +1856,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Mexe em data do calendário oficial (Arraiá do Milho)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 060/2025",
@@ -1876,9 +1876,9 @@
    "autores": [
     "siufarne"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Cria data comemorativa (Dia dos Protetores dos Animais)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 061/2025",
@@ -1896,9 +1896,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Amplia homenagem de data comemorativa (Dia do Motorista)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 062/2025",
@@ -1906,9 +1906,9 @@
    "autores": [
     "hernani-barreto"
    ],
-   "classe": "a definir",
-   "motivo": "Outros programas e políticas",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Regra técnica de pagamento de dívidas judiciais (RPV até 110 VRMs)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 062/2026",
@@ -1916,9 +1916,9 @@
    "autores": [
     "daniel-mariano"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "positivo",
+   "motivo": "Flexibiliza regra: permite transferir a permissão de feirante",
+   "sugerido": true
   },
   {
    "projeto": "PLL 063/2025",
@@ -1936,9 +1936,9 @@
    "autores": [
     "jean-araujo"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 064/2025",
@@ -1946,9 +1946,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 064/2026",
@@ -2016,9 +2016,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Amplia programa público (Agente de Trânsito Mirim)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 068/2025",
@@ -2076,9 +2076,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Segurança e violência",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Programa educativo com gasto público",
+   "sugerido": true
   },
   {
    "projeto": "PLL 071/2025",
@@ -2126,9 +2126,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 073/2026",
@@ -2146,9 +2146,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 074/2026",
@@ -2156,9 +2156,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 075/2025",
@@ -2301,9 +2301,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 082/2025",
@@ -2381,9 +2381,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Mexe em evento do calendário oficial (FLIJ)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 090/2025",
@@ -2671,9 +2671,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 121/2025",
@@ -2691,9 +2691,9 @@
    "autores": [
     "paulinho-dos-condutores"
    ],
-   "classe": "a definir",
-   "motivo": "Saúde",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Cria cadastro e política pública com gasto",
+   "sugerido": true
   },
   {
    "projeto": "PLL 123/2025",
@@ -2712,9 +2712,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Segurança e violência",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Ações educativas com servidores (gasto, política vaga)",
+   "sugerido": true
   },
   {
    "projeto": "PLL 125/2025",
@@ -2722,9 +2722,9 @@
    "autores": [
     "paulinho-do-esporte"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 126/2025",
@@ -2782,9 +2782,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 134/2025",
@@ -2842,9 +2842,9 @@
    "autores": [
     "maria-amelia"
    ],
-   "classe": "a definir",
-   "motivo": "Nome de rua, praça ou viela",
-   "sugerido": false
+   "classe": "neutro",
+   "motivo": "Dá nome a rua, praça ou viela que só tinha número ou letra",
+   "sugerido": true
   },
   {
    "projeto": "PLL 140/2025",
@@ -2882,9 +2882,9 @@
    "autores": [
     "netho-alves"
    ],
-   "classe": "a definir",
-   "motivo": "Segurança e violência",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Programa vago com gasto público",
+   "sugerido": true
   },
   {
    "projeto": "PLL 145/2025",
@@ -2892,9 +2892,9 @@
    "autores": [
     "valmir"
    ],
-   "classe": "a definir",
-   "motivo": "Alteração de lei existente",
-   "sugerido": false
+   "classe": "negativo",
+   "motivo": "Obrigação à concessionária de energia, tema federal",
+   "sugerido": true
   },
   {
    "projeto": "PR 001/2025",

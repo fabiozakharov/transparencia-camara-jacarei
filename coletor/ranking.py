@@ -172,7 +172,7 @@ def calcular() -> dict:
             detalhe[vid]["indicacoes"] = f"{ind} indicações"
 
     # projetos (regras em projetos_regras.py)
-    contagem = {vid: {"positivo": 0, "negativo": 0, "a definir": 0, "pontos": 0, "votos_bons": 0, "votos_ruins": 0} for vid in ids}
+    contagem = {vid: {"positivo": 0, "negativo": 0, "neutro": 0, "a definir": 0, "pontos": 0, "votos_bons": 0, "votos_ruins": 0} for vid in ids}
     classificados = []
     for chave, p in projetos.items():
         if p["tipo"] not in TIPOS_VEREADOR:
