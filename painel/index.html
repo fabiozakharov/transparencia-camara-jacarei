@@ -206,7 +206,7 @@ const normal=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCas
 function pauta(){
   const A=X.PA||{};const L=A.itens||[];
   const meu=it=>st.v!=='todos'&&normal(it.autoria).includes(normal(N[st.v]).split(' do ')[0]);
-  return `<div class="kpis">${kpi('Sessão',A.sessao||'—')}${kpi('Itens na Ordem do Dia',L.length)}${A.proxima?kpi('Próxima',A.proxima):''}</div>
+  return `<div class="kpis">${kpi('Última Ordem do Dia publicada',A.sessao||'—')}${kpi('Itens na Ordem do Dia',L.length)}${A.proxima?kpi('Próxima sessão',A.proxima.replace(/\s*\|\s*EM BREVE/i,' (pauta ainda não publicada)')):''}</div>
   ${A.url?`<p class="lead" style="margin-bottom:12px"><a href="${esc(A.url)}">Ver a Ordem do Dia no site da Câmara</a></p>`:''}
   <div class="list">${L.map(it=>`<div class="it"><div><strong>${esc(it.projeto)}</strong> · ${esc(it.assunto||it.titulo)}<div class="m">${esc(it.titulo)} · ${esc(it.autoria)}</div>${it.documentos.length?`<div class="m">${it.documentos.map(d=>`<a href="${esc(d.url)}">${esc(d.rotulo||'PDF')}</a>`).join(' · ')}</div>`:''}</div><div class="r">${meu(it)?'<span class="tag on">deste vereador</span>':''}</div></div>`).join('')||'<p class="empty">A pauta da próxima sessão ainda não foi publicada.</p>'}</div>`;
 }
