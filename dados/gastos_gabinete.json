@@ -1,0 +1,65 @@
+{
+ "fonte": "Painel Tableau “Gastos Vereadores Mensal” (jacarei.sp.leg.br/despesas-dos-vereadores), lançado à mão",
+ "periodo": {
+  "2025": "jan–dez/2025",
+  "2026": "jan–out/2026"
+ },
+ "itens": "combustível, manutenção do carro, impressão, telefone fixo, material e diárias (sem salários)",
+ "vereadores": {
+  "daniel-mariano": {
+   "2025": 11442.2,
+   "2026": 7889.75
+  },
+  "gabriel-belem": {
+   "2025": 6266.86,
+   "2026": 2990.29
+  },
+  "hernani-barreto": {
+   "2025": 11279.0,
+   "2026": 422.26
+  },
+  "jean-araujo": {
+   "2025": 5316.93,
+   "2026": 8611.14
+  },
+  "juex-almeida": {
+   "2025": 10618.01,
+   "2026": 7344.82
+  },
+  "luis-flavio": {
+   "2025": 9823.35,
+   "2026": 5859.51
+  },
+  "marcelo-dantas": {
+   "2025": 7441.32,
+   "2026": 6697.74
+  },
+  "maria-amelia": {
+   "2025": 8682.72,
+   "2026": 3124.92
+  },
+  "netho-alves": {
+   "2025": 7758.01,
+   "2026": 6542.73
+  },
+  "paulinho-do-esporte": {
+   "2025": 14672.39,
+   "2026": 12373.49
+  },
+  "paulinho-dos-condutores": {
+   "2025": 12880.84,
+   "2026": 7904.59
+  },
+  "rogerio-timoteo": {
+   "2026": 5725.09
+  },
+  "siufarne": {
+   "2025": 9111.68,
+   "2026": 6254.65
+  },
+  "valmir": {
+   "2025": 15613.12,
+   "2026": 12957.39
+  }
+ }
+}

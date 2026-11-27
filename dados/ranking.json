@@ -1,0 +1,2708 @@
+{
+ "atualizado": "2026-11-27",
+ "pesos": {
+  "presenca": 0.1,
+  "fiscalizacao": 0.2,
+  "projetos": 0.2,
+  "indicacoes": 0.1,
+  "gastos": 0.15,
+  "votacoes": 0.1,
+  "emendas": 0.15
+ },
+ "rotulos": {
+  "presenca": "Presença",
+  "fiscalizacao": "Fiscalização",
+  "projetos": "Projetos de lei",
+  "indicacoes": "Indicações",
+  "gastos": "Economia de gabinete",
+  "votacoes": "Votações nominais",
+  "emendas": "Emendas impositivas"
+ },
+ "descricoes": {
+  "presenca": "100% de presença = 10. Cada ponto percentual abaixo tira 0,5.",
+  "fiscalizacao": "Requerimentos e pedidos de informação por sessão no cargo. Quem mais fez = 10.",
+  "projetos": "Projeto apresentado = 1, aprovado = 3, honraria = 0,25, por sessão no cargo. Quem mais pontuou = 10.",
+  "indicacoes": "Indicações por sessão no cargo, com teto: chegar à mediana da Câmara já vale 10.",
+  "gastos": "Gastos de gabinete por sessão no cargo. Quem gastou menos = 10, quem gastou mais = 0.",
+  "votacoes": "Parte dos boletins de votação nominal em que votou SIM ou NÃO. Abstenção ou ausência = zero.",
+  "emendas": "Média dos pontos por real destinado: saúde, educação e segurança 10; assistência social, obras e meio ambiente 6; cultura 3; entidades esportivas, escolas de samba, festas e destinos sem justificativa −5."
+ },
+ "pontos_emenda": {
+  "Primordial": 10,
+  "Secundária": 6,
+  "Cultura": 3,
+  "Sem relevância ou sem justificativa": -5
+ },
+ "vereadores": [
+  {
+   "id": "gabriel-belem",
+   "nome": "Gabriel Belém",
+   "nota": 7.7,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 9.9,
+     "detalhe": "100 requerimentos e 133 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 1.3,
+     "detalhe": "6 projetos (2 aprovados) e 0 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "930 indicações"
+    },
+    "gastos": {
+     "nota": 10.0,
+     "detalhe": "R$ 9.257 (2025: R$ 6.267, 2026: R$ 2.990)"
+    },
+    "votacoes": {
+     "nota": 9.5,
+     "detalhe": "votou em 80 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 6.6,
+     "detalhe": "R$ 131.400 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 1
+  },
+  {
+   "id": "juex-almeida",
+   "nome": "Juex Almeida",
+   "nota": 7.1,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 3.3,
+     "detalhe": "70 requerimentos e 7 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 10.0,
+     "detalhe": "40 projetos (17 aprovados) e 10 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "664 indicações"
+    },
+    "gastos": {
+     "nota": 5.5,
+     "detalhe": "R$ 17.963 (2025: R$ 10.618, 2026: R$ 7.345)"
+    },
+    "votacoes": {
+     "nota": 9.9,
+     "detalhe": "votou em 83 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 4.3,
+     "detalhe": "R$ 262.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 2
+  },
+  {
+   "id": "valmir",
+   "nome": "Valmir do Parque Meia Lua",
+   "nota": 6.6,
+   "criterios": {
+    "presenca": {
+     "nota": 8.7,
+     "detalhe": "76 de 78 sessões (97,4%)"
+    },
+    "fiscalizacao": {
+     "nota": 10.0,
+     "detalhe": "228 requerimentos e 8 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 4.3,
+     "detalhe": "20 projetos (6 aprovados) e 5 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "1112 indicações"
+    },
+    "gastos": {
+     "nota": 0.0,
+     "detalhe": "R$ 28.571 (2025: R$ 15.613, 2026: R$ 12.957)"
+    },
+    "votacoes": {
+     "nota": 9.6,
+     "detalhe": "votou em 81 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 5.8,
+     "detalhe": "R$ 170.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 3
+  },
+  {
+   "id": "hernani-barreto",
+   "nome": "Hernani Barreto",
+   "nota": 6.5,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "39 de 39 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 6.8,
+     "detalhe": "77 requerimentos e 3 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 4.6,
+     "detalhe": "7 projetos (5 aprovados) e 3 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "323 indicações"
+    },
+    "gastos": {
+     "nota": 2.7,
+     "detalhe": "R$ 11.701 (2025: R$ 11.279, 2026: R$ 422)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 50 de 50 votações nominais"
+    },
+    "emendas": {
+     "nota": 5.6,
+     "detalhe": "R$ 172.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 4
+  },
+  {
+   "id": "maria-amelia",
+   "nome": "Maria Amélia",
+   "nota": 6.5,
+   "criterios": {
+    "presenca": {
+     "nota": 7.5,
+     "detalhe": "74 de 78 sessões (94,9%)"
+    },
+    "fiscalizacao": {
+     "nota": 2.3,
+     "detalhe": "55 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 5.2,
+     "detalhe": "18 projetos (9 aprovados) e 15 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "481 indicações"
+    },
+    "gastos": {
+     "nota": 8.7,
+     "detalhe": "R$ 11.808 (2025: R$ 8.683, 2026: R$ 3.125)"
+    },
+    "votacoes": {
+     "nota": 9.3,
+     "detalhe": "votou em 78 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 6.6,
+     "detalhe": "R$ 49.000 em destinos sem relevância ou sem justificativa (coleta parcial: 71,5% da cota lida)"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 4
+  },
+  {
+   "id": "netho-alves",
+   "nome": "Netho Alves",
+   "nota": 6.4,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 6.4,
+     "detalhe": "152 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 1.4,
+     "detalhe": "6 projetos (2 aprovados) e 3 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "354 indicações"
+    },
+    "gastos": {
+     "nota": 7.4,
+     "detalhe": "R$ 14.301 (2025: R$ 7.758, 2026: R$ 6.543)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 84 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 4.8,
+     "detalhe": "R$ 40.000 em destinos sem relevância ou sem justificativa (coleta parcial: 32,5% da cota lida)"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 6
+  },
+  {
+   "id": "jean-araujo",
+   "nome": "Jean Araújo",
+   "nota": 6.2,
+   "criterios": {
+    "presenca": {
+     "nota": 9.4,
+     "detalhe": "77 de 78 sessões (98,7%)"
+    },
+    "fiscalizacao": {
+     "nota": 4.9,
+     "detalhe": "115 requerimentos e 1 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 2.2,
+     "detalhe": "8 projetos (4 aprovados) e 4 honrarias"
+    },
+    "indicacoes": {
+     "nota": 10.0,
+     "detalhe": "833 indicações"
+    },
+    "gastos": {
+     "nota": 7.6,
+     "detalhe": "R$ 13.928 (2025: R$ 5.317, 2026: R$ 8.611)"
+    },
+    "votacoes": {
+     "nota": 9.9,
+     "detalhe": "votou em 83 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 4.6,
+     "detalhe": "R$ 103.440 em destinos sem relevância ou sem justificativa (coleta parcial: 44,1% da cota lida)"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 7
+  },
+  {
+   "id": "siufarne",
+   "nome": "Siufarne do Cidade Salvador",
+   "nota": 5.9,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 3.3,
+     "detalhe": "79 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 2.6,
+     "detalhe": "14 projetos (3 aprovados) e 0 honrarias"
+    },
+    "indicacoes": {
+     "nota": 9.4,
+     "detalhe": "314 indicações"
+    },
+    "gastos": {
+     "nota": 6.8,
+     "detalhe": "R$ 15.366 (2025: R$ 9.112, 2026: R$ 6.255)"
+    },
+    "votacoes": {
+     "nota": 9.8,
+     "detalhe": "votou em 82 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 5.1,
+     "detalhe": "R$ 210.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 8
+  },
+  {
+   "id": "daniel-mariano",
+   "nome": "Daniel Mariano",
+   "nota": 5.8,
+   "criterios": {
+    "presenca": {
+     "nota": 8.7,
+     "detalhe": "76 de 78 sessões (97,4%)"
+    },
+    "fiscalizacao": {
+     "nota": 5.5,
+     "detalhe": "130 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 3.5,
+     "detalhe": "17 projetos (4 aprovados) e 8 honrarias"
+    },
+    "indicacoes": {
+     "nota": 5.5,
+     "detalhe": "184 indicações"
+    },
+    "gastos": {
+     "nota": 4.8,
+     "detalhe": "R$ 19.332 (2025: R$ 11.442, 2026: R$ 7.890)"
+    },
+    "votacoes": {
+     "nota": 9.8,
+     "detalhe": "votou em 82 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 6.1,
+     "detalhe": "R$ 139.440 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 9
+  },
+  {
+   "id": "luis-flavio",
+   "nome": "Luís Flávio",
+   "nota": 5.8,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 4.5,
+     "detalhe": "36 requerimentos e 70 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 0.6,
+     "detalhe": "2 projetos (1 aprovados) e 1 honrarias"
+    },
+    "indicacoes": {
+     "nota": 7.2,
+     "detalhe": "239 indicações"
+    },
+    "gastos": {
+     "nota": 6.7,
+     "detalhe": "R$ 15.683 (2025: R$ 9.823, 2026: R$ 5.860)"
+    },
+    "votacoes": {
+     "nota": 9.8,
+     "detalhe": "votou em 82 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 7.0,
+     "detalhe": "R$ 75.000 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 9
+  },
+  {
+   "id": "rogerio-timoteo",
+   "nome": "Rogério Timóteo",
+   "nota": 5.4,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "39 de 39 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 3.1,
+     "detalhe": "37 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 1.6,
+     "detalhe": "2 projetos (2 aprovados) e 1 honrarias"
+    },
+    "indicacoes": {
+     "nota": 3.5,
+     "detalhe": "58 indicações"
+    },
+    "gastos": {
+     "nota": 8.9,
+     "detalhe": "R$ 5.725 (2026: R$ 5.725)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 34 de 34 votações nominais"
+    }
+   },
+   "sem_dados": [
+    "emendas"
+   ],
+   "posicao": 11
+  },
+  {
+   "id": "paulinho-dos-condutores",
+   "nome": "Paulinho dos Condutores",
+   "nota": 5.3,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 1.4,
+     "detalhe": "24 requerimentos e 8 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 6.7,
+     "detalhe": "29 projetos (10 aprovados) e 8 honrarias"
+    },
+    "indicacoes": {
+     "nota": 2.7,
+     "detalhe": "89 indicações"
+    },
+    "gastos": {
+     "nota": 4.0,
+     "detalhe": "R$ 20.785 (2025: R$ 12.881, 2026: R$ 7.905)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 84 de 84 votações nominais"
+    }
+   },
+   "sem_dados": [
+    "emendas"
+   ],
+   "posicao": 12
+  },
+  {
+   "id": "marcelo-dantas",
+   "nome": "Marcelo Dantas",
+   "nota": 4.7,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 2.2,
+     "detalhe": "48 requerimentos e 4 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 1.2,
+     "detalhe": "5 projetos (2 aprovados) e 2 honrarias"
+    },
+    "indicacoes": {
+     "nota": 3.1,
+     "detalhe": "105 indicações"
+    },
+    "gastos": {
+     "nota": 7.5,
+     "detalhe": "R$ 14.139 (2025: R$ 7.441, 2026: R$ 6.698)"
+    },
+    "votacoes": {
+     "nota": 10.0,
+     "detalhe": "votou em 84 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 4.1,
+     "detalhe": "R$ 150.000 em destinos sem relevância ou sem justificativa (coleta parcial: 48,9% da cota lida)"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 13
+  },
+  {
+   "id": "paulinho-do-esporte",
+   "nome": "Paulinho do Esporte",
+   "nota": 4.5,
+   "criterios": {
+    "presenca": {
+     "nota": 10.0,
+     "detalhe": "78 de 78 sessões (100,0%)"
+    },
+    "fiscalizacao": {
+     "nota": 2.8,
+     "detalhe": "67 requerimentos e 0 pedidos de informação"
+    },
+    "projetos": {
+     "nota": 2.7,
+     "detalhe": "14 projetos (3 aprovados) e 2 honrarias"
+    },
+    "indicacoes": {
+     "nota": 5.7,
+     "detalhe": "189 indicações"
+    },
+    "gastos": {
+     "nota": 0.8,
+     "detalhe": "R$ 27.046 (2025: R$ 14.672, 2026: R$ 12.373)"
+    },
+    "votacoes": {
+     "nota": 9.9,
+     "detalhe": "votou em 83 de 84 votações nominais"
+    },
+    "emendas": {
+     "nota": 5.0,
+     "detalhe": "R$ 250.440 em destinos sem relevância ou sem justificativa"
+    }
+   },
+   "sem_dados": [],
+   "posicao": 14
+  }
+ ],
+ "emendas_classificadas": {
+  "daniel-mariano": [
+   {
+    "destino": "Para o Custeio da Entidade CEPAC",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a Compra de Aparelho Holter para o SIM, devido à grande demanda reprimida de exames",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Manutenção e custeio da entidade APAJAC",
+    "valor": 35000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio da entidade JAM",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para compra de ar condicionado para a UBS do Bairro Vila Garcia",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para compra de ar condicionado para a UBS do Bandeira Branca 1",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a compra de Ar condicionado para a UBS do Bairro Igarapés",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a compra de Ar condicionado para a UBS do Bairro Santa Cruz dos Lázaros",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a compra de insumos, para a Casa do Curativo",
+    "valor": 15000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio do CAPS Adulto",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio do CAPS Infantil",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio do Lar da Acácia",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio do Lar Frederico Ozanam",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a realização de exames de Ressonância Magnética no Município",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio da ASPAD",
+    "valor": 9439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Reforma da quadra do Bairro Parque Brasil, para projeto de Basquete",
+    "valor": 50000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o aluguel de Tenda e Banheiro",
+    "valor": 60000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Químico Para a criação de Academias ao Ar Livre",
+    "valor": 40000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a compra de brinquedos para instalação em praças e parques",
+    "valor": 40000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a compra de poste metálico, fiação e lâmpadas de LED",
+    "valor": 40000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio da Associação Viva Boa Vista",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio da Associação Esportiva",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Cultural A.E.C. PARAÍSO Para o custeio Associação Comercial",
+    "valor": 5000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para a compra de Grama e Alambrado do Campo do bairro Bandeira Branca 2",
+    "valor": 40000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio da Associação",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Vira Lata Vira Vida Para o custeio da Associação APIJAC",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio da Corporação Musical",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio Doutores Coloridos",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio para o Turismo",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio para a Academia de Letras",
+    "valor": 5000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio da Associação dos Girinos do Vila Garcia",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio da Associação",
+    "valor": 4000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Esporte Clube Parque Meia Lua Custeio da Associação Nova Jacareí",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para o custeio de doações de cestas básicas Entidade Missões Kairós",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para manutenção e custeio da Subprefeitura do Distrito São Silvestre",
+    "valor": 20439.61,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "gabriel-belem": [
+   {
+    "destino": "MUTIRÃO DE CIRURGIAS ELETIVAS",
+    "valor": 209439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "MUTIRÃO DE CIRURGIAS ELETIVAS",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "(ORTOPÉDICA) ASSOCIAÇÃO CASA FONTE DA VIDA",
+    "valor": 60000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "(HSFA) (INVESTIMENTO) ASSOCIAÇÃO CRIANÇA ESPECIAL DE PAIS COMPANHEIROS - CEPAC",
+    "valor": 40000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "LAR FREDERICO OZANAM",
+    "valor": 25000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG ESPAÇO MULHER",
+    "valor": 22139.61,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "LAR FRATERNO DA ACÁCIA",
+    "valor": 22000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "FRATERNIDADE ESPIRITA",
+    "valor": 21000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CRISTA BATUIRA ASSOCIACAO PARQUE SANTO",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ANTONIO - PSA ASSOCIAÇÃO ESPORTIVA E CULTURAL JARDIM PARAISO",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "EMEI ROBERTO DONIZETE DE SOUZA (CONSTRUÇÃO DE TELHADO NO PARQUE)",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM MANTENEDORA JACAREÍ",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMPARA MENORES EMEF PROF CONCEIÇÃO APARECIDA MAGALHÃES SILVA",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "(REFORMA DO TELHADO) PROJETO BAIRRO VERANEIO IJAL (INVESTIMENTO)",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO EDUCACIONAL E ASSISTENCIAL GURI",
+    "valor": 18200.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO HUMANITÁRIA",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMOR E CARIDADE IFSP - INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SP",
+    "valor": 14700.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO ESPORTIVA",
+    "valor": 14400.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JACAREÍ RUGBY CORPORAÇÃO MUSICAL DE JACAREÍ",
+    "valor": 12000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIACAO COMERCIAL E INDUSTRIAL DE JACAREI",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIACAO ESPORTIVA MENINOS DO MORRO VILA",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "SANTA RITA G.R.C.E.S ESTRELA CADENTE",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO VIVA BOA VISTA",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "EMEI PROFESSORA VICENTINA DAS DORES QUEIROZ",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "(AQUISIÇÃO PARQUE) CAPIVARA NEON (FCJ)",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "SUINÃ INSTITUTO SOCIOAMBIENTAL",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO DOUTORES",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "COLORIDOS (INVESTIMENTO) ONG PATAS DA AMIZADE",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CLUBE DESBRAVADORES LUZEIROS DO VALE",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "(INVESTIMENTO) G.R.E.S. UNIDOS DE SANTA",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "HELENA ASSOC. DE PROTEÇÃO ANIMAL PROTETORES INDEPENDENTES",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "DE JACAREÍ APA SÃO FRANCISCO DE ASSIS",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CINECLUBE JACAREÍ",
+    "valor": 5000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ESPORTE CLUBE MEIA LUA",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO DE PAIS DOS AUTISTAS DE JACAREÍ (APAJAC)",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "hernani-barreto": [
+   {
+    "destino": "Hospital São Francisco de Assis -Aquisição de equipamentos",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Casa do Curativo",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Ong Patas da Amizade -Aquisição de vacina/fita glicêmica/cirurgias",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação dos Diabéticos",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Projeto Vírgula",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Santa Casa de Misericórdia de Jacareí -custeio",
+    "valor": 79439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CEPAC",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF Meia Lua -Aquisição de equipamento, material pemanente, reforma ou manutenção",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UBS Pq. Santo Antônio -Aquisição de equipamento, material permanente, reforma ou manutenção",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF Jd. Das lndústrias - Aquisição de equipamento, material permanente, reforma ou manutencão",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF São Silvestre -Aquisição de equipamento, material permanente, reforma ou manutenção",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UBS ESperança -Aquisição de equipamento, material permanente, reforma ou manutenção",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UBS Rio Comprido -Aquisição de equipamento, material permanente, refoma ou manutenção",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Cineclube Jacarei",
+    "valor": 5000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Corporação Musical de Jacareí - Realização de \"Baile da Melhor ldade\"",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "lnstituto de Educação Arie e Cultura",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Maestro Mauro Messias Projeto Capoeira e suas Periferias - Mestre",
+    "valor": 5000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Sampaio Paróquia São João Batista",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Cultural Paraíso",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Besouro Voador - Mestre Narciso",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Atlética Família Nova Jacareí",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Espor{e Clube Parque Meia Lua",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Jacareiense de Atletismo",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação de Basquetebol Jacareí -ABJ",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Amigos do Handebol",
+    "valor": 30000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Jacareí Rugby",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Treinão de corrida de rua e caminhada",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Cidade Salvador Treinão de corrida de rua e caminhada",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Parque Meia Lua Pedal Amarelo",
+    "valor": 7439.61,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Radar Cia de Dança",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Zabia Esporte Clube",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Programa Banco de Ração e Utensílios",
+    "valor": 50000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Para Animais APA -Associação Protetora dos Animais",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG Assoc. de Proteção Animal Projeto",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Vira Lata Vira Vida AP I JAC - Assoc. das Protetoras lndependentes de Jacareí",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Viva Boa Vista",
+    "valor": 30000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AlegriAA Grupo de Apoio à Adoção em Jacareí",
+    "valor": 30000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "lnstituto Dedicar -ldedicar",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APAJAC - Assoc. de Pais dos Autistas de Jacareí",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Ong Anjos sem Asas",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Comunidade de Ação Social Fanuel",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM Jacareí Ampara Menores - Projeto",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Aprendiz Lar Frederico Ozanam",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Humanitária Amor e Caridade",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Lar Fraterno das Acácias",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ADOC Assoc. Doutores Coloridos",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Assoc. Comercial e lndustrial de Jacareí",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Obra Religiosa e Social Missão Kairós",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMvl -Assoc. de Moradores Veraneio ljal",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Carmelitas Lar São José",
+    "valor": 5000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Academia Jacarehyense de Letras",
+    "valor": 5000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Diretoria de Turismo - Projeto City Tour Secret.Desenv.Econômico",
+    "valor": 2000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "jean-araujo": [
+   {
+    "destino": "ASSOCIAÇÃO CASA FONTE DA VIDA (HOSPITAL SÃO FRANCISCO DE ASSIS) investimento e",
+    "valor": 60000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF NOVA ESPERANÇA (aquisição de equipamento, material permanente, reforma ou",
+    "valor": 15000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF PARQUE IMPERIAL (aquisição de equipamento, material permanente, reforma ou",
+    "valor": 15000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF IGARAPÉS (aquisição de equipamento,",
+    "valor": 15000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF BANDEIRA BRANCA (aquisição equipamento, material permanente, reforma ou",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF SÃO SILVESTRE (aquisição de equipamento, material permanente, reforma ou",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF JD. DAS INDÚSTRIAS (aquisição equipamento, material permanente, reforma ou",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF PARQUE MEIA LUA (aquisição de equipamento, material permanente, reforma ou",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF SANTA CRUZ DOS LÁZAROS (aquisição equipamento, material permanente, reforma ou",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "INSTITUTO DE ARTE E CULTURA Desenvolvimento Econômic VILA SANTA RITA dh Hay a A )",
+    "valor": 8000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "DIRETORIA DE PROTEÇÃO ANIMAL CASTRAÇÃO ANIMAL",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CULTURA NO MORRO",
+    "valor": 3000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "DESBRAVADORES LUZEIRO DO VALE",
+    "valor": 3000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO MISSÃO KAIRÓS",
+    "valor": 7000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM — PROJETO APRENDIZ",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMOR E CARIDADE",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ILUMINAÇÃO DE LED (NOVA JACAREÍ E NOVA ESPERANÇA)",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO ATLÉTICA FAMÍLIA NOVA JACAREI",
+    "valor": 30000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CARMELITAS LAR SÃO JOSÉ",
+    "valor": 30000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMVI - ASSOCIAÇÃO MORADORES VERANEIO IJAL (infraestrutura e saneamento",
+    "valor": 35439.61,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "EVENTOS (TENDAS, BANHEIROS . QUÍMICOS, ARTISTAS, SOM, ILUMINAÇÃO",
+    "valor": 35000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "juex-almeida": [
+   {
+    "destino": "Cirurgias eletivas)",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Casa do curativo (custeio)",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação dos Diabéticos (Custeio) UMSF Rio Comprido - Aquisição de equip. e mat. pemanentes",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "(computador e ar-condicionado para sala do curativo) UMSF Santa Cruz dos Lazaros Aquisição de equip. e mat. permanentes (computador e ar- condicionado para Sala do",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Curativo)",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Diretoria de Vigilância Sanitária UMSF Jardim do Vale Aquisição de equip. e mat. permanentes ( computador, impressora e ar-condicionado,",
+    "valor": 40000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "mesas e maca)",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Santa Casa de Misericórdia de Jacareí - Custeio",
+    "valor": 60000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Hospital São Francisco de Assis - Custeio A s soc iação C omun itária Filantrópica RJC de Equoterapia e Lazer - Custeio para terapia com Crianças e adultos portadores de Transtomo do Espectro Autista,",
+    "valor": 60000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Cerebral, Deficits motores.",
+    "valor": 19439.61,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Projeto Vira Lata Vira Vida - Castração de Animais UMSF JARDIM YOLANDA - PARAISO - Aquisição de equip. e mat. pemanentes (computador, impressora e ar-condicionado,",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "mesas e maca)",
+    "valor": 25000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Academia Jacarehyense de Letras - melhorias e modemização da sede",
+    "valor": 8000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Camelitas Lar São José - Custeio de melhorias na Creche",
+    "valor": 8000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Atlética Família Nova Jacareí - Custeio para incentivo de esporte de base e Sec. Esporte CÂMARA MUNICIPAL DE JACARÉÍ i:J§P PALÁC|O DA LIBERDADE amador",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Comercial e lndustrial de Jacareí - Projetos de mobilidade PCD's para Estrutua",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Jardim Paraíso custeio de projetos e ações sociais no baino",
+    "valor": 120000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMVI - Associação de Moradores Veraneio ljal Sec lnfraestrutura",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Diretoria de Turismo- Custeio e incentivo específico ao Ecotuismo em Jacareí",
+    "valor": 12000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Acordes, figurino e outros relacionados à evento de execução da Lei 6.764/2025 (Semana Geek) organização, administração relacionados à",
+    "valor": 12000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Execução da Lei 6.764/2025 (Semana Geek) - Custeio para publicidade, manutenção, execução da Lei 6.764/2025 (Semana Geek)",
+    "valor": 12000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio para execução da Lei 6786/2025 (Infância Conectada)",
+    "valor": 12000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Meninos do Morro Vila Santa Rita",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM Mantenedora Jacareí Ampara Menores - Custeio do Projeto Jovem Aprendiz",
+    "valor": 12000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associaçao Viva Boa Vista - Custeio Projeto: Conviver e Transfomar - Judô",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Social Pro Eficiência - Custeio",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Cineclube Jacareí",
+    "valor": 5439.61,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Lar Frederico Ozanam",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Lar Fratemo das Acácias",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ADOC - Associação Doutores Coloridos",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CÂMARA MUNl,CIPAL DE JACAREÍ ',-Spi\\-F€ ei Associação Esportiva Jacareí Rugby",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio e incentivo específico ao esporte Luta de Braço",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Custeio e incentivo a Prática do Esporte Wheeling Programa Família Segura Casa do Abraço - Custeio para projeto de atuação de redutora de Danos com foco em busca ativa e o trabalho de prevenção em cam",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIACAO PARQUE SANTO ANTONIO - PSA Corporação Musical de Jacareí Refoma e manutenção da quadra de esportes da Vila Garcia, no distrito de São Silvestre. (Quadra de Areia)",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "luis-flavio": [
+   {
+    "destino": "Casa do Curativo",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Hospital São Francisco",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Mutirão de exames biópsias",
+    "valor": 250000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Santa Casa de Misericórdia de Jacareí",
+    "valor": 29439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APAJAC -Assoc. de Pais dos Autistas Jac.",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APEJAC -Associação Paradesportiva e Educacional de Jacarei",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Aquisição uniforme equipe infantil Futsal",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Amigos do Handebol",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Atlética Colônia",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Clubes Fut. Amador de Jacarei",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Comercial e lndustrial Jacareí",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Doutores Coloridos",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esp. Cult. Jardim Paraíso",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Humanitária Amor e Caridade",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Jacareiense de Atletismo",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Viva Boa Vista",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Capoeira Mestre Narciso Roberio Fund. Cultural de Jacarehy",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Creche Cantinho da Providência",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Cruzada de Assistência de Jacarei",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Esporte Clube Parque Meia Lua",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Guri na Roça",
+    "valor": 30000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "lluminação pública no Jardim Olympia",
+    "valor": 4439.61,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM -Jacareí Ampara Menores",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Lar Fraterno da Acácia",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Lar Frederico Ozanam",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Obras de infraestrutura no Veraneio ljal",
+    "valor": 150000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG Espaço Mulher",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG Patas da Amizade",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Projeto Rock na Sala Fund. Cultural de Jacarehy",
+    "valor": 15000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "marcelo-dantas": [
+   {
+    "destino": "CASA DO CURATIVO - Vila Branca",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UPA DR. THELMO - Compra de 01 Ultrasom portátil | 02 Cadeiras de 02 Cadeiras de Rodas Comum",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF RIO COMPRIDO - 03 Ar Condicionado - 01 Computador e cadeiras para sala de enfermagem",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CEPAC",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF PARQUE MEIA LUA- Compra de 01 Ultrasom portátil 02 Cadeiras de Rodas Comum",
+    "valor": 30000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM - (Jacareí Ampara Menores) Projeto Jovem Aprendiz",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "PARÓQUIA NOSSA SENHORA DE GUADALUPE Festa de Nossa Senhora do Novo Caminho",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ADOC - Associação Doutores Coloridos",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CRECHE DAS IRMÃS CARMELITAS - Lar São José PROJETO SECRETARIA DE SAÚDE (OUTROS ITENS)",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Exames de USG Secretaria de Saúde 129,",
+    "valor": 439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "PARÓQUIA SÃO JOÃO - (Festa de São João)",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ESPORTE CLUBE PARQUE MEIA LUA Despesas de Manutenção e aquisição de materiais Planejamento",
+    "valor": 100000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ESCOLA DE SAMBA LUZ DO AMANHÃ",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO COMERCIAL E INDUSTRIAL DE JACAREÍ",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO VIVA BOA VISTA UNIDOS DO JACAREZAÃO Planejamento",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CLUBE DE DESBRAVADORES LUZEIROS DO VALE",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "maria-amelia": [
+   {
+    "destino": "SANTA CASA DE MISERICORDIA DE Ginecologia)",
+    "valor": 99439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "HOSPITAL SÃO FRANCISCO (Aquisição de arco cirúrgico e aparelho de ultrassonografia)",
+    "valor": 50000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "PECA - Programa de Educação, Cultura e Assistência, da Faculdade de Ciências ações de prevenção, orientação e",
+    "valor": 90000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APAJAC - Associação de Pais de Autistas de",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM Jacareí Ampara Menores (Custeio e/ou",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "VIVA BOA VISTA (Custeio e/ou aquisição de equipamentos e/ou reforma) Re,",
+    "valor": 25000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "LAR FREDERICO OZANAM (Custeio e/ou",
+    "valor": 30000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AlegriAA (Grupo de Apoio à Adoção em",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Clube Desbravadores Luzeiros do Vale",
+    "valor": 4000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Instituto de Arte e Cultura Maestro Mauro Messias (custeio de projetos e aquisição de equipamentos)",
+    "valor": 25000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO DOS AMIGOS DO HANDEBOL DE JACAREÍ (Custeio de atividades e/ou O aquisição de equipamentos)",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO ESPORTIVA JACAREÍ RUGBY (Custeio de atividades e/ou aquisição de PARAISO (Custeio)",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CANTINHO DA PROVIDÊNCIA - ASS AUXÍLIO",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "GURI NA ROÇA (Custeio e/ou aquisição de equipamentos e/ou reforma) E",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "IDEDICAR (Custeio e/ou aquisição de",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "LAR ASSOCIAÇÃO HUMANITÁRIA AMOR E CARIDADE (Custeio e/ou aquisição de equipamentos e/ou reforma) e/ou aquisição de equipamentos e/ou manutenção) vo boy A 4 à",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Besouro Voador — Mestre Narciso (custeio de",
+    "valor": 5000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Campo de futebol - PROLONGAMENTO JD. SANTA MARIA Recreação Campo society - PARQUE BRASIL (Custeio de projetos)",
+    "valor": 30000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Academia Jacarehyense de Letras",
+    "valor": 3000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Diretoria de Turismo -— Secretaria Desenvolvimento Econômico Desenvolvimento (custeio de projetos) Econômico",
+    "valor": 25000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APA - ASSOCIAÇÃO PROTETORA (Custeio de atendimento veterinário, alimentação e medicamentos para animais)",
+    "valor": 2000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APIJAC - ASSOCIAÇÃO DE PROTEÇÃO ANIMAL PROTETORES INDEPENDENTES (Custeio de atendimento veterinário, alimentação e medicamentos para animais)",
+    "valor": 2000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG DE PROTEÇÃO ANIMAL PATAS (Custeio de atendimento veterinário, alimentação e medicamentos para animais)",
+    "valor": 2000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "PROJETO VIRA LATA VIRA VIDA (Custeio atendimento veterinário, alimentação e medicamentos para animais)",
+    "valor": 2000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "REVITALIZAÇÃO: Chácaras Rurais Santa Maria e Planejamento Urbano PRAÇA AMAURY FERNANDO Construção de parque linear JARDIM PAULISTANO",
+    "valor": 46000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMVI — Associação de Moradores Veraneio lIjal (infraestrutura e saneamento básico)",
+    "valor": 40439.61,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Diretoria de Proteção Animal — À e Planejamento Urbano Planajamento Urbano (castração)",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "netho-alves": [
+   {
+    "destino": "Secretaria de Saúde (Mutirão de Consultas tapetes cmao",
+    "valor": 50000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Secretaria de Saúde (Mutirão de exames",
+    "valor": 50000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AEC - Associação Esportiva e Cultura | Sec. de Esportes e Recreação R$",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação de Proteção Animal - Projeto | Sec. Meio Ambiente e Planej. R$",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APA - Associação Protetora dos | Sec. Meio Ambiente e Planej. R$",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APIJAC - Associação de Proteção | Sec. Meio Ambiente e Planej. R$ Animal Protetores Independentes de",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APAJAC -— Associação de Pais de",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMVI — Associação Moradores Veraneio",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Fundação Cultural de Jacarehy",
+    "valor": 94000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Grupo de Apoio a Adoção de Jacareí",
+    "valor": 2000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Auxílio Fraterno Cristão",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Rotary Club de Jacareí (Banco de",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "paulinho-do-esporte": [
+   {
+    "destino": "Hospital São Francisco (Oncologia)",
+    "valor": 50000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Santa Casa de Jacareí",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Transporte Ambulatorial",
+    "valor": 60000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF Rio Comprido",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF Pagador Andrade",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "",
+    "valor": 109439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CEPAC",
+    "valor": 25000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Casa do Curativo",
+    "valor": 25000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ILPI Lar Frederico Ozanam",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG Doutores Coloridos",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM – Jacareí Ampara Menores- Guarda Mirim",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Viva Boa Vista",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AlegriAA Grupo Apoio Adoção Jacarei",
+    "valor": 9000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Cristã Educacional Social",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Esperança Brasileira Natação Master",
+    "valor": 25000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Taekwondo DU SOL Team",
+    "valor": 25000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Esporte Clube Meia Lua",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Menino do Morro",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Santa Rita Associação Atlética Colônia",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Atlética Família Nova Jacareí",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva e Cultural do Jardim Paraíso.",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Clube Ferroviários de Malha",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AMVI - Associação de Moradores Veraneio",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Ijal Escola de Samba Mocidade Independente",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Do São João Escola de Samba Estrela Cadente",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Escola de Samba Unidos de Santa Helena",
+    "valor": 30000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APEJAC",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Obra Religiosa e Social Missão Kairós",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Pais Autistas Jacarei APAJAC",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Jacarei Rugby",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Amigos do Fusca Jacareí",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Capoeira Mestre Narciso",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Tiro de Guerra 02-051",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APA Bicho Feliz",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Proteção Animal Projeto",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Vira Lata Vira Vida Jacareí Eventos para",
+    "valor": 60439.61,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Marcos de Oliveira Malta - Reggae",
+    "valor": 15000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "siufarne": [
+   {
+    "destino": "MUTIRÃO DE CIRURGIAS ELETIVAS",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CEPAC",
+    "valor": 20000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "HOSPITAL SÃO FRANCISCO DE ASSIS",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UMSF CIDADE SALVADOR (conforme descritivo em anexo)",
+    "valor": 279439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "",
+    "valor": 80000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "REFORMA E MANUTENÇÃO DA QUADRA DO BAIRRO JARDIM REAL",
+    "valor": 50000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "REFORMA E MANUTENÇÃO DA QUADRA ESPORTIVA CIDADE SALVADOR (Rua Pindamonhangaba, Cidade Salvador)",
+    "valor": 74439.61,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO ATLÉTICA FAMiLIA",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "NOVA JACAREÍ ESPORTE CLUBE PARQUE MEIA LUA",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASSOCIAÇÃO ESPORTIVA",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CULTURAL PARAÍSO CORPORAÇÃO MUSICAL DE JACAREÍ",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "LAR FREDERICO OZANAM",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "GRÊMIO RECREATIVO E CULTURAL ESCOLA DE SAMBA UNIDOS",
+    "valor": 20000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ÁLCOOL OBRA RELIGIOSA E SOCIAL",
+    "valor": 20000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "MISSÃO KAIRÓS ASSOCIAÇÃO VIVA BOA VISTA",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM -JACAREÍ AMPAFU MENORES",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APIJAC -ASSOCIAÇÃO DAS PROTETORAS INDEPENDENTES DE Ambiente",
+    "valor": 7500.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JACAREÍ AEJ (ASSOCIAÇÃO ESPORTIVA",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ESCOLINHA JACAREZINHO) Socia[ lNSTITUTO GIRINOS -lmplantação da Escolinha de Futebol Zona Leste",
+    "valor": 70000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "PATAS DA AMIZADE",
+    "valor": 7500.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   }
+  ],
+  "valmir": [
+   {
+    "destino": "Mutirão de cirurgia eletiva",
+    "valor": 100000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Hospital São Francisco (aquisição de arco cirúrgico e aparelho de ultrassonografia)",
+    "valor": 40000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UPA 24 hs do Parque Meia Lua (reforma e manutenção do prédio)",
+    "valor": 200000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "UPA Dr Thelmo (aquisição de mobília, cadeira de rodas e poltronas)",
+    "valor": 49439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Casa do Curativo",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "CEPAC",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Comercial e Industrial de Jacareí",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "JAM - Jacareí Ampara Menores",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Aprendiz) Corporação Musical de Jacareí JAM - Jacareí Ampara Menores (oficina) Bairro",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "São João - aquisição de bebedouros e mobília",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Carmelitas Lar São José",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Viva Boa Vista",
+    "valor": 10000.0,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "AEJ (Associação E. Escolinha Jacarezinho)",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Lar Frederico Ozanam",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "kits de uniformes)",
+    "valor": 15000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Batuíra Projeto Renascer",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG Associação de Proteção Animal (Projeto Vira Lata)",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Doutores Coloridos Associação Organizada do Terceiro Setor",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Brasil",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Esporte Clube Parque Meia Lua",
+    "valor": 35000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Atlética Família Nova Jacareí",
+    "valor": 10000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação esportiva Cultural Jardim Paraíso",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação Esportiva Menino do Morro",
+    "valor": 5000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Associação de Moradores Veraneio Ijal (obras de Infraestrutura melhorias no bairro)",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Academia ao Ar Livre (Rua Ignácio Pinheiro, em frente ao n° 285, Jardim Vista Verde)",
+    "valor": 40000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "APIJAC (Associação das Protetoras Independentes de Jacareí)",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Academia ao Livre (Praça Antonio Augusto Esteves) Bairro Jardim Califórnia",
+    "valor": 40000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ASPAD",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "ONG Espaço Mulher",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Clube de Desbravadores (Arautos do Vale)",
+    "valor": 10000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Meia Lua Capoeira (Mestre Topete)",
+    "valor": 10000.0,
+    "faixa": "Cultura",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "",
+    "valor": 100000.0,
+    "faixa": "Sem relevância ou sem justificativa",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Escola Municipal Beatriz Junqueira (Parque Meia Lua) (compra de alambrado)",
+    "valor": 19439.61,
+    "faixa": "Primordial",
+    "exercicio": "LOA 2026"
+   },
+   {
+    "destino": "Clube de Desbravadores Luzeiros do Vale",
+    "valor": 5000.0,
+    "faixa": "Secundária",
+    "exercicio": "LOA 2026"
+   }
+  ]
+ }
+}
