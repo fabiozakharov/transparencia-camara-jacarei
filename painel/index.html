@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel da Câmara de Jacareí</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Inter:wght@400;600&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<style>
+/* VOICE: boletim cívico, monocromático e direto.
+   IDEA: o caderno de fiscalização de cada vereador, aberto na página certa.
+   PICTURE: barras de destinação das emendas e listas de projetos e votos.
+   COLOUR and TYPE: preto #080808, grafite #292929, cinza #F2F2F2, branco; Manrope 800, Inter, Playfair itálico.
+   LAYOUT: capa preta com seletor, abas, filtros, listas. */
+:root{color-scheme:light dark;--bg:light-dark(#F2F2F2,#080808);--card:light-dark(#FFFFFF,#292929);--ink:light-dark(#080808,#FFFFFF);--mut:light-dark(#555,#B5B5B5);--line:light-dark(#DDD,#3A3A3A);--soft:light-dark(#F2F2F2,#1a1a1a)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(22px,4vw,48px) max(5vw,16px);max-width:1240px;margin:0 auto}
+.cover{background:#080808;color:#fff}.cover .lead{color:#B5B5B5}
+h1,h2,h3,.big{font-family:Manrope,Inter,sans-serif;font-weight:800}
+h1{font-size:clamp(30px,4.4vw,50px);line-height:1.05;margin:0 0 10px;text-wrap:balance}
+h2{font-size:24px;margin:0 0 12px}h3{font-size:17px;margin:0 0 6px}
+.q{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:clamp(19px,2.2vw,24px);margin:14px 0 0;max-width:44ch}
+.lead{color:var(--mut);max-width:72ch;margin:0}
+.pick{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.pick a{min-height:44px;display:inline-flex;align-items:center;padding:0 15px;border-radius:22px;background:#292929;border:1px solid #3A3A3A;color:#fff;text-decoration:none;font-size:15px}
+.pick a[aria-current]{background:#fff;color:#080808;font-weight:600}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin-bottom:18px}
+.tabs button{font:600 16px Inter,sans-serif;background:none;border:0;border-bottom:3px solid transparent;color:var(--mut);padding:12px 10px;min-height:44px;cursor:pointer}
+.tabs button[aria-selected=true]{color:var(--ink);border-color:var(--ink)}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.kpi span{display:block;color:var(--mut);font-size:14px}.kpi .big{font-size:28px;line-height:1.15;font-variant-numeric:tabular-nums}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+select,input{font:16px Inter,sans-serif;min-height:44px;padding:0 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+input{flex:1 1 220px}
+.list{display:grid;gap:8px}
+.it{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px}
+.it .m{color:var(--mut);font-size:14px}.it .r{text-align:right;white-space:nowrap;font-weight:600;font-variant-numeric:tabular-nums}
+.tag{display:inline-block;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:1px 9px;margin-right:6px}
+.tag.on{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.bars{display:grid;gap:8px;margin-bottom:18px}
+.bar{display:grid;grid-template-columns:12em minmax(0,1fr) 8em;gap:10px;align-items:center;cursor:pointer;background:none;border:0;color:inherit;font:15px Inter,sans-serif;text-align:left;padding:4px 0;min-height:36px}
+.bar[aria-pressed=true] span:first-child{font-weight:600;text-decoration:underline}
+.trk{height:16px;background:var(--line);border-radius:8px;overflow:hidden}.trk i{display:block;height:100%;background:var(--ink)}
+.bar .n{text-align:right;font-variant-numeric:tabular-nums}
+.note{font-family:"Playfair Display",Georgia,serif;font-style:italic;border-left:3px solid var(--ink);padding:2px 0 2px 12px;margin:0 0 14px}
+.more{margin-top:12px}.more button{font:600 15px Inter;min-height:44px;padding:0 16px;border-radius:22px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.empty{color:var(--mut);padding:18px 0}
+a{color:inherit;text-underline-offset:3px}
+@media(max-width:600px){.bar{grid-template-columns:8em minmax(0,1fr) 6.5em}.it{grid-template-columns:minmax(0,1fr)}.it .r{text-align:left}}
+</style></head><body>
+<header class="cover"><section class="band">
+<h1>Painel da Câmara de Jacareí, legislatura 2025–2028</h1>
+<p class="lead">Projetos, votações e destino das emendas de cada vereador, montados a partir do que a Câmara publica. Dados de <span id="upd"></span>.</p>
+<p class="q">O que cada vereador propõe, como vota e para onde manda o dinheiro.</p>
+<nav class="pick" id="pick" aria-label="Escolher vereador"></nav>
+</section></header>
+<main class="band">
+<div class="tabs" role="tablist" id="tabs">
+<button role="tab" data-t="projetos" aria-selected="true">Projetos</button>
+<button role="tab" data-t="votacoes" aria-selected="false">Votações</button>
+<button role="tab" data-t="emendas" aria-selected="false">Emendas</button>
+</div>
+<section id="painel" aria-live="polite"></section>
+</main>
+<script src="dados.js"></script>
+<script>
+{
+const X=window.DADOS, N=X.nomes;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const brl=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
+const dt=s=>s?s.split('-').reverse().join('/'):'';
+document.getElementById('upd').textContent=dt(X.atualizado);
+const VER=['todos',...Object.keys(N).filter(k=>k!=='mesa-diretora'&&k!=='prefeito')];
+const nome=k=>k==='todos'?'Câmara toda':N[k];
+let st={v:'todos',t:'projetos',f:{},lim:40};
+const pick=document.getElementById('pick');
+pick.innerHTML=VER.map(k=>`<a href="#${k}" data-k="${k}">${esc(nome(k))}</a>`).join('');
+for(const b of document.querySelectorAll('#tabs button'))b.addEventListener('click',()=>{st.t=b.dataset.t;st.f={};st.lim=40;draw()});
+addEventListener('hashchange',()=>{st.v=VER.includes(location.hash.slice(1))?location.hash.slice(1):'todos';st.lim=40;draw()});
+const P=document.getElementById('painel');
+const kpi=(l,v)=>`<div class="kpi"><span>${esc(l)}</span><div class="big">${esc(v)}</div></div>`;
+function sel(id,label,opts,val){return `<label class="sr"><select id="${id}" aria-label="${esc(label)}"><option value="">${esc(label)}: todos</option>${opts.map(o=>`<option ${o===val?'selected':''}>${esc(o)}</option>`).join('')}</select></label>`}
+function projetos(){
+  let L=X.P.filter(p=>st.v==='todos'?!p.a.includes('prefeito'):p.a.includes(st.v));
+  const tipos=[...new Set(L.map(p=>p.t))].sort(), sits=['Virou norma','Aprovado','Em tramitação','Rejeitado','Retirado'];
+  const tot=L.length, ok=L.filter(p=>p.st==='Virou norma'||p.st==='Aprovado').length;
+  if(st.f.tipo)L=L.filter(p=>p.t===st.f.tipo); if(st.f.sit)L=L.filter(p=>p.st===st.f.sit);
+  if(st.f.q){const q=st.f.q.toLowerCase();L=L.filter(p=>(p.s+' '+p.k).toLowerCase().includes(q))}
+  L.sort((a,b)=>b.d.localeCompare(a.d));
+  return `<div class="kpis">${kpi('Projetos desde 2025',tot)}${kpi('Aprovados ou viraram norma',ok)}${kpi('Taxa de aprovação',tot?Math.round(100*ok/tot)+'%':'—')}</div>
+  <div class="filters">${sel('ftipo','Tipo',tipos,st.f.tipo)}${sel('fsit','Situação',sits,st.f.sit)}<input id="fq" type="search" placeholder="Buscar por assunto ou número" value="${esc(st.f.q||'')}"></div>
+  <div class="list">${L.slice(0,st.lim).map(p=>`<div class="it"><div><strong>${esc(p.k)}</strong> · ${esc(p.s||'(assunto não informado no título)')}<div class="m">${p.a.map(a=>esc(N[a]||a)).join(', ')} · ${dt(p.d)}${p.u?` · <a href="${esc(p.u)}">documento</a>`:''}</div></div><div class="r">${esc(p.n||p.st)}</div></div>`).join('')||'<p class="empty">Nenhum projeto com esses filtros.</p>'}</div>
+  ${L.length>st.lim?`<div class="more"><button id="mais">Mostrar mais (${L.length-st.lim})</button></div>`:''}
+  <p class="lead" style="font-size:14px;margin-top:12px">Projetos de lei, de decreto legislativo, de lei complementar e de resolução protocolados desde 2025, montados pelos títulos dos documentos publicados. A situação vem da última votação registrada em ata ou da norma gerada.</p>`;
+}
+const VOTO={sim:'Sim',nao:'Não',abstencao:'Absteve',ausente:'Ausente',presidente:'Presidente (não vota)'};
+function votacoes(){
+  let L=X.V.slice();
+  const com=L.filter(v=>Object.keys(v.nom).length).length;
+  if(st.v!=='todos')L=L.filter(v=>v.nom[st.v]);
+  if(st.f.voto)L=L.filter(v=>st.v==='todos'?(st.f.voto==='Com votos contrários'?v.c>0:true):VOTO[v.nom[st.v]]===st.f.voto);
+  if(st.f.q){const q=st.f.q.toLowerCase();L=L.filter(v=>(v.s+' '+v.k+' '+v.au).toLowerCase().includes(q))}
+  L.sort((a,b)=>b.d.localeCompare(a.d));
+  const meus=st.v==='todos'?null:X.V.filter(v=>v.nom[st.v]);
+  const cont=meus?['sim','nao','abstencao','ausente'].map(k=>meus.filter(v=>v.nom[st.v]===k).length):null;
+  return `${st.v==='todos'?`<div class="kpis">${kpi('Itens votados',X.V.length)}${kpi('Com voto nominal lido',com)}${kpi('Com votos contrários',X.V.filter(v=>v.c>0).length)}</div>`:
+  `<div class="kpis">${kpi('Votos lidos',meus.length)}${kpi('Sim',cont[0])}${kpi('Não',cont[1])}${kpi('Abstenção',cont[2])}${kpi('Ausente',cont[3])}</div>`}
+  <p class="note">O placar de cada votação vem das atas. O voto de cada vereador vem do boletim de votação, que é um PDF escaneado; ele só aparece quando a leitura bate com o placar oficial (${com} de ${X.V.length} itens por enquanto).</p>
+  <div class="filters">${st.v==='todos'?sel('fvoto','Mostrar',['Com votos contrários'],st.f.voto):sel('fvoto','Voto',['Sim','Não','Absteve','Ausente','Presidente (não vota)'],st.f.voto)}<input id="fq" type="search" placeholder="Buscar por assunto, número ou autor" value="${esc(st.f.q||'')}"></div>
+  <div class="list">${L.slice(0,st.lim).map(v=>`<div class="it"><div><strong>${esc(v.k)}</strong> · ${esc(v.s)}<div class="m">${dt(v.d)} · ${esc(v.au)} · ${esc(v.r)}${v.f!=null?` · ${v.f} a favor`:''}${v.c?`, ${v.c} contra`:''}${v.ab?`, ${v.ab} abstenção`:''}${v.b?` · <a href="${esc(v.b)}">boletim</a>`:''}</div>${st.v==='todos'&&Object.keys(v.nom).length&&v.c?`<div class="m">Contra: ${Object.entries(v.nom).filter(([,x])=>x==='nao').map(([k])=>esc(N[k])).join(', ')||'não identificado'}</div>`:''}</div><div class="r">${st.v==='todos'?'':esc(VOTO[v.nom[st.v]]||'')}</div></div>`).join('')||'<p class="empty">Nenhuma votação com esses filtros.</p>'}</div>
+  ${L.length>st.lim?`<div class="more"><button id="mais">Mostrar mais (${L.length-st.lim})</button></div>`:''}`;
+}
+function emendas(){
+  let L=X.E.filter(e=>st.v==='todos'||e.v===st.v);
+  const tot=L.reduce((s,e)=>s+e.val,0), por={};
+  for(const e of L)por[e.c]=(por[e.c]||0)+e.val;
+  const mx=Math.max(1,...Object.values(por));
+  const ok=st.v==='todos'?null:X.ok[st.v];
+  if(st.f.cat)L=L.filter(e=>e.c===st.f.cat);
+  if(st.f.q){const q=st.f.q.toLowerCase();L=L.filter(e=>(e.d+' '+e.o).toLowerCase().includes(q))}
+  L.sort((a,b)=>b.val-a.val);
+  const lidos=Object.entries(X.ok).filter(([,v])=>v).length;
+  return `<div class="kpis">${kpi('Total lido',brl(tot))}${kpi('Destinos',L.length)}${st.v==='todos'?kpi('Vereadores com soma conferida',lidos+' de 14'):kpi('Cota por vereador','R$ 818.879')}</div>
+  ${st.v!=='todos'&&!X.E.some(e=>e.v===st.v)?'<p class="note">Ainda não foi possível ler a emenda deste vereador: o PDF é uma imagem escaneada de baixa qualidade.</p>':''}
+  ${ok===false?'<p class="note">Leitura parcial: a soma dos itens lidos não fecha com a cota de R$ 818.879,22. Alguns itens do PDF escaneado não foram reconhecidos.</p>':''}
+  <h3>Destino por categoria (orçamento de 2026)</h3>
+  <div class="bars">${X.cats.filter(c=>por[c]).sort((a,b)=>por[b]-por[a]).map(c=>`<button class="bar" data-cat="${esc(c)}" aria-pressed="${st.f.cat===c}"><span>${esc(c)}</span><span class="trk"><i style="width:${por[c]/mx*100}%"></i></span><span class="n">${brl(por[c])}</span></button>`).join('')}</div>
+  <div class="filters">${sel('fcat','Categoria',X.cats,st.f.cat)}<input id="fq" type="search" placeholder="Buscar entidade, bairro ou órgão" value="${esc(st.f.q||'')}"></div>
+  <div class="list">${L.slice(0,st.lim).map(e=>`<div class="it"><div>${esc(e.d||'(descrição não lida)')}<div class="m"><span class="tag">${esc(e.c)}</span>${esc(e.o)}${st.v==='todos'?' · '+esc(N[e.v]):''} · <a href="${esc(e.u)}">PDF</a></div></div><div class="r">${brl(e.val)}</div></div>`).join('')||'<p class="empty">Nada com esses filtros.</p>'}</div>
+  ${L.length>st.lim?`<div class="more"><button id="mais">Mostrar mais (${L.length-st.lim})</button></div>`:''}
+  <p class="lead" style="font-size:14px;margin-top:12px">Lido automaticamente das emendas impositivas ao orçamento de 2026. A categoria segue o órgão de destino e, quando não há, o tipo de entidade. Confira sempre o PDF.</p>`;
+}
+function draw(){
+  for(const a of pick.children)a.toggleAttribute('aria-current',a.dataset.k===st.v);
+  for(const b of document.querySelectorAll('#tabs button'))b.setAttribute('aria-selected',b.dataset.t===st.t);
+  P.innerHTML=`<h2>${esc(nome(st.v))}</h2>`+({projetos,votacoes,emendas})[st.t]();
+  const bind=(id,k,ev='change')=>{const e=document.getElementById(id);if(e)e.addEventListener(ev,()=>{st.f[k]=e.value;st.lim=40;const pos=e.selectionStart;draw();const n=document.getElementById(id);if(ev==='input'&&n){n.focus();try{n.setSelectionRange(pos,pos)}catch{}}})};
+  bind('ftipo','tipo');bind('fsit','sit');bind('fvoto','voto');bind('fcat','cat');bind('fq','q','input');
+  const m=document.getElementById('mais');if(m)m.addEventListener('click',()=>{st.lim+=60;draw()});
+  for(const b of P.querySelectorAll('.bar'))b.addEventListener('click',()=>{st.f.cat=st.f.cat===b.dataset.cat?'':b.dataset.cat;draw()});
+}
+st.v=VER.includes(location.hash.slice(1))?location.hash.slice(1):'todos';
+draw();
+}
+</script>
+</body></html>
