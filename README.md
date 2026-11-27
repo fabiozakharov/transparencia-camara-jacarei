@@ -20,3 +20,7 @@ Coleta diária de dados públicos da Câmara Municipal de Jacareí (legislatura 
 pip install -r coletor/requirements.txt
 python coletor/coletar.py
 ```
+| `dados/projetos.json` | Projetos de 2025 em diante (PLL, PDL, PLCL, PR, PLE, PLCE) com autoria, assunto, norma gerada e documentos, montados pelos títulos dos PDFs publicados. |
+| `dados/projetos_por_vereador.json` | Lista de projetos de cada vereador (e da Mesa e do Prefeito). |
+| `dados/votacoes.json` | Cada item votado nas sessões, com resultado e contagem de votos tirados das atas; votos nominais por vereador quando o boletim (PDF escaneado, lido por OCR) é reconhecido. |
+| `dados/boletins_texto/` | Texto OCR dos boletins de votação, para conferência. |

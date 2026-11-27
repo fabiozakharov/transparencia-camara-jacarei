@@ -270,10 +270,30 @@ def main() -> int:
         salvar("presencas.json", presencas)
     except Exception as erro:
         erros.append(f"presencas: {erro}")
+    try:
+        import legislativo as leg
+
+        projetos, meta["projetos"] = leg.coletar_projetos()
+        salvar("projetos.json", projetos)
+        salvar("projetos_por_vereador.json", leg.painel_por_vereador(projetos))
+    except Exception as erro:
+        erros.append(f"projetos: {erro}")
+    try:
+        sessoes = json.loads((DADOS / "presencas.json").read_text(encoding="utf-8"))["sessoes"]
+        votacoes = leg.votacoes_das_atas(sessoes)
+        boletins, meta["boletins"] = leg.coletar_boletins()
+        for v in votacoes:
+            b = boletins.get(f"{v['data']}-{v['sessao'].split('-')[-1]}|{v['projeto']}")
+            v["votos_nominais"] = b["votos"] if b else {}
+            v["boletim"] = b["url"] if b else None
+        salvar("votacoes.json", votacoes)
+        meta["votacoes"] = {"itens": len(votacoes), "com_boletim": sum(1 for v in votacoes if v["boletim"])}
+    except Exception as erro:
+        erros.append(f"votacoes: {erro}")
     meta["erros"] = erros
     salvar("coleta.json", meta)
     print(json.dumps(meta, ensure_ascii=False, indent=1)[:3000])
-    return 1 if len(erros) == 2 else 0
+    return 1 if len(erros) >= 4 else 0
 
 
 if __name__ == "__main__":
