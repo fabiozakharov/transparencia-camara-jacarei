@@ -6327,6 +6327,11 @@
     "etapa": "01 projeto",
     "data": "2026-11-26",
     "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-039.2026-01_projeto-Prefeito-altera-lei-5736-conselho-de-poli.pdf"
+   },
+   {
+    "etapa": "02 parecer jur",
+    "data": "2026-11-27",
+    "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-039.2026-02_parecer-jur-Prefeito-altera-lei-5736-conselho-de-.pdf"
    }
   ]
  },
@@ -14827,6 +14832,24 @@
    }
   ]
  },
+ "PLL 082/2026": {
+  "tipo": "PLL",
+  "numero": 82,
+  "ano": 2026,
+  "autoria_texto": "Jean Araújo",
+  "autores": [
+   "jean-araujo"
+  ],
+  "assunto": "Acesso aos serviços municípais de saúde",
+  "norma": null,
+  "documentos": [
+   {
+    "etapa": "01 projeto",
+    "data": "2026-11-27",
+    "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-082.2026-01_projeto-Jean-Araujo-Acesso-aos-servicos-municipais-de-saude.pdf"
+   }
+  ]
+ },
  "PLL 083/2025": {
   "tipo": "PLL",
   "numero": 83,
@@ -14852,6 +14875,24 @@
     "etapa": "03 parecer c1.4.5",
     "data": "2025-08-19",
     "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2025/08/PLL-083.2025-03_parecer-c1.4.5-Amélia-comercialização-alimentos-em....pdf"
+   }
+  ]
+ },
+ "PLL 083/2026": {
+  "tipo": "PLL",
+  "numero": 83,
+  "ano": 2026,
+  "autoria_texto": "Paulinho dos Condutores",
+  "autores": [
+   "paulinho-dos-condutores"
+  ],
+  "assunto": "Altera artigo 27 da Lei Municip…",
+  "norma": null,
+  "documentos": [
+   {
+    "etapa": "",
+    "data": "2026-11-27",
+    "url": "https://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-083.2026-Paulinho-dos-Condutores-Altera-artigo-27-da-Lei-Municip.pdf"
    }
   ]
  },

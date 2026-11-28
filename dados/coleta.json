@@ -1,5 +1,5 @@
 {
- "executado_em": "2026-11-27T17:39:21+00:00",
+ "executado_em": "2026-11-28T12:47:53+00:00",
  "fonte": "https://www.jacarei.sp.leg.br",
  "trabalhos": {
   "itens_lidos": 7705,
@@ -20,8 +20,8 @@
   "falhas": []
  },
  "projetos": {
-  "projetos": 353,
-  "titulos_fora_do_padrao": 2796
+  "projetos": 355,
+  "titulos_fora_do_padrao": 2798
  },
  "boletins": {
   "boletins": 245,
@@ -150,14 +150,14 @@
   ]
  },
  "pauta": {
-  "itens": 6
+  "itens": 9
  },
  "audiencias": {
   "audiencias": 17,
   "falhas": []
  },
  "noticias": {
-  "noticias": 1483,
+  "noticias": 1485,
   "paginas": 15
  },
  "licitacoes": {

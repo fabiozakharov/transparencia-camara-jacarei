@@ -1,8 +1,8 @@
 {
- "sessao": "38ª SESSÃO ORDINÁRIA | Dia 25 de novembro de 2026 (quarta-feira)",
- "url": "https://www.jacarei.sp.leg.br/ordem-do-dia/ordem-do-dia-25-11-2026/",
- "data": "20261125",
- "proxima": "39ª SESSÃO ORDINÁRIA | Dia 02 de dezembro de 2026 (quarta-feira) | EM BREVE",
+ "sessao": "39ª SESSÃO ORDINÁRIA | Dia 02 de dezembro de 2026 (quarta-feira)",
+ "url": "https://www.jacarei.sp.leg.br/ordem-do-dia/ordem-do-dia-02-12-2026/",
+ "data": "20261202",
+ "proxima": null,
  "itens": [
   {
    "titulo": "Discussão única do PLL nº 74/2026",
@@ -31,35 +31,51 @@
     {
      "rotulo": "Parecer das Comissões",
      "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-074.2026-03_parecer-C1.3-Amelia-Dispoe-sobre-a-denominacao-da-Rua-Quatro-1.pdf"
-    },
-    {
-     "rotulo": "Relatório de Votação dos Projetos (Retirado)",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/38a-SO-25.11.2026-Ordem-do-Dia-Resultados.pdf"
     }
    ]
   },
   {
-   "titulo": "Discussão única do PLL nº 56/2026",
-   "projeto": "PLL 056/2026",
-   "autoria": "Vereadora Maria Amélia.",
-   "assunto": "Altera a redação da Lei nº 6.833, de 24 de abril de 2026, que “Institui a Rede Municipal de Enfrentamento à Violência Doméstica e Familiar contra as Mulheres e cria o Comitê de Monitoramento do Fluxo de Atendimento no Município de Jacareí”.",
+   "titulo": "Discussão única do PLL nº 77/2026",
+   "projeto": "PLL 077/2026",
+   "autoria": "Vereador Jean Araújo.",
+   "assunto": "Dispõe sobre a instalação e a adequação de trocadores infantis em espaços reservados nos estabelecimentos de uso coletivo no Município de Jacareí, para assegurar a privacidade das crianças e de seus responsáveis, e dá outras providências.",
    "documentos": [
     {
      "rotulo": "Parecer Jurídico",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-056.2026-02_parecer-jur-Amelia-Altera-a-redacao-da-Lei-no-6.833.pdf"
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-077.2026-02_parecer-jur-Jean-Dispoe-sobre-a-instalacao-e-a-adequacao-de-trocadores-infantis.pdf"
     },
     {
      "rotulo": "Parecer das Comissões",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-056.2026-03_parecer-c1.8-Amelia-Altera-a-redacao-da-Lei-no-6.833.pdf"
-    },
-    {
-     "rotulo": "Relatório de Votação dos Projetos (Retirado)",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/38a-SO-25.11.2026-Ordem-do-Dia-Resultados.pdf"
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-077.2026-03_parecer-c1.5.7.10-Jean-Dispoe-sobre-a-instalacao-e-a-adequacao-de-trocadores-infantis.pdf"
     }
    ]
   },
   {
-   "titulo": "Primeira discussão do PLCE nº 2/2026",
+   "titulo": "Discussão única do PLL nº 72/2026",
+   "projeto": "PLL 072/2026",
+   "autoria": "Vereador Juex Almeida. Assunto do Substitutivo: Institui diretrizes para a integração tecnológica e o compartilhamento de imagens e registros dos sistemas municipais de videomonitoramento com os órgão",
+   "assunto": "",
+   "documentos": [
+    {
+     "rotulo": "Parecer Jurídico",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-072.2026-02_parecer-jur-Juex-Compartilhamento-de-dados-e-acesso.pdf"
+    },
+    {
+     "rotulo": "Substitutivo",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-072.2026-03_-substitutivo-01-Juex-Compartilhamento-de-dados-e-acesso.pdf"
+    },
+    {
+     "rotulo": "Parecer Jurídico",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-072.2026-04_parecer-jur-substitutivo-01-Juex-Compartilhamento-de-dados-e-acesso.pdf"
+    },
+    {
+     "rotulo": "Parecer das Comissões",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLL-072.2026-05_parecer-C1.8-substitutivo-01-Juex-Compartilhamento-de-dados-e-acesso-1.pdf"
+    }
+   ]
+  },
+  {
+   "titulo": "Segunda discussão do PLCE nº 2/2026",
    "projeto": "PLCE 002/2026",
    "autoria": "Prefeito Municipal Celso Florêncio de Souza.",
    "assunto": "Institui a Política Municipal de Valorização da Paisagem Urbana – Cidade Limpa; revoga dispositivos da Lei Complementar n° 68, de 17 de dezembro de 2008, e dá outras providências.",
@@ -85,32 +101,76 @@
      "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLCE-002.2026-07_parecer-C1.3.6-em01-Prefeito-Politica-Municipal-de-Valorizacao-da-Paisagem-Urbana.pdf"
     },
     {
-     "rotulo": "Relatório de Votação dos Projetos (Aprovado)",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/38a-SO-25.11.2026-Boletim-PLCE-no-2.2026.pdf"
+     "rotulo": "Despacho (Emenda nº 01)",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLCE-002.2026-08_despacho-em01-Prefeito-Politica-Municipal-de-Valorizacao-da-Paisagem-Urbana-1.pdf"
+    },
+    {
+     "rotulo": "1ª Discussão (Votação)",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLCE-002.2026-09_1adiscussao-Prefeito-Politica-Municipal-de-Valorizacao-da-Paisagem-Urbana.pdf"
     }
    ]
   },
   {
-   "titulo": "Discussão única do PLE nº 33/2026",
-   "projeto": "PLE 033/2026",
+   "titulo": "Discussão única do PLE nº 29/2026",
+   "projeto": "PLE 029/2026",
    "autoria": "Prefeito Municipal Celso Florêncio de Souza.",
-   "assunto": "Altera dispositivos da Lei Municipal nº 6.152, de 21 de setembro de 2017, que estabelece a estrutura administrativa do Instituto de Previdência do Município de Jacareí – IPMJ, os cargos de provimento em comissão, as funções gratificadas, e dá outras providências; e da Lei Municipal nº 6.748, de 1º de julho de 2025, que estabelece a estrutura e as regras de funcionamento dos Conselhos Deliberativo ",
+   "assunto": "Regulamenta o instrumento urbanístico da outorga onerosa do direito de construir, e o incentivo à fachada ativa no Município de Jacareí, nos termos da Lei Complementar n° 126, de 30 de abril de 2025, institui o Banco Municipal de Projetos e dá outras providências.",
    "documentos": [
     {
      "rotulo": "Parecer Jurídico",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-033.2026-02_parecer-jur-Prefeito-Altera-Leis-nos-6.152-e-no-6.748-IPMJ-Conselhos-e-Comite-1.pdf"
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-029.2026-02_parecer-jur-Prefeito-Regulamenta-o-instrumento-urbanistico.pdf"
     },
     {
      "rotulo": "Parecer das Comissões",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-033.2026-03_parecer-C1.2-Prefeito-Altera-Leis-nos-6.152-e-no-6.748-IPMJ-Conselhos-e-Comite-1.pdf"
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-029.2026-03_parecer-c1.3-Prefeito-Regulamenta-o-instrumento-urbanistico.pdf"
+    }
+   ]
+  },
+  {
+   "titulo": "Discussão única do PLE nº 34/2026",
+   "projeto": "PLE 034/2026",
+   "autoria": "Prefeito Municipal Celso Florêncio de Souza.",
+   "assunto": "Altera a Lei nº 5.806, de 03 de dezembro de 2013, que institui o Serviço de Regulação de Jacareí e dá outras providências.",
+   "documentos": [
+    {
+     "rotulo": "Parecer Jurídico",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-034.2026-02_parecer-jur-Prefeito-Altera-a-Lei-no-5.806-1.pdf"
     },
     {
-     "rotulo": "Relatório de Votação dos Projetos (Aprovado)",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/38a-SO-25.11.2026-Boletim-PLE-no-33.2026.pdf"
+     "rotulo": "Parecer das Comissões",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-034.2026-03_parecer-c1.2.3-Prefeito-Altera-a-Lei-no-5.806-1.pdf"
+    }
+   ]
+  },
+  {
+   "titulo": "Primeira discussão do PLE nº 27/2026",
+   "projeto": "PLE 027/2026",
+   "autoria": "Prefeito Municipal Celso Florêncio de Souza.",
+   "assunto": "Estima a receita e fixa a despesa do Município de Jacareí para o exercício de 2027. Mensagem Modificativa |",
+   "documentos": [
+    {
+     "rotulo": "Mensagem Modificativa",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-027.2026-02_mensagem-modificativa-Prefeito-LOA.pdf"
     },
     {
-     "rotulo": "Relatório de Votação dos Projetos (Retirado)",
-     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/38a-SO-25.11.2026-Ordem-do-Dia-Resultados.pdf"
+     "rotulo": "Parecer Jurídico",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-027.2026-03_parecer-jur-Projeto-e-MM-Prefeito-LOA.pdf"
+    },
+    {
+     "rotulo": "Parecer das Comissões",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-027.2026-04_parecer-c1.2-Projeto-e-MM-Prefeito-LOA.pdf"
+    },
+    {
+     "rotulo": "Despacho (Emendas Impositivas)",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-027.2026-05_despacho-emendas-impositivas-Prefeito-LOA.pdf"
+    },
+    {
+     "rotulo": "Audiência (LOA)",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-027.2026-06_audiencia-Prefeito-LOA.pdf"
+    },
+    {
+     "rotulo": "Emenda nº 01",
+     "url": "http://www.jacarei.sp.leg.br/wp-content/uploads/2026/11/PLE-027.2026-07_emenda-01-Prefeito-LOA.pdf"
     }
    ]
   }
