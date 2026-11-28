@@ -45,5 +45,14 @@ def coletar_pauta() -> tuple[dict, dict]:
             "assunto": (assunto.group(1).strip() if assunto else "")[:400],
             "documentos": links[:8],
         })
+    # O mesmo projeto pode aparecer várias vezes (substitutivo, emendas): junta numa linha só.
+    unidos = {}
+    for it in itens:
+        u = unidos.setdefault(it["projeto"], it)
+        if u is not it:
+            for campo in ("autoria", "assunto"):
+                u[campo] = u[campo] or it[campo]
+            u["documentos"] = (u["documentos"] + [d for d in it["documentos"] if d not in u["documentos"]])[:12]
+    itens = list(unidos.values())
     return {"sessao": _texto(rotulo), "url": url, "data": data(url), "proxima": proxima.group(1) if proxima else None,
             "itens": itens}, {"itens": len(itens)}
